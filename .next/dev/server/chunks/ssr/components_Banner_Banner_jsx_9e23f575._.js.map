@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/kunalsharma/Desktop/untitled%20folder/apexcare/components/Banner/Banner.jsx"],"sourcesContent":["\"use client\";\nimport React from \"react\";\nimport \"./Banner.css\";\n\nexport default function HeroSection(props) {\n  return (\n    <section className=\"hero-section\">\n     \n      <div className=\"hero-content\">\n        <p className=\"hero-tag\">#{props.pageTitle}</p>\n        <h1 className=\"hero-heading\">\n          {props.heading1} <br />\n          <span>{props.heading2}</span>\n        </h1>\n      </div>\n    </section>\n  );\n}\n"],"names":[],"mappings":";;;;;AACA;AADA;;;;AAIe,SAAS,YAAY,KAAK;IACvC,qBACE,8OAAC;QAAQ,WAAU;kBAEjB,cAAA,8OAAC;YAAI,WAAU;;8BACb,8OAAC;oBAAE,WAAU;;wBAAW;wBAAE,MAAM,SAAS;;;;;;;8BACzC,8OAAC;oBAAG,WAAU;;wBACX,MAAM,QAAQ;wBAAC;sCAAC,8OAAC;;;;;sCAClB,8OAAC;sCAAM,MAAM,QAAQ;;;;;;;;;;;;;;;;;;;;;;;AAK/B","debugId":null}}]
+}

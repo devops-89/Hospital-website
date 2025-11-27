@@ -1,0 +1,175 @@
+/* [project]/Downloads/Archive/components/ServicesSection/ServicesSection.module.css [app-client] (css) */
+.ServicesSection-module__tAdJ_a__section {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 80px 40px;
+}
+
+.ServicesSection-module__tAdJ_a__tag {
+  color: #1b3a90;
+  background: #e9edfb;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ServicesSection-module__tAdJ_a__topRow {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.ServicesSection-module__tAdJ_a__moreBtn {
+  color: #fff;
+  cursor: pointer;
+  background: #0d1440;
+  border: none;
+  border-radius: 40px;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  font-size: 17px;
+  display: flex;
+}
+
+.ServicesSection-module__tAdJ_a__heading {
+  color: #0d1440;
+  margin-top: 25px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.ServicesSection-module__tAdJ_a__wrapper {
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.ServicesSection-module__tAdJ_a__left {
+  flex: 1;
+}
+
+.ServicesSection-module__tAdJ_a__serviceItem {
+  color: #0d1440;
+  cursor: pointer;
+  border-bottom: 1px solid #e6e6e6;
+  align-items: center;
+  gap: 18px;
+  padding: 22px 0;
+  font-size: 20px;
+  transition: all .25s;
+  display: flex;
+}
+
+.ServicesSection-module__tAdJ_a__serviceItem:hover {
+  color: #1b3a90;
+}
+
+.ServicesSection-module__tAdJ_a__active {
+  color: #1b3a90;
+  font-weight: 700;
+}
+
+.ServicesSection-module__tAdJ_a__number {
+  color: #9aa3c0;
+  font-size: 18px;
+}
+
+.ServicesSection-module__tAdJ_a__right {
+  flex-direction: row;
+  flex: 2;
+  align-items: flex-start;
+  gap: 25px;
+  display: flex;
+}
+
+.ServicesSection-module__tAdJ_a__imageBox {
+  width: 100%;
+  height: 420px;
+  position: relative;
+}
+
+.ServicesSection-module__tAdJ_a__heroImg {
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.ServicesSection-module__tAdJ_a__imageBox {
+  transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+}
+
+.ServicesSection-module__tAdJ_a__fade {
+  opacity: 0;
+  transform: scale(.98);
+}
+
+.ServicesSection-module__tAdJ_a__show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.ServicesSection-module__tAdJ_a__people {
+  gap: -10px;
+  margin-top: 15px;
+  display: flex;
+}
+
+.ServicesSection-module__tAdJ_a__testimonial {
+  background: linear-gradient(140deg, #fff 0%, #e9f1ff 100%);
+  border-radius: 26px;
+  flex-direction: column;
+  flex-shrink: 0;
+  gap: 20px;
+  width: 150px;
+  padding: 35px;
+  display: flex;
+  box-shadow: 0 30px 60px #0000000f;
+}
+
+.ServicesSection-module__tAdJ_a__quote {
+  color: #0d1440;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.ServicesSection-module__tAdJ_a__avatars {
+  align-items: center;
+  gap: -10px;
+  display: flex;
+}
+
+.ServicesSection-module__tAdJ_a__avatars img {
+  object-fit: cover;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.ServicesSection-module__tAdJ_a__imageWrapper {
+  flex: 1.5;
+  display: flex;
+}
+
+.ServicesSection-module__tAdJ_a__heroImg {
+  border-radius: 18px;
+  width: 100%;
+  height: auto;
+}
+
+.ServicesSection-module__tAdJ_a__people img {
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+@media (max-width: 950px) {
+  .ServicesSection-module__tAdJ_a__wrapper {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=Downloads_Archive_components_ServicesSection_ServicesSection_module_css_bad6b30c._.single.css.map*/

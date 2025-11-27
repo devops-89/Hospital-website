@@ -1,0 +1,89 @@
+/* [project]/components/Header/Header.module.css [app-client] (css) */
+.Header-module__arFiJq__header {
+  z-index: 999;
+  background: #fff;
+  align-items: center;
+  width: 100%;
+  height: 96px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 4px #0000000d;
+}
+
+.Header-module__arFiJq__container {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1350px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+}
+
+.Header-module__arFiJq__logoBox {
+  align-items: center;
+  display: flex;
+}
+
+.Header-module__arFiJq__logo {
+  object-fit: contain;
+}
+
+.Header-module__arFiJq__nav {
+  gap: 2px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.Header-module__arFiJq__link {
+  font-size: 18px;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.Header-module__arFiJq__active {
+  background: #eef0f8;
+  border-radius: 30px;
+  padding: 12px 20px;
+}
+
+.Header-module__arFiJq__link:hover {
+  color: #2a7ae2;
+}
+
+.Header-module__arFiJq__Header-btn {
+  margin: 0;
+}
+
+.Header-module__arFiJq__button {
+  color: #13195c;
+  cursor: pointer;
+  background: #cfd1dd;
+  border-radius: 40px;
+  margin: 0;
+  padding: 12px 25px;
+  font-size: 18px;
+  transition: all .3s;
+}
+
+.Header-module__arFiJq__button:hover {
+  background: #d4d7eb;
+}
+
+@media (max-width: 1400px) {
+  .Header-module__arFiJq__container {
+    max-width: 1100px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .Header-module__arFiJq__nav {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=components_Header_Header_module_css_bad6b30c._.single.css.map*/

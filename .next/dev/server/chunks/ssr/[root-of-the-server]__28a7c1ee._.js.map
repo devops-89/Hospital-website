@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/kunalsharma/Desktop/untitled%20folder/apexcare/app/pricing/page.js"],"sourcesContent":["\r\nimport HeroSection from \"../components/HeroSection/HeroSection.jsx\";\r\nimport PricingCards from \"../components/PricingCards/PricingCards.jsx\";\r\nimport AppointmentSection from \"../components/AppointmentSection/AppointmentSection.jsx\";\r\nimport TransformSection from \"../components/TransformSection/TransformSection.jsx\";\r\n\r\nexport default function Hero() {\r\n  return (\r\n    <>\r\n      <HeroSection />\r\n      <PricingCards />\r\n      <AppointmentSection />\r\n      <TransformSection />\r\n    </>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAMe,SAAS;IACtB,qBACE;;0BACE,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;;;AAGP","debugId":null}}]
+}

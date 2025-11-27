@@ -1,0 +1,109 @@
+/* [project]/Downloads/Archive/components/AppointmentSection/AppointmentSection.module.css [app-client] (css) */
+.AppointmentSection-module__LZPHfa__section {
+  background: linear-gradient(135deg, #fff 0%, #b6baf9 100%);
+  border-radius: 18px;
+  width: 100%;
+  padding: 80px 40px;
+}
+
+.AppointmentSection-module__LZPHfa__container {
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+}
+
+.AppointmentSection-module__LZPHfa__left {
+  flex: 1;
+}
+
+.AppointmentSection-module__LZPHfa__right {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+}
+
+.AppointmentSection-module__LZPHfa__tag {
+  color: #1b3a90;
+  background: #e9edfb;
+  border-radius: 12px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.AppointmentSection-module__LZPHfa__heading {
+  color: #0d1440;
+  margin: 20px 0 40px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.AppointmentSection-module__LZPHfa__form {
+  width: 100%;
+}
+
+.AppointmentSection-module__LZPHfa__row {
+  gap: 25px;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.AppointmentSection-module__LZPHfa__field, .AppointmentSection-module__LZPHfa__fieldFull {
+  flex-direction: column;
+  display: flex;
+}
+
+.AppointmentSection-module__LZPHfa__field input, .AppointmentSection-module__LZPHfa__fieldFull input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #d7d7d7;
+  outline: none;
+  padding: 14px;
+  font-size: 16px;
+}
+
+.AppointmentSection-module__LZPHfa__fieldFull textarea {
+  resize: none;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #d7d7d7;
+  outline: none;
+  height: 80px;
+  padding: 14px;
+}
+
+.AppointmentSection-module__LZPHfa__field label, .AppointmentSection-module__LZPHfa__fieldFull label {
+  color: #324268;
+  margin-bottom: 6px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.AppointmentSection-module__LZPHfa__btn {
+  color: #fff;
+  cursor: pointer;
+  background: #0d1440;
+  border: none;
+  border-radius: 40px;
+  margin-top: 25px;
+  padding: 15px 35px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.AppointmentSection-module__LZPHfa__imageBox {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.AppointmentSection-module__LZPHfa__heroImg {
+  object-fit: cover;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=6c7f9_Archive_components_AppointmentSection_AppointmentSection_module_css_bad6b30c._.single.css.map*/

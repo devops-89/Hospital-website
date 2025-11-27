@@ -1,0 +1,161 @@
+.about-journey-section {
+  padding: 80px 60px;
+  background: #ffffff;
+}
+
+.about-top {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 40px;
+  margin-bottom: 80px;
+  margin-top: -160px;
+}
+
+.about-top-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.about-top-card {
+  background: #f9faff;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 400px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
+
+.about-top-card h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.about-top-card p {
+  font-size: 15px;
+}
+
+.about-members {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.about-members img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.about-members span {
+  font-size: 14px;
+}
+
+.story-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 120px 10%;
+  align-items: center;
+  background: #ffffff;
+}
+
+.story-left h2 {
+  font-size: 48px;
+}
+
+.story-right p {
+  font-size: 18px;
+  max-width: 760px;
+  text-align: justify;
+  padding: 0 30px 0 0;
+}
+
+.about-lower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.lower-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.lower-content {
+  max-width: 680px;
+}
+
+.lower-tag {
+  background: #eef1ff;
+  padding: 6px 14px;
+  border-radius: 18px;
+  font-size: 13px;
+
+  display: inline-block;
+  margin-bottom: 18px;
+}
+
+.lower-title {
+  font-size: 36px;
+  margin-bottom: 18px;
+}
+
+.lower-desc {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.lower-list li {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+/* .visit-btn {
+  margin-top: 25px;
+  padding: 12px 22px;
+  font-size: 16px;
+  background: #2b47fc;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s;
+} */
+
+.journey-container {
+  display: flex;
+  gap: 80px;
+  padding-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  .about-top {
+    flex-direction: column;
+  }
+  .about-lower {
+    flex-direction: column;
+  }
+}
+
+.new-div-join {
+  margin-top: 275px;
+}
+
+@media (max-width: 576px) {
+  .about-journey-section {
+    padding: 40px 25px;
+  }
+  .journey-title {
+    font-size: 28px;
+  }
+  .lower-title {
+    font-size: 28px;
+  }
+}

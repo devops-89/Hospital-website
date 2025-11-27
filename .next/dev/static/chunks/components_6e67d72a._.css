@@ -1,0 +1,1040 @@
+/* [project]/components/meet-doctor/meet-doctor.module.css [app-client] (css) */
+.meet-doctor-module__ddm7ya__section {
+  width: 100%;
+  padding: 120px 0;
+  position: relative;
+}
+
+.meet-doctor-module__ddm7ya__wrapper {
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 40px;
+  display: flex;
+}
+
+.meet-doctor-module__ddm7ya__left {
+  flex: 1;
+}
+
+.meet-doctor-module__ddm7ya__right {
+  flex: 1;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.meet-doctor-module__ddm7ya__tag {
+  color: #1b3a90;
+  background: #e9edfb;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.meet-doctor-module__ddm7ya__heading {
+  color: #0d1440;
+  margin-top: 25px;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.meet-doctor-module__ddm7ya__desc {
+  color: #4b5370;
+  max-width: 550px;
+  margin-top: 22px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.meet-doctor-module__ddm7ya__doctorBtn {
+  color: #fff;
+  cursor: pointer;
+  background: #0d1440;
+  border: none;
+  border-radius: 50px;
+  align-items: center;
+  gap: 12px;
+  margin-top: 35px;
+  padding: 18px 35px;
+  font-size: 18px;
+  transition: all .3s;
+  display: flex;
+}
+
+.meet-doctor-module__ddm7ya__doctorBtn:hover {
+  transform: translateY(-3px);
+}
+
+.meet-doctor-module__ddm7ya__heroImage {
+  border-radius: 24px;
+  width: 100%;
+  height: auto;
+}
+
+.meet-doctor-module__ddm7ya__topCircleWrapper {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 140px;
+  transform: translateY(-50%);
+}
+
+.meet-doctor-module__ddm7ya__topIconCircle {
+  background: #fff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  box-shadow: 0 10px 25px #0000001a;
+}
+
+.meet-doctor-module__ddm7ya__topCurve {
+  opacity: .8;
+  margin-top: -15px;
+}
+
+.meet-doctor-module__ddm7ya__bottomCircleWrapper {
+  text-align: center;
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.meet-doctor-module__ddm7ya__bottomIconCircle {
+  background: #fff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  display: flex;
+  box-shadow: 0 10px 25px #0000001a;
+}
+
+.meet-doctor-module__ddm7ya__bottomCurve {
+  opacity: .8;
+  margin-bottom: -15px;
+}
+
+@media (max-width: 950px) {
+  .meet-doctor-module__ddm7ya__wrapper {
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+
+  .meet-doctor-module__ddm7ya__heading {
+    font-size: 38px;
+  }
+
+  .meet-doctor-module__ddm7ya__desc {
+    margin: 18px auto;
+    font-size: 16px;
+  }
+
+  .meet-doctor-module__ddm7ya__topCircleWrapper, .meet-doctor-module__ddm7ya__bottomCircleWrapper {
+    display: none;
+  }
+}
+
+/* [project]/components/WhyChooseUs/WhyChooseUs.module.css [app-client] (css) */
+.WhyChooseUs-module__49_FRW__section {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 40px;
+}
+
+.WhyChooseUs-module__49_FRW__tag {
+  color: #1b3a90;
+  background: #e9edfb;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.WhyChooseUs-module__49_FRW__topRow {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.WhyChooseUs-module__49_FRW__certBox {
+  align-items: center;
+  gap: 5px;
+  display: flex;
+}
+
+.WhyChooseUs-module__49_FRW__certTitle {
+  color: #0d1440;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.WhyChooseUs-module__49_FRW__visitLink {
+  color: #0d3bcf;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  text-decoration: underline;
+  display: flex;
+}
+
+.WhyChooseUs-module__49_FRW__heading {
+  color: #0d1440;
+  margin-top: 25px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.WhyChooseUs-module__49_FRW__cards {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+  margin-top: 50px;
+  display: grid;
+}
+
+.WhyChooseUs-module__49_FRW__card {
+  background: #fff;
+  border-radius: 22px;
+  flex-direction: column;
+  gap: 18px;
+  padding: 35px 30px;
+  display: flex;
+  box-shadow: 0 20px 50px #0000000f;
+}
+
+.WhyChooseUs-module__49_FRW__iconCircle {
+  background: #f5f7ff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+  height: 65px;
+  display: flex;
+}
+
+.WhyChooseUs-module__49_FRW__card h3 {
+  color: #0f1d42;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.WhyChooseUs-module__49_FRW__card p {
+  color: #606a89;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.WhyChooseUs-module__49_FRW__imageCard {
+  border-radius: 22px;
+  position: relative;
+  overflow: hidden;
+}
+
+.WhyChooseUs-module__49_FRW__img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.WhyChooseUs-module__49_FRW__overlay {
+  color: #fff;
+  background: linear-gradient(to top, #0009, #0000);
+  border-radius: 22px;
+  width: 100%;
+  padding: 25px;
+  font-size: 22px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+}
+
+@media (max-width: 1020px) {
+  .WhyChooseUs-module__49_FRW__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .WhyChooseUs-module__49_FRW__imageCard {
+    height: 350px;
+  }
+}
+
+@media (max-width: 650px) {
+  .WhyChooseUs-module__49_FRW__cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .WhyChooseUs-module__49_FRW__heading {
+    font-size: 36px;
+  }
+
+  .WhyChooseUs-module__49_FRW__topRow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+}
+
+/* [project]/components/ServicesSection/ServicesSection.module.css [app-client] (css) */
+.ServicesSection-module__ZVNfMW__section {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 80px 40px;
+}
+
+.ServicesSection-module__ZVNfMW__tag {
+  color: #1b3a90;
+  background: #e9edfb;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ServicesSection-module__ZVNfMW__topRow {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.ServicesSection-module__ZVNfMW__moreBtn {
+  color: #fff;
+  cursor: pointer;
+  background: #0d1440;
+  border: none;
+  border-radius: 40px;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  font-size: 17px;
+  display: flex;
+}
+
+.ServicesSection-module__ZVNfMW__heading {
+  color: #0d1440;
+  margin-top: 25px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.ServicesSection-module__ZVNfMW__wrapper {
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.ServicesSection-module__ZVNfMW__left {
+  flex: 1;
+}
+
+.ServicesSection-module__ZVNfMW__serviceItem {
+  color: #0d1440;
+  cursor: pointer;
+  border-bottom: 1px solid #e6e6e6;
+  align-items: center;
+  gap: 18px;
+  padding: 22px 0;
+  font-size: 20px;
+  transition: all .25s;
+  display: flex;
+}
+
+.ServicesSection-module__ZVNfMW__serviceItem:hover {
+  color: #1b3a90;
+}
+
+.ServicesSection-module__ZVNfMW__active {
+  color: #1b3a90;
+  font-weight: 700;
+}
+
+.ServicesSection-module__ZVNfMW__number {
+  color: #9aa3c0;
+  font-size: 18px;
+}
+
+.ServicesSection-module__ZVNfMW__right {
+  flex-direction: row;
+  flex: 2;
+  align-items: flex-start;
+  gap: 25px;
+  display: flex;
+}
+
+.ServicesSection-module__ZVNfMW__imageBox {
+  width: 100%;
+  height: 420px;
+  position: relative;
+}
+
+.ServicesSection-module__ZVNfMW__heroImg {
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.ServicesSection-module__ZVNfMW__imageBox {
+  transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+}
+
+.ServicesSection-module__ZVNfMW__fade {
+  opacity: 0;
+  transform: scale(.98);
+}
+
+.ServicesSection-module__ZVNfMW__show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.ServicesSection-module__ZVNfMW__people {
+  gap: -10px;
+  margin-top: 15px;
+  display: flex;
+}
+
+.ServicesSection-module__ZVNfMW__testimonial {
+  background: linear-gradient(140deg, #fff 0%, #e9f1ff 100%);
+  border-radius: 26px;
+  flex-direction: column;
+  flex-shrink: 0;
+  gap: 20px;
+  width: 150px;
+  padding: 35px;
+  display: flex;
+  box-shadow: 0 30px 60px #0000000f;
+}
+
+.ServicesSection-module__ZVNfMW__quote {
+  color: #0d1440;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.ServicesSection-module__ZVNfMW__avatars {
+  align-items: center;
+  gap: -10px;
+  display: flex;
+}
+
+.ServicesSection-module__ZVNfMW__avatars img {
+  object-fit: cover;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.ServicesSection-module__ZVNfMW__imageWrapper {
+  flex: 1.5;
+  display: flex;
+}
+
+.ServicesSection-module__ZVNfMW__heroImg {
+  border-radius: 18px;
+  width: 100%;
+  height: auto;
+}
+
+.ServicesSection-module__ZVNfMW__people img {
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+@media (max-width: 950px) {
+  .ServicesSection-module__ZVNfMW__wrapper {
+    flex-direction: column;
+  }
+}
+
+/* [project]/components/AppointmentSection/AppointmentSection.module.css [app-client] (css) */
+.AppointmentSection-module__EscrzW__section {
+  background: linear-gradient(135deg, #fff 0%, #b6baf9 100%);
+  border-radius: 18px;
+  width: 100%;
+  padding: 80px 40px;
+}
+
+.AppointmentSection-module__EscrzW__container {
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+}
+
+.AppointmentSection-module__EscrzW__left {
+  flex: 1;
+}
+
+.AppointmentSection-module__EscrzW__right {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+}
+
+.AppointmentSection-module__EscrzW__tag {
+  color: #1b3a90;
+  background: #e9edfb;
+  border-radius: 12px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.AppointmentSection-module__EscrzW__heading {
+  color: #0d1440;
+  margin: 20px 0 40px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.AppointmentSection-module__EscrzW__form {
+  width: 100%;
+}
+
+.AppointmentSection-module__EscrzW__row {
+  gap: 25px;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.AppointmentSection-module__EscrzW__field, .AppointmentSection-module__EscrzW__fieldFull {
+  flex-direction: column;
+  display: flex;
+}
+
+.AppointmentSection-module__EscrzW__field input, .AppointmentSection-module__EscrzW__fieldFull input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #d7d7d7;
+  outline: none;
+  padding: 14px;
+  font-size: 16px;
+}
+
+.AppointmentSection-module__EscrzW__fieldFull textarea {
+  resize: none;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #d7d7d7;
+  outline: none;
+  height: 80px;
+  padding: 14px;
+}
+
+.AppointmentSection-module__EscrzW__field label, .AppointmentSection-module__EscrzW__fieldFull label {
+  color: #324268;
+  margin-bottom: 6px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.AppointmentSection-module__EscrzW__btn {
+  color: #fff;
+  cursor: pointer;
+  background: #0d1440;
+  border: none;
+  border-radius: 40px;
+  margin-top: 25px;
+  padding: 15px 35px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.AppointmentSection-module__EscrzW__imageBox {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.AppointmentSection-module__EscrzW__heroImg {
+  object-fit: cover;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+
+/* [project]/components/SuccessStory/SuccessStory.module.css [app-client] (css) */
+.SuccessStory-module__NJYpuW__section {
+  width: 100%;
+  padding: 80px 40px;
+}
+
+.SuccessStory-module__NJYpuW__container {
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  max-width: 1550px;
+  margin: auto;
+  display: flex;
+}
+
+.SuccessStory-module__NJYpuW__leftCard {
+  background: linear-gradient(#fff 20%, #cfd7ff 100%);
+  border-radius: 28px;
+  width: 330px;
+  padding: 35px 30px;
+  box-shadow: 0 25px 60px #00000014;
+}
+
+.SuccessStory-module__NJYpuW__tag {
+  color: #21409a;
+  background: #eef1ff;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.SuccessStory-module__NJYpuW__cardText {
+  color: #0f1a44;
+  margin: 25px 0;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.SuccessStory-module__NJYpuW__profile {
+  margin-top: 35px;
+}
+
+.SuccessStory-module__NJYpuW__name {
+  color: #0d1440;
+  font-weight: 700;
+}
+
+.SuccessStory-module__NJYpuW__role {
+  color: #34446a;
+  margin-top: 3px;
+}
+
+.SuccessStory-module__NJYpuW__centerImage .SuccessStory-module__NJYpuW__heroImg {
+  object-fit: cover;
+  border-radius: 30px;
+  width: 480px;
+  height: 620px;
+}
+
+.SuccessStory-module__NJYpuW__rightText {
+  flex: 1;
+  padding-left: 40px;
+}
+
+.SuccessStory-module__NJYpuW__quoteIcon {
+  color: #b6c3ff;
+  margin-bottom: 20px;
+  font-size: 90px;
+}
+
+.SuccessStory-module__NJYpuW__bigText {
+  color: #0d1440;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
+.SuccessStory-module__NJYpuW__userInfo {
+  border-top: 2px solid #e6e6e6;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+  padding-top: 30px;
+  display: flex;
+}
+
+.SuccessStory-module__NJYpuW__userImg {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.SuccessStory-module__NJYpuW__userName {
+  color: #0d1440;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.SuccessStory-module__NJYpuW__userJob {
+  color: #56627f;
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+/* [project]/components/OurTeam/OurTeam.module.css [app-client] (css) */
+.OurTeam-module__GvAq4W__section {
+  width: 100%;
+  padding: 80px 40px;
+}
+
+.OurTeam-module__GvAq4W__container {
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+}
+
+.OurTeam-module__GvAq4W__left {
+  flex: 1;
+}
+
+.OurTeam-module__GvAq4W__tag {
+  color: #1b3a90;
+  background: #f2f4ff;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.OurTeam-module__GvAq4W__heading {
+  color: #0d1440;
+  margin: 25px 0 40px;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.OurTeam-module__GvAq4W__btn {
+  color: #fff;
+  cursor: pointer;
+  background: #0d1440;
+  border: none;
+  border-radius: 40px;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+}
+
+.OurTeam-module__GvAq4W__btn svg {
+  color: #0d1440;
+  background: #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.OurTeam-module__GvAq4W__right {
+  flex: 1.2;
+  justify-content: center;
+  display: flex;
+}
+
+.OurTeam-module__GvAq4W__card {
+  background: #fff;
+  border-radius: 26px;
+  width: 100%;
+  max-width: 620px;
+  overflow: hidden;
+  box-shadow: 0 25px 60px #0000000f;
+}
+
+.OurTeam-module__GvAq4W__heroImg {
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  height: auto;
+}
+
+.OurTeam-module__GvAq4W__info {
+  padding: 25px 20px;
+}
+
+.OurTeam-module__GvAq4W__info h3 {
+  color: #0d1440;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.OurTeam-module__GvAq4W__info p {
+  color: #444;
+  margin-top: 6px;
+  font-size: 16px;
+}
+
+/* [project]/components/InsightsSection/InsightsSection.module.css [app-client] (css) */
+.InsightsSection-module__03_usa__section {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 80px 40px;
+}
+
+.InsightsSection-module__03_usa__topRow {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.InsightsSection-module__03_usa__left {
+  flex: 1;
+}
+
+.InsightsSection-module__03_usa__tag {
+  color: #1b3a90;
+  background: #f2f4ff;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.InsightsSection-module__03_usa__heading {
+  color: #0d1440;
+  margin-top: 20px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.InsightsSection-module__03_usa__btn {
+  color: #fff;
+  cursor: pointer;
+  background: #0d1440;
+  border: none;
+  border-radius: 40px;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+}
+
+.InsightsSection-module__03_usa__btn svg {
+  color: #0d1440;
+  background: #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.InsightsSection-module__03_usa__cardsWrapper {
+  gap: 60px;
+  margin-top: 60px;
+  display: flex;
+}
+
+.InsightsSection-module__03_usa__card {
+  flex: 1;
+}
+
+.InsightsSection-module__03_usa__cardImage {
+  object-fit: cover;
+  border-radius: 18px;
+  width: 100%;
+  height: auto;
+}
+
+.InsightsSection-module__03_usa__content {
+  margin-top: 20px;
+}
+
+.InsightsSection-module__03_usa__date {
+  color: #555;
+  font-size: 16px;
+}
+
+.InsightsSection-module__03_usa__title {
+  color: #0d1440;
+  margin: 8px 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.InsightsSection-module__03_usa__desc {
+  color: #444;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.InsightsSection-module__03_usa__roundBtn {
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  margin-top: 18px;
+  display: flex;
+}
+
+.InsightsSection-module__03_usa__roundBtn:hover {
+  background: #f5f5f5;
+}
+
+/* [project]/components/Footer/Footer.module.css [app-client] (css) */
+.Footer-module__rnk_JG__footer {
+  color: #fff;
+  background: #0d1440;
+  border-radius: 20px 20px 0 0;
+  padding: 80px 50px;
+}
+
+.Footer-module__rnk_JG__container {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+}
+
+.Footer-module__rnk_JG__company {
+  flex: 1;
+}
+
+.Footer-module__rnk_JG__logo {
+  align-items: center;
+  gap: 14px;
+  display: flex;
+}
+
+.Footer-module__rnk_JG__logo h2 {
+  font-size: 28px;
+}
+
+.Footer-module__rnk_JG__address {
+  color: #d9ddff;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.Footer-module__rnk_JG__copy {
+  color: #c2c6e6;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.Footer-module__rnk_JG__copy span {
+  text-decoration: underline;
+}
+
+.Footer-module__rnk_JG__whiteBox {
+  color: #0d1440;
+  background: #fff;
+  border-radius: 20px;
+  flex: 1;
+  min-width: 280px;
+  padding: 35px;
+}
+
+.Footer-module__rnk_JG__whiteText {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.Footer-module__rnk_JG__phone {
+  color: #0d1440;
+  margin-top: 25px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.Footer-module__rnk_JG__email {
+  color: #0d1440;
+  margin-top: 8px;
+  font-size: 17px;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+.Footer-module__rnk_JG__links {
+  flex: 1;
+}
+
+.Footer-module__rnk_JG__links h4 {
+  color: #d9ddff;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.Footer-module__rnk_JG__linkGrid {
+  grid-template-columns: repeat(2, auto);
+  gap: 12px 40px;
+  display: grid;
+}
+
+.Footer-module__rnk_JG__linkGrid a {
+  color: #d9ddff;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.Footer-module__rnk_JG__newsletter {
+  flex: 1;
+}
+
+.Footer-module__rnk_JG__newsletter h4 {
+  color: #d9ddff;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.Footer-module__rnk_JG__inputBox {
+  background: #ffffff1a;
+  border-radius: 40px;
+  align-items: center;
+  width: 330px;
+  padding: 12px 20px;
+  display: flex;
+}
+
+.Footer-module__rnk_JG__inputBox input {
+  color: #fff;
+  background: none;
+  border: none;
+  outline: none;
+  flex: 1;
+}
+
+.Footer-module__rnk_JG__inputBox input::placeholder {
+  color: #c5c9e6;
+}
+
+.Footer-module__rnk_JG__inputBox button {
+  cursor: pointer;
+  background: #fff3;
+  border: none;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  display: flex;
+}
+
+.Footer-module__rnk_JG__socials {
+  gap: 20px;
+  margin-top: 35px;
+  display: flex;
+}
+
+.Footer-module__rnk_JG__icon {
+  color: #fff;
+  border: 1px solid #fff3;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  font-size: 18px;
+  display: flex;
+}
+
+/*# sourceMappingURL=components_6e67d72a._.css.map*/

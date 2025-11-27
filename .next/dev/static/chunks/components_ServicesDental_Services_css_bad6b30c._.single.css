@@ -1,0 +1,50 @@
+/* [project]/components/ServicesDental/Services.css [app-client] (css) */
+.services-section {
+  background-color: #f9f9f9;
+  justify-content: center;
+  padding: 80px 40px;
+  display: flex;
+}
+
+.services-container {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  width: 100%;
+  max-width: 1349px;
+  display: grid;
+}
+
+.service-card {
+  background: linear-gradient(to bottom right, #fff, #d8dcf2);
+  border-radius: 15px;
+  transition: all .3s;
+  overflow: hidden;
+  box-shadow: 0 4px 10px #0000000d;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px #0000001a;
+}
+
+.service-img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.service-content {
+  text-align: left;
+  padding: 20px;
+}
+
+.service-content h3 {
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+.service-content p {
+  font-size: .95rem;
+}
+
+/*# sourceMappingURL=components_ServicesDental_Services_css_bad6b30c._.single.css.map*/

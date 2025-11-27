@@ -1,0 +1,189 @@
+/* [project]/components/HeroSection/HeroSection.module.css [app-client] (css) */
+.HeroSection-module__2k8MBW__hero {
+  width: 100%;
+  margin-top: 80px;
+  position: relative;
+  overflow: visible;
+}
+
+.HeroSection-module__2k8MBW__bgImage {
+  border-radius: 0 0 20px 20px;
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.HeroSection-module__2k8MBW__image {
+  object-fit: cover;
+  object-position: right center;
+}
+
+.HeroSection-module__2k8MBW__logoContainer {
+  justify-content: flex-end;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.HeroSection-module__2k8MBW__overlay {
+  z-index: 3;
+  background: linear-gradient(to right, #8369ff1f, #0000 60%);
+  align-items: flex-start;
+  min-height: 600px;
+  padding-top: 160px;
+  display: flex;
+  position: relative;
+}
+
+.HeroSection-module__2k8MBW__container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.HeroSection-module__2k8MBW__tagline {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-size: .9rem;
+}
+
+.HeroSection-module__2k8MBW__title {
+  margin-bottom: 1.5rem;
+  font-size: 68px;
+}
+
+.HeroSection-module__2k8MBW__highlight {
+  font-size: 68px;
+  font-style: italic;
+}
+
+.HeroSection-module__2k8MBW__cards {
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+}
+
+.HeroSection-module__2k8MBW__card {
+  background: #fff;
+  border-radius: 16px;
+  flex: 1;
+  min-width: 200px;
+  max-width: 240px;
+  padding: 1.5rem;
+  transition: transform .3s;
+  box-shadow: 0 4px 15px #00000014;
+}
+
+.HeroSection-module__2k8MBW__card:hover {
+  transform: translateY(-5px);
+}
+
+.HeroSection-module__2k8MBW__card h3 {
+  margin: .5rem 0;
+  font-size: 1.1rem;
+}
+
+.HeroSection-module__2k8MBW__card p {
+  margin: .5rem 0;
+  font-size: .9rem;
+}
+
+.HeroSection-module__2k8MBW__number {
+  font-size: 1.8rem;
+}
+
+.HeroSection-module__2k8MBW__explore {
+  font-size: .9rem;
+  text-decoration: none;
+}
+
+.HeroSection-module__2k8MBW__explore:after {
+  content: " →";
+}
+
+.HeroSection-module__2k8MBW__icon {
+  justify-content: center;
+  margin-bottom: .5rem;
+  display: flex;
+}
+
+.HeroSection-module__2k8MBW__author {
+  margin-top: .5rem;
+  font-style: italic;
+}
+
+@media (max-width: 1300px) {
+  .HeroSection-module__2k8MBW__container {
+    max-width: 1000px;
+  }
+
+  .HeroSection-module__2k8MBW__title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .HeroSection-module__2k8MBW__overlay {
+    padding-top: 100px;
+  }
+
+  .HeroSection-module__2k8MBW__title {
+    font-size: 2.5rem;
+  }
+
+  .HeroSection-module__2k8MBW__cards {
+    justify-content: center;
+  }
+
+  .HeroSection-module__2k8MBW__card {
+    min-width: 180px;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .HeroSection-module__2k8MBW__hero {
+    min-height: 700px;
+  }
+
+  .HeroSection-module__2k8MBW__overlay {
+    background: linear-gradient(#8369ff33, #0000);
+    padding-top: 80px;
+  }
+
+  .HeroSection-module__2k8MBW__title {
+    font-size: 2.2rem;
+  }
+
+  .HeroSection-module__2k8MBW__title br {
+    display: none;
+  }
+
+  .HeroSection-module__2k8MBW__cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .HeroSection-module__2k8MBW__card {
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .HeroSection-module__2k8MBW__title {
+    font-size: 1.8rem;
+  }
+
+  .HeroSection-module__2k8MBW__ctaButton {
+    padding: .7rem 1.5rem;
+    font-size: .9rem;
+  }
+}
+
+/*# sourceMappingURL=components_HeroSection_HeroSection_module_css_bad6b30c._.single.css.map*/

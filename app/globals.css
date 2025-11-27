@@ -1,0 +1,95 @@
+/* @import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+h1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  line-height: 1.2em;
+  letter-spacing: 1.3px;
+  color: #12175c;
+}
+h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  line-height: 1.2em;
+  letter-spacing: 1.3px;
+  color: #12175c;
+}
+h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  line-height: 1.2em;
+  letter-spacing: 1.3px;
+  color: #12175c;
+}
+h4 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 550;
+  line-height: 1.2em;
+  letter-spacing: 1.3px;
+  color: #12175c;
+}
+h5 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 1.3px;
+  color: #12175c;
+}
+h6 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.2em;
+  letter-spacing: 1.3px;
+  color: #12175c;
+}
+p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 300;
+  line-height: 1.4em;
+  letter-spacing: 1.1px;
+  color: #2d3169;
+}
+button{
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #0d1440;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  padding: 18px 35px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+button:hover {
+  background: #0a1033;         
+  transform: translateY(-3px);  
+  box-shadow: 0 8px 20px rgba(13, 20, 64, 0.3);
+}

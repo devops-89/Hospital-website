@@ -1,0 +1,55 @@
+/* [project]/Downloads/Archive/components/ContactForm/ContactForm.css [app-client] (css) */
+.contact-form-section {
+  text-align: center;
+  background: #fff;
+  padding: 100px 80px;
+}
+
+.form-tag {
+  color: #12175c;
+  border: 1px solid #e5e5e5;
+  border-radius: 25px;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.form-heading {
+  color: #12175c;
+  margin: 0 0 50px;
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 1.1em;
+}
+
+.contact-form {
+  text-align: left;
+  background: #fff;
+  border-radius: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 40px;
+  box-shadow: 0 4px 25px #0000001a;
+}
+
+.form-row {
+  flex-wrap: flex;
+  gap: 50px;
+  display: flex;
+}
+
+.form-group {
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.form-group input, .form-group textarea {
+  border: none;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 10px 5px;
+}
+
+/*# sourceMappingURL=Downloads_Archive_components_ContactForm_ContactForm_css_bad6b30c._.single.css.map*/

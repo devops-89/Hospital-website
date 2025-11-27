@@ -1,0 +1,100 @@
+.transform-section {
+  background-color: #f9fafb;
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.transform-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1150px;
+  gap: 60px;
+}
+
+.transform-image img {
+  width: 500px;
+  height: auto;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #c8c7ff, #d8e3ff);
+}
+
+.transform-content {
+  flex: 1;
+}
+
+.transform-content h2 {
+  font-size: 3.2rem;
+  margin-bottom: 20px;
+}
+
+.transform-content p {
+  font-size: 1.2rem;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.phone-icon {
+  width: 50px;
+  height: 50px;
+  background: #f2f3f6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0d1454;
+}
+.phone-icon:hover {
+  background: #0d1454;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.call-label {
+  font-size: 16px;
+  margin: 15px 0 5px 0;
+}
+
+.phone-number {
+  font-size: 18px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  margin-top: 5px
+}
+
+.phone-number:hover {
+  color: #4a8be5;
+}
+
+/* .schedule-btn {
+  background-color: #0d1454;
+  color: #fff;
+  border: none;
+  padding: 14px 28px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.schedule-btn span {
+  background: #fff;
+  color: #0d1454;
+  border-radius: 50%;
+  padding: 5px 8px;
+  font-size: 1.1rem;
+}
+
+.schedule-btn:hover {
+  transform: scale(1.05);
+} */

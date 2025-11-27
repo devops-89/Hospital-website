@@ -1,0 +1,94 @@
+/* [project]/Downloads/Archive/components/LogoBadge/LogoBadge.module.css [app-client] (css) */
+.LogoBadge-module__CoMFSq__badgeWrapper {
+  z-index: 10;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 400px;
+  left: 700px;
+}
+
+.LogoBadge-module__CoMFSq__rotatingRing {
+  width: 200px;
+  height: 200px;
+  animation: 9s linear infinite LogoBadge-module__CoMFSq__rotate;
+}
+
+@keyframes LogoBadge-module__CoMFSq__rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.LogoBadge-module__CoMFSq__circleText {
+  fill: #13195c;
+  width: 200px;
+  height: 200px;
+}
+
+.LogoBadge-module__CoMFSq__text {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.LogoBadge-module__CoMFSq__centerCircle {
+  background: radial-gradient(circle, #f0f0f0, #d8d8d8);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  box-shadow: 0 6px 20px #0003;
+}
+
+.LogoBadge-module__CoMFSq__centerCircle span {
+  color: #13195c;
+  font-size: 54px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .LogoBadge-module__CoMFSq__circle {
+    width: 70px;
+    height: 70px;
+  }
+
+  .LogoBadge-module__CoMFSq__letter {
+    font-size: 1.9rem;
+  }
+
+  .LogoBadge-module__CoMFSq__textTop, .LogoBadge-module__CoMFSq__textBottom {
+    width: 120px;
+    margin-left: -60px;
+    font-size: .6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .LogoBadge-module__CoMFSq__circle {
+    width: 60px;
+    height: 60px;
+  }
+
+  .LogoBadge-module__CoMFSq__letter {
+    font-size: 1.6rem;
+  }
+
+  .LogoBadge-module__CoMFSq__textTop, .LogoBadge-module__CoMFSq__textBottom {
+    width: 100px;
+    margin-left: -50px;
+    font-size: .55rem;
+  }
+}
+
+/*# sourceMappingURL=Downloads_Archive_components_LogoBadge_LogoBadge_module_css_bad6b30c._.single.css.map*/

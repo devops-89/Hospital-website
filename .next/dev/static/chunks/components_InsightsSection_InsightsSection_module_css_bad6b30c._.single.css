@@ -1,0 +1,65 @@
+/* [project]/components/InsightsSection/InsightsSection.module.css [app-client] (css) */
+.InsightsSection-module__03_usa__section {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 80px 40px;
+}
+
+.InsightsSection-module__03_usa__topRow {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.InsightsSection-module__03_usa__left {
+  flex: 1;
+}
+
+.InsightsSection-module__03_usa__tag {
+  background: #f2f4ff;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+.InsightsSection-module__03_usa__heading {
+  margin-top: 20px;
+  font-size: 48px;
+}
+
+.InsightsSection-module__03_usa__cardsWrapper {
+  gap: 60px;
+  margin-top: 60px;
+  display: flex;
+}
+
+.InsightsSection-module__03_usa__card {
+  flex: 1;
+}
+
+.InsightsSection-module__03_usa__cardImage {
+  object-fit: cover;
+  border-radius: 18px;
+  width: 100%;
+  height: auto;
+}
+
+.InsightsSection-module__03_usa__content {
+  margin-top: 20px;
+}
+
+.InsightsSection-module__03_usa__date {
+  font-size: 16px;
+}
+
+.InsightsSection-module__03_usa__title {
+  margin: 8px 0;
+  font-size: 28px;
+}
+
+.InsightsSection-module__03_usa__desc {
+  font-size: 17px;
+}
+
+/*# sourceMappingURL=components_InsightsSection_InsightsSection_module_css_bad6b30c._.single.css.map*/

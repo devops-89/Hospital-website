@@ -1,0 +1,83 @@
+.badgeWrapper {
+  position: absolute;
+  top: 400px;
+  left: 700px;
+  width: 200px;
+  height: 200px;
+  z-index: 10;
+}
+.rotatingRing {
+  width: 200px;
+  height: 200px;
+  animation: rotate 9s linear infinite;
+  
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+  
+}
+.circleText {
+  width: 200px;
+  height: 200px;
+  fill: #13195c;
+  
+}
+
+.text {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* Center circle with "M" */
+.centerCircle {
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle, #f0f0f0, #d8d8d8);
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.centerCircle span {
+  font-size: 54px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .circle {
+    width: 70px;
+    height: 70px;
+  }
+  .letter {
+    font-size: 1.9rem;
+  }
+  .textTop,
+  .textBottom {
+    font-size: 0.6rem;
+    width: 120px;
+    margin-left: -60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .circle {
+    width: 60px;
+    height: 60px;
+  }
+  .letter {
+    font-size: 1.6rem;
+  }
+  .textTop,
+  .textBottom {
+    font-size: 0.55rem;
+    width: 100px;
+    margin-left: -50px;
+  }
+}

@@ -1,0 +1,80 @@
+/* [project]/app/globals.css [app-client] (css) */
+h1 {
+  letter-spacing: 1.3px;
+  color: #12175c;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-weight: 800;
+  line-height: 1.2em;
+}
+
+h2 {
+  letter-spacing: 1.3px;
+  color: #12175c;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+h3 {
+  letter-spacing: 1.3px;
+  color: #12175c;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+h4 {
+  letter-spacing: 1.3px;
+  color: #12175c;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-weight: 550;
+  line-height: 1.2em;
+}
+
+h5 {
+  letter-spacing: 1.3px;
+  color: #12175c;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+h6 {
+  letter-spacing: 1.3px;
+  color: #12175c;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+p {
+  letter-spacing: 1.1px;
+  color: #2d3169;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-weight: 300;
+  line-height: 1.4em;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background: #0d1440;
+  border: none;
+  border-radius: 50px;
+  align-items: center;
+  gap: 12px;
+  margin-top: 35px;
+  padding: 18px 35px;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-size: 18px;
+  transition: all .3s;
+  display: flex;
+}
+
+button:hover {
+  background: #0a1033;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px #0d14404d;
+}
+
+/*# sourceMappingURL=app_globals_css_bad6b30c._.single.css.map*/

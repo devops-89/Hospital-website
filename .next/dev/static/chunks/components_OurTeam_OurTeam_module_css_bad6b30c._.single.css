@@ -1,0 +1,67 @@
+/* [project]/components/OurTeam/OurTeam.module.css [app-client] (css) */
+.OurTeam-module__GvAq4W__section {
+  width: 100%;
+  padding: 80px 40px;
+}
+
+.OurTeam-module__GvAq4W__container {
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+}
+
+.OurTeam-module__GvAq4W__left {
+  flex: 1;
+}
+
+.OurTeam-module__GvAq4W__tag {
+  background: #f2f4ff;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 14px;
+}
+
+.OurTeam-module__GvAq4W__heading {
+  margin: 25px 0 40px;
+  font-size: 55px;
+}
+
+.OurTeam-module__GvAq4W__right {
+  flex: 1.2;
+  justify-content: center;
+  display: flex;
+}
+
+.OurTeam-module__GvAq4W__card {
+  background: #fff;
+  border-radius: 26px;
+  width: 100%;
+  max-width: 620px;
+  overflow: hidden;
+  box-shadow: 0 25px 60px #0000000f;
+}
+
+.OurTeam-module__GvAq4W__heroImg {
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  height: auto;
+}
+
+.OurTeam-module__GvAq4W__info {
+  padding: 25px 20px;
+}
+
+.OurTeam-module__GvAq4W__info h3 {
+  font-size: 24px;
+}
+
+.OurTeam-module__GvAq4W__info p {
+  margin-top: 6px;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=components_OurTeam_OurTeam_module_css_bad6b30c._.single.css.map*/

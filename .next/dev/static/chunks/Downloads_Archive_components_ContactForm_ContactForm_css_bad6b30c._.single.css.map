@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Downloads/Archive/components/ContactForm/ContactForm.css"],"sourcesContent":[".contact-form-section {\n  background: #fff;\n  padding: 100px 80px;\n  text-align: center;\n}\n.form-tag {\n  display: inline-block;\n  border: 1px solid #e5e5e5;\n  padding: 10px 15px;\n  border-radius: 25px;\n  color: #12175c;\n  font-size: 14px;\n  font-weight: 600;\n}\n.form-heading {\n  font-size: 65px;\n  font-weight: 600;\n  line-height: 1.1em;\n  color: #12175c;\n  margin: 0 0 50px 0;\n}\n.contact-form {\n  max-width: 800px;\n  margin: 0 auto;\n  background: #fff;\n  border-radius: 15px;\n  padding: 50px 40px;\n  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);\n  text-align: left;\n}\n.form-row {\n  display: flex;\n  flex-wrap: flex;\n  gap: 50px;\n}\n.form-group {\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  margin-bottom: 25px;\n}\n.form-group input,\n.form-group textarea\n{\n  border: none;\n  border-bottom: 1px solid #d9d9d9;\n  padding: 10px 5px;\n}\n"],"names":[],"mappings":"AAAA;;;;;;AAKA;;;;;;;;;;AASA;;;;;;;;AAOA;;;;;;;;;;AASA;;;;;;AAKA;;;;;;;AAMA"}}]
+}

@@ -1,0 +1,2248 @@
+[00:00:01.799] Server  LOG      ✓ Ready in 1248ms
+[00:00:08.986] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:28.538] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:28.732] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/care-serv..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:00:46.057] Server  ERROR    ⨯ ReferenceError: impo is not defined
+[00:00:46.343] Server  ERROR    ⨯ ReferenceError: impo is not defined
+[00:00:47.583] Server  ERROR    ⨯ ReferenceError: impo is not defined
+[00:00:47.874] Server  ERROR    ⨯ ReferenceError: impo is not defined
+[00:00:48.105] Browser ERROR   uncaughtError: ReferenceError: impo is not defined
+[00:01:34.358] Browser ERROR   ./components/ServicesDental/Services.jsx:6:1
+Parsing ecmascript source code failed
+  4 | import 
+  5 |
+> 6 | const services = [
+    | ^^^^^
+  7 |   {
+  8 |     title: "Pediatric Dentistry",
+  9 |     desc: "Gentle, fun, and friendly dental care for children of all ages to build lifelong healthy habits.",
+
+Expected 'from', got 'const'
+
+Import trace:
+  Server Component:
+    ./components/ServicesDental/Services.jsx
+    ./app/care-services/page.js
+[00:01:40.355] Browser ERROR   ./components/ServicesDental/Services.jsx:6:1
+Parsing ecmascript source code failed
+  4 | import Ped
+  5 |
+> 6 | const services = [
+    | ^^^^^
+  7 |   {
+  8 |     title: "Pediatric Dentistry",
+  9 |     desc: "Gentle, fun, and friendly dental care for children of all ages to build lifelong healthy habits.",
+
+Expected ',', got 'const'
+
+Import trace:
+  Server Component:
+    ./components/ServicesDental/Services.jsx
+    ./app/care-services/page.js
+[00:01:42.355] Browser ERROR   ./components/ServicesDental/Services.jsx:6:1
+Parsing ecmascript source code failed
+  4 | import Pediatric
+  5 |
+> 6 | const services = [
+    | ^^^^^
+  7 |   {
+  8 |     title: "Pediatric Dentistry",
+  9 |     desc: "Gentle, fun, and friendly dental care for children of all ages to build lifelong healthy habits.",
+
+Expected ',', got 'const'
+
+Import trace:
+  Server Component:
+    ./components/ServicesDental/Services.jsx
+    ./app/care-services/page.js
+[00:01:44.355] Browser ERROR   ./components/ServicesDental/Services.jsx:6:1
+Parsing ecmascript source code failed
+  4 | import Pediatric from
+  5 |
+> 6 | const services = [
+    | ^^^^^
+  7 |   {
+  8 |     title: "Pediatric Dentistry",
+  9 |     desc: "Gentle, fun, and friendly dental care for children of all ages to build lifelong healthy habits.",
+
+Unexpected token `const`. Expected a string literal
+
+Import trace:
+  Server Component:
+    ./components/ServicesDental/Services.jsx
+    ./app/care-services/page.js
+[00:01:46.356] Browser ERROR   ./components/ServicesDental/Services.jsx:6:1
+Parsing ecmascript source code failed
+  4 | import Pediatric from 
+  5 |
+> 6 | const services = [
+    | ^^^^^
+  7 |   {
+  8 |     title: "Pediatric Dentistry",
+  9 |     desc: "Gentle, fun, and friendly dental care for children of all ages to build lifelong healthy habits.",
+
+Unexpected token `const`. Expected a string literal
+
+Import trace:
+  Server Component:
+    ./components/ServicesDental/Services.jsx
+    ./app/care-services/page.js
+[00:01:47.165] Server  ERROR    ⨯ ./components/ServicesDental/Services.jsx:4:1
+Module not found: Can't resolve '@'
+  2 | import Image from "next/image";
+  3 | import "./Services.css";
+> 4 | import Pediatric from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const services = [
+  7 |   {
+
+
+
+Import trace:
+  Server Component:
+    ./components/ServicesDental/Services.jsx
+    ./app/care-services/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:47.355] Browser ERROR   ./components/ServicesDental/Services.jsx:4:1
+Module not found: Can't resolve '@'
+  2 | import Image from "next/image";
+  3 | import "./Services.css";
+> 4 | import Pediatric from "@"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const services = [
+  7 |   {
+
+Import trace:
+  Server Component:
+    ./components/ServicesDental/Services.jsx
+    ./app/care-services/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:48.477] Server  ERROR    ⨯ ./components/ServicesDental/Services.jsx:4:1
+Module not found: Can't resolve '@/'
+  2 | import Image from "next/image";
+  3 | import "./Services.css";
+> 4 | import Pediatric from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const services = [
+  7 |   {
+
+Import map: aliased to relative './' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/ServicesDental/Services.jsx
+    ./app/care-services/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:49.355] Browser ERROR   ./components/ServicesDental/Services.jsx:4:1
+Module not found: Can't resolve '@/'
+  2 | import Image from "next/image";
+  3 | import "./Services.css";
+> 4 | import Pediatric from "@/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const services = [
+  7 |   {
+
+Import map: aliased to relative './' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/ServicesDental/Services.jsx
+    ./app/care-services/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:51.140] Server  ERROR    ⨯ ./components/ServicesDental/Services.jsx:4:1
+Module not found: Can't resolve '@/public'
+  2 | import Image from "next/image";
+  3 | import "./Services.css";
+> 4 | import Pediatric from "@/public"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const services = [
+  7 |   {
+
+Import map: aliased to relative './public' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/ServicesDental/Services.jsx
+    ./app/care-services/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:51.355] Browser ERROR   ./components/ServicesDental/Services.jsx:4:1
+Module not found: Can't resolve '@/public'
+  2 | import Image from "next/image";
+  3 | import "./Services.css";
+> 4 | import Pediatric from "@/public"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const services = [
+  7 |   {
+
+Import map: aliased to relative './public' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/ServicesDental/Services.jsx
+    ./app/care-services/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:52.255] Server  ERROR    ⨯ ./components/ServicesDental/Services.jsx:4:1
+Module not found: Can't resolve '@/public/'
+  2 | import Image from "next/image";
+  3 | import "./Services.css";
+> 4 | import Pediatric from "@/public/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const services = [
+  7 |   {
+
+Import map: aliased to relative './public/' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/ServicesDental/Services.jsx
+    ./app/care-services/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:53.355] Browser ERROR   ./components/ServicesDental/Services.jsx:4:1
+Module not found: Can't resolve '@/public/'
+  2 | import Image from "next/image";
+  3 | import "./Services.css";
+> 4 | import Pediatric from "@/public/"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const services = [
+  7 |   {
+
+Import map: aliased to relative './public/' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/ServicesDental/Services.jsx
+    ./app/care-services/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:57.619] Server  ERROR    ⨯ ./components/ServicesDental/Services.jsx:4:1
+Module not found: Can't resolve '@/public/ima'
+  2 | import Image from "next/image";
+  3 | import "./Services.css";
+> 4 | import Pediatric from "@/public/ima"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const services = [
+  7 |   {
+
+Import map: aliased to relative './public/ima' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/ServicesDental/Services.jsx
+    ./app/care-services/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:58.355] Browser ERROR   ./components/ServicesDental/Services.jsx:4:1
+Module not found: Can't resolve '@/public/ima'
+  2 | import Image from "next/image";
+  3 | import "./Services.css";
+> 4 | import Pediatric from "@/public/ima"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const services = [
+  7 |   {
+
+Import map: aliased to relative './public/ima' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/ServicesDental/Services.jsx
+    ./app/care-services/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:03.018] Server  ERROR    ⨯ ./components/ServicesDental/Services.jsx:4:1
+Module not found: Can't resolve '@/public/images/dentalexpert/Pediatric-Dentistry.jpg'
+  2 | import Image from "next/image";
+  3 | import "./Services.css";
+> 4 | import Pediatric from "@/public/images/dentalexpert/Pediatric-Dentistry.jpg"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const services = [
+  7 |   {
+
+Import map: aliased to relative './public/images/dentalexpert/Pediatric-Dentistry.jpg' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/ServicesDental/Services.jsx
+    ./app/care-services/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:03.360] Browser ERROR   ./components/ServicesDental/Services.jsx:4:1
+Module not found: Can't resolve '@/public/images/dentalexpert/Pediatric-Dentistry.jpg'
+  2 | import Image from "next/image";
+  3 | import "./Services.css";
+> 4 | import Pediatric from "@/public/images/dentalexpert/Pediatric-Dentistry.jpg"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const services = [
+  7 |   {
+
+Import map: aliased to relative './public/images/dentalexpert/Pediatric-Dentistry.jpg' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/ServicesDental/Services.jsx
+    ./app/care-services/page.js
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:38.563] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:39.356] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/care-serv..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:02:44.922] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:45.054] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/care-serv..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:03:58.160] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:25.356] Browser ERROR   The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter. image
+[00:04:29.035] Browser WARN    Image with src "/_next/static/media/Pediatric-Dentistry.19073be3.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:16:47.025] Server  LOG      ✓ Compiled in 48ms
+[00:16:47.355] Browser ERROR   ./components/ServicesDental/Services.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ServicesDental/Services.css:6:3: Unknown word widh
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ServicesDental/Services.css [Client Component Browser]
+    ./components/ServicesDental/Services.jsx [Server Component]
+    ./app/care-services/page.js [Server Component]
+[00:16:51.730] Server  LOG      ✓ Compiled in 15ms
+[00:17:04.564] Server  LOG      ✓ Compiled in 42ms
+[00:17:04.893] Browser ERROR   ./components/ServicesDental/Services.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ServicesDental/Services.css:6:3: Unknown word justify-content
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ServicesDental/Services.css [Client Component Browser]
+    ./components/ServicesDental/Services.jsx [Server Component]
+    ./app/care-services/page.js [Server Component]
+[00:17:22.041] Server  LOG      ✓ Compiled in 10ms
+[00:17:25.074] Server  LOG      ✓ Compiled in 9ms
+[00:17:41.484] Server  LOG      ✓ Compiled in 9ms
+[00:17:48.029] Server  LOG      ✓ Compiled in 10ms
+[00:17:50.462] Server  LOG      ✓ Compiled in 13ms
+[00:18:20.421] Server  LOG      ✓ Compiled in 10ms
+[00:18:42.422] Server  LOG      ✓ Compiled in 10ms
+[00:18:56.373] Server  LOG      ✓ Compiled in 12ms
+[00:18:59.640] Server  LOG      ✓ Compiled in 11ms
+[00:19:01.494] Server  LOG      ✓ Compiled in 13ms
+[00:19:22.363] Server  LOG      ✓ Compiled in 38ms
+[00:19:23.355] Browser ERROR   ./components/ServicesDental/Services.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ServicesDental/Services.css:13:3: Unknown word max-width
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ServicesDental/Services.css [Client Component Browser]
+    ./components/ServicesDental/Services.jsx [Server Component]
+    ./app/care-services/page.js [Server Component]
+[00:19:25.290] Server  LOG      ✓ Compiled in 12ms
+[00:19:40.505] Server  LOG      ✓ Compiled in 10ms
+[00:19:49.426] Server  LOG      ✓ Compiled in 13ms
+[00:19:54.320] Server  LOG      ✓ Compiled in 10ms
+[00:19:57.418] Server  LOG      ✓ Compiled in 11ms
+[00:20:08.541] Server  LOG      ✓ Compiled in 12ms
+[00:20:17.690] Server  LOG      ✓ Compiled in 12ms
+[00:20:19.306] Server  LOG      ✓ Compiled in 10ms
+[00:20:27.422] Server  LOG      ✓ Compiled in 13ms
+[00:20:38.424] Server  LOG      ✓ Compiled in 21ms
+[00:20:47.660] Server  LOG      ✓ Compiled in 14ms
+[00:20:52.477] Server  LOG      ✓ Compiled in 12ms
+[00:20:54.430] Server  LOG      ✓ Compiled in 15ms
+[00:20:59.436] Server  LOG      ✓ Compiled in 11ms
+[00:21:03.767] Server  LOG      ✓ Compiled in 10ms
+[00:21:06.426] Server  LOG      ✓ Compiled in 11ms
+[00:21:15.565] Server  LOG      ✓ Compiled in 12ms
+[00:22:42.895] Server  LOG      ✓ Compiled in 37ms
+[00:22:43.355] Browser ERROR   ./components/ServicesDental/Services.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ServicesDental/Services.css:6:3: Unknown word max
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ServicesDental/Services.css [Client Component Browser]
+    ./components/ServicesDental/Services.jsx [Server Component]
+    ./app/care-services/page.js [Server Component]
+[00:22:45.456] Server  LOG      ✓ Compiled in 9ms
+[00:22:47.354] Server  LOG      ✓ Compiled in 9ms
+[00:22:49.774] Server  LOG      ✓ Compiled in 10ms
+[00:22:58.634] Server  LOG      ✓ Compiled in 11ms
+[00:24:20.591] Server  LOG      ✓ Compiled in 11ms
+[00:24:27.447] Server  LOG      ✓ Compiled in 36ms
+[00:24:28.356] Browser ERROR   ./components/ServicesDental/Services.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ServicesDental/Services.css:4:3: Unknown word padding
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ServicesDental/Services.css [Client Component Browser]
+    ./components/ServicesDental/Services.jsx [Server Component]
+    ./app/care-services/page.js [Server Component]
+[00:24:30.306] Server  LOG      ✓ Compiled in 34ms
+[00:24:31.355] Browser ERROR   ./components/ServicesDental/Services.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ServicesDental/Services.css:4:3: Unknown word padding
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ServicesDental/Services.css [Client Component Browser]
+    ./components/ServicesDental/Services.jsx [Server Component]
+    ./app/care-services/page.js [Server Component]
+[00:24:32.356] Browser ERROR   ./components/ServicesDental/Services.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ServicesDental/Services.css:4:3: Unknown word padding
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ServicesDental/Services.css [Client Component Browser]
+    ./components/ServicesDental/Services.jsx [Server Component]
+    ./app/care-services/page.js [Server Component]
+[00:24:35.355] Browser ERROR   ./components/ServicesDental/Services.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ServicesDental/Services.css:4:3: Unknown word padding
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ServicesDental/Services.css [Client Component Browser]
+    ./components/ServicesDental/Services.jsx [Server Component]
+    ./app/care-services/page.js [Server Component]
+[00:24:41.355] Browser ERROR   ./components/ServicesDental/Services.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ServicesDental/Services.css:3:3: Unknown word linear-gradient
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ServicesDental/Services.css [Client Component Browser]
+    ./components/ServicesDental/Services.jsx [Server Component]
+    ./app/care-services/page.js [Server Component]
+[00:24:58.120] Server  LOG      ✓ Compiled in 12ms
+[00:25:01.155] Server  LOG      ✓ Compiled in 14ms
+[00:25:34.337] Server  LOG      ✓ Compiled in 11ms
+[00:25:35.658] Server  LOG      ✓ Compiled in 10ms
+[00:25:42.403] Server  LOG      ✓ Compiled in 11ms
+[00:25:56.023] Server  LOG      ✓ Compiled in 12ms
+[00:26:28.693] Server  LOG      ✓ Compiled in 12ms
+[00:26:30.708] Server  LOG      ✓ Compiled in 23ms
+[00:27:03.079] Server  LOG      ✓ Compiled in 12ms
+[00:27:06.422] Server  LOG      ✓ Compiled in 10ms
+[00:27:50.080] Server  LOG      ✓ Compiled in 9ms
+[00:27:53.096] Server  LOG      ✓ Compiled in 10ms
+[00:28:04.377] Server  LOG      ✓ Compiled in 10ms
+[00:28:07.535] Server  LOG      ✓ Compiled in 12ms
+[00:28:22.162] Server  LOG      ✓ Compiled in 11ms
+[00:28:32.417] Server  LOG      ✓ Compiled in 9ms
+[00:28:39.139] Server  LOG      ✓ Compiled in 11ms
+[00:28:40.763] Server  LOG      ✓ Compiled in 10ms
+[00:28:44.422] Server  LOG      ✓ Compiled in 10ms
+[00:29:05.318] Server  LOG      ✓ Compiled in 10ms
+[00:29:09.079] Server  LOG      ✓ Compiled in 12ms
+[00:29:13.895] Server  LOG      ✓ Compiled in 12ms
+[00:29:26.719] Server  LOG      ✓ Compiled in 14ms
+[00:29:46.325] Server  LOG      ✓ Compiled in 10ms
+[00:29:47.886] Server  LOG      ✓ Compiled in 11ms
+[00:29:49.437] Server  LOG      ✓ Compiled in 10ms
+[00:29:54.778] Server  LOG      ✓ Compiled in 12ms
+[00:29:57.865] Server  LOG      ✓ Compiled in 12ms
+[00:30:47.385] Server  LOG      ✓ Compiled in 13ms
+[00:30:59.491] Server  LOG      ✓ Compiled in 12ms
+[00:31:10.379] Server  LOG      ✓ Compiled in 11ms
+[00:31:13.441] Server  LOG      ✓ Compiled in 11ms
+[00:31:21.722] Server  LOG      ✓ Compiled in 12ms
+[00:31:30.495] Server  LOG      ✓ Compiled in 12ms
+[00:31:42.058] Server  LOG      ✓ Compiled in 10ms
+[00:31:46.401] Server  LOG      ✓ Compiled in 11ms
+[00:31:53.485] Server  LOG      ✓ Compiled in 12ms
+[00:31:55.423] Server  LOG      ✓ Compiled in 12ms
+[00:32:58.074] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:04.033] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:16.746] Browser WARN    Image with src "/images/appointment.avif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:34:06.024] Server  LOG      ✓ Compiled in 18ms
+[00:34:08.647] Server  LOG      ✓ Compiled in 65ms
+[00:34:15.011] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:15.164] Browser WARN    Image with src "/images/appointment.avif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:34:35.838] Server  LOG      ✓ Compiled in 52ms
+[00:34:36.355] Browser ERROR   ./components/TransformSection/TransformSection.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/TransformSection/TransformSection.css:60:3: Unknown word ma
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/TransformSection/TransformSection.css [Client Component Browser]
+    ./components/TransformSection/TransformSection.jsx [Server Component]
+    ./app/layout.js [Server Component]
+[00:34:46.634] Server  LOG      ✓ Compiled in 11ms
+[00:35:05.552] Server  LOG      ✓ Compiled in 11ms
+[00:35:09.236] Server  LOG      ✓ Compiled in 12ms
+[00:35:15.331] Server  LOG      ✓ Compiled in 14ms
+[00:35:18.803] Server  LOG      ✓ Compiled in 12ms
+[00:35:27.438] Server  LOG      ✓ Compiled in 12ms
+[00:35:34.701] Server  LOG      ✓ Compiled in 12ms
+[00:35:41.500] Server  LOG      ✓ Compiled in 11ms
+[00:36:34.608] Server  LOG      ✓ Compiled in 13ms
+[00:36:39.449] Server  LOG      ✓ Compiled in 13ms
+[00:36:40.356] Browser ERROR   ./components/PricingCards/PricingCards.css:29:16
+Parsing CSS source code failed
+  27 | .pricing-card.dark {
+  28 |   background: linear-gradient(to right, #373d87 0%, #151a4d 100%);
+> 29 |   color: white !;
+     |                ^
+  30 | }
+  31 |
+  32 | .card-title {
+
+Unexpected token Delim('!')
+
+Import trace:
+  Client Component Browser:
+    ./components/PricingCards/PricingCards.css [Client Component Browser]
+    ./components/PricingCards/PricingCards.jsx [Server Component]
+    ./app/care-services/page.js [Server Component]
+[00:40:55.241] Server  LOG      ✓ Compiled in 13ms
+[00:40:56.954] Server  LOG      ✓ Compiled in 10ms
+[00:40:58.958] Server  LOG      ✓ Compiled in 12ms
+[00:41:02.540] Server  LOG      ✓ Compiled in 11ms
+[00:41:23.553] Server  LOG      ✓ Compiled in 12ms
+[00:41:25.754] Server  LOG      ✓ Compiled in 10ms
+[00:41:29.019] Server  LOG      ✓ Compiled in 13ms
+[00:42:58.432] Server  LOG      ✓ Compiled in 13ms
+[00:43:10.796] Server  LOG      ✓ Compiled in 10ms
+[00:43:13.422] Server  LOG      ✓ Compiled in 18ms
+[00:43:20.776] Server  LOG      ✓ Compiled in 11ms
+[01:37:16.315] Browser WARN    Image with src "/images/services/teethcleaning.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:47:20.410] Server  LOG      ✓ Compiled in 35ms
+[01:47:45.571] Server  ERROR    ⨯ ReferenceError: clo is not defined
+[01:47:45.921] Server  ERROR    ⨯ ReferenceError: clo is not defined
+[01:47:45.924] Server  LOG      ✓ Compiled in 296ms
+[01:47:46.366] Server  ERROR    ⨯ ReferenceError: clo is not defined
+[01:47:46.759] Server  ERROR    ⨯ ReferenceError: clo is not defined
+[01:47:47.126] Server  ERROR    ⨯ ReferenceError: clo is not defined
+[01:47:47.441] Server  ERROR    ⨯ ReferenceError: clo is not defined
+[01:47:47.691] Browser ERROR   uncaughtError: ReferenceError: clo is not defined
+[01:47:48.004] Server  LOG      ✓ Compiled in 5ms
+[01:47:49.413] Server  LOG      ✓ Compiled in 113ms
+[01:48:35.289] Browser ERROR   ./public/assets/data.js:1:27
+Parsing ecmascript source code failed
+> 1 | import { Clock, Locatio   nEdit, Mail, Phone } from "lucide-react";
+    |                           ^^^^^
+  2 |
+  3 | export const HEADER_LINKS = [
+  4 |   {
+
+Expected ',', got 'nEdit'
+
+Import trace:
+  Server Component:
+    ./public/assets/data.js
+    ./components/Header/Header.js
+    ./app/layout.js
+[01:48:36.730] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:51:08.778] Server  LOG      ✓ Compiled in 45ms
+[01:51:22.538] Server  LOG      ✓ Compiled in 6ms
+[01:51:51.359] Server  LOG      ✓ Compiled in 12ms
+[01:52:06.987] Server  LOG      ✓ Compiled in 30ms
+[01:52:10.415] Server  LOG      ✓ Compiled in 61ms
+[01:52:48.410] Server  LOG      ✓ Compiled in 10ms
+[01:52:55.424] Server  LOG      ✓ Compiled in 42ms
+[01:53:05.631] Server  LOG      ✓ Compiled in 11ms
+[01:53:08.437] Server  LOG      ✓ Compiled in 11ms
+[01:53:16.272] Server  LOG      ✓ Compiled in 11ms
+[01:53:18.961] Server  LOG      ✓ Compiled in 12ms
+[01:53:21.355] Server  LOG      ✓ Compiled in 12ms
+[01:53:33.318] Server  LOG      ✓ Compiled in 10ms
+[01:53:34.700] Server  LOG      ✓ Compiled in 13ms
+[01:53:35.977] Server  LOG      ✓ Compiled in 13ms
+[01:53:45.713] Server  LOG      ✓ Compiled in 51ms
+[01:53:46.291] Browser ERROR   ./components/ContactInfo/ContactInfo.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactInfo/ContactInfo.css:14:3: Unknown word max
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactInfo/ContactInfo.css [Client Component Browser]
+    ./components/ContactInfo/ContactInfo.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[01:53:48.353] Server  LOG      ✓ Compiled in 11ms
+[01:54:12.996] Server  LOG      ✓ Compiled in 38ms
+[01:54:13.291] Browser ERROR   ./components/ContactInfo/ContactInfo.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactInfo/ContactInfo.css:15:3: Unknown word wi
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactInfo/ContactInfo.css [Client Component Browser]
+    ./components/ContactInfo/ContactInfo.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[01:54:15.292] Browser ERROR   ./components/ContactInfo/ContactInfo.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactInfo/ContactInfo.css:15:3: Unknown word widh
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactInfo/ContactInfo.css [Client Component Browser]
+    ./components/ContactInfo/ContactInfo.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[01:54:17.358] Server  LOG      ✓ Compiled in 15ms
+[01:54:40.357] Server  LOG      ✓ Compiled in 17ms
+[01:55:18.366] Server  LOG      ✓ Compiled in 26ms
+[02:01:27.356] Server  LOG      ✓ Compiled in 10ms
+[02:01:35.078] Server  LOG      ✓ Compiled in 12ms
+[02:01:37.120] Server  LOG      ✓ Compiled in 10ms
+[02:01:39.615] Server  LOG      ✓ Compiled in 11ms
+[02:01:40.107] Browser ERROR   ./components/ContactForm/ContactForm.css:9:22
+Parsing CSS source code failed
+   7 |   display: inline-block;
+   8 |   border: 1px solid #e5e5e5;
+>  9 |   padding: 10px 12px !;
+     |                      ^
+  10 |   border-radius: 25px;
+  11 |   font-size: 14px;
+  12 | }
+
+Unexpected token Delim('!')
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[02:01:47.668] Server  LOG      ✓ Compiled in 9ms
+[02:01:56.458] Server  LOG      ✓ Compiled in 12ms
+[02:02:07.909] Server  LOG      ✓ Compiled in 54ms
+[02:02:08.290] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:12:3: Unknown word font-size
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[02:02:11.072] Server  LOG      ✓ Compiled in 11ms
+[02:02:32.215] Server  LOG      ✓ Compiled in 36ms
+[02:02:33.289] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:17:3: Unknown word margin
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[02:02:41.290] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:17:3: Unknown word margin
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[02:02:45.291] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:17:3: Unknown word margin
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[02:02:47.291] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:17:3: Unknown word margin
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[02:02:52.289] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:17:3: Unknown word margin
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[02:02:59.244] Server  LOG      ✓ Compiled in 38ms
+[02:03:00.290] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:16:3: Unknown word text-
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[02:03:03.527] Server  LOG      ✓ Compiled in 11ms
+[02:03:13.401] Server  LOG      ✓ Compiled in 55ms
+[02:03:20.359] Server  LOG      ✓ Compiled in 19ms
+[02:03:29.650] Server  LOG      ✓ Compiled in 38ms
+[02:04:00.183] Server  LOG      ✓ Compiled in 13ms
+[02:04:33.535] Server  LOG      ✓ Compiled in 10ms
+[02:04:35.356] Server  LOG      ✓ Compiled in 6ms
+[02:05:14.396] Server  LOG      ✓ Compiled in 16ms
+[02:05:15.290] Browser ERROR   ./components/ContactForm/ContactForm.jsx:37:39
+Parsing ecmascript source code failed
+  35 |         {/* row for name & email  */}
+  36 |         <div className="form-row">
+> 37 |           <div className="from-group" "">
+     |                                       ^^
+  38 |             <input
+  39 |               type="text"
+  40 |               name="name"
+
+Expected '</', got 'string literal (, "")'
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:05:17.293] Browser ERROR   ./components/ContactForm/ContactForm.jsx:37:39
+Parsing ecmascript source code failed
+  35 |         {/* row for name & email  */}
+  36 |         <div className="form-row">
+> 37 |           <div className="from-group" "full-name">
+     |                                       ^^^^^^^^^^^
+  38 |             <input
+  39 |               type="text"
+  40 |               name="name"
+
+Expected '</', got 'string literal (full-name, "full-name")'
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:05:28.087] Server  LOG      ✓ Compiled in 15ms
+[02:06:37.237] Server  LOG      ✓ Compiled in 10ms
+[02:06:42.396] Server  LOG      ✓ Compiled in 12ms
+[02:06:55.714] Server  LOG      ✓ Compiled in 11ms
+[02:07:26.847] Server  LOG      ✓ Compiled in 37ms
+[02:07:27.290] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:47:1: Unknown word .
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[02:07:33.290] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:47:1: Unknown word .fu
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[02:07:35.290] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:47:1: Unknown word .full-name
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[02:07:42.158] Server  LOG      ✓ Compiled in 12ms
+[02:09:22.257] Server  LOG      ✓ Compiled in 11ms
+[02:11:18.739] Server  LOG      ✓ Compiled in 17ms
+[02:11:25.350] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:11:25.581] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/contact-us" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[02:14:04.732] Server  LOG      ✓ Compiled in 18ms
+[02:14:05.291] Browser ERROR   ./components/ContactForm/ContactForm.jsx:83:14
+Parsing ecmascript source code failed
+  81 |           Send Message
+  82 |         </button>
+> 83 |       </form>
+     |              ^
+> 84 |     </section>
+     | ^^^^^
+  85 |   );
+  86 | }
+  87 |
+
+Expected '</', got 'jsx text (
+    )'
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:14:31.030] Server  LOG      ✓ Compiled in 26ms
+[02:15:59.714] Server  LOG      ✓ Compiled in 102ms
+[02:16:00.290] Browser ERROR   ./components/ContactForm/ContactForm.css:31:20
+Parsing CSS source code failed
+  29 | .form-row {
+  30 |   display: flex;
+> 31 |   //flex-wrap: flex;
+     |                    ^
+  32 |   gap: 50px;
+  33 | }
+  34 | .form-group {
+
+Unexpected token Semicolon
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[02:16:04.382] Server  LOG      ✓ Compiled in 10ms
+[02:16:11.897] Server  LOG      ✓ Compiled in 11ms
+[02:16:20.190] Server  LOG      ✓ Compiled in 12ms
+[02:16:54.328] Browser WARN    Image with src "/images/services/teethcleaning.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:16:54.935] Browser WARN    Image with src "/images/appointment.avif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:19:16.425] Server  LOG      ✓ Compiled in 21ms
+[02:19:34.314] Server  LOG      ✓ Compiled in 14ms
+[02:19:38.382] Server  LOG      ✓ Compiled in 14ms
+[02:19:39.567] Server  LOG      ✓ Compiled in 13ms
+[02:19:40.837] Server  LOG      ✓ Compiled in 10ms
+[02:19:41.290] Browser ERROR   ./components/ContactForm/ContactForm.jsx:37:39
+Parsing ecmascript source code failed
+  35 |         {/* row for name & email  */}
+  36 |         <div className="form-row">
+> 37 |           <div className="from-group" "full-name">
+     |                                       ^^^^^^^^^^^
+  38 |             <input
+  39 |               type="text"
+  40 |               name="name"
+
+Expected '</', got 'string literal (full-name, "full-name")'
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:19:53.114] Server  LOG      ✓ Compiled in 34ms
+[02:19:53.290] Browser ERROR   ./components/ContactForm/ContactForm.jsx:58:15
+Parsing ecmascript source code failed
+  56 |             />
+  57 |           </div>
+> 58 |         </div>
+     |               ^
+> 59 |         {/* phone field  */}
+     | ^^^^^^^^^
+  60 |         <div className="form-group">
+  61 |           <input
+  62 |             type="tel"
+
+Expected '</', got 'jsx text (
+        )'
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:20:11.301] Server  LOG      ✓ Compiled in 18ms
+[02:20:12.289] Browser ERROR   ./components/ContactForm/ContactForm.jsx:58:15
+Parsing ecmascript source code failed
+  56 |             />
+  57 |           </div>
+> 58 |         </div>
+     |               ^
+> 59 |         {/* phone field  */}
+     | ^^^^^^^^^
+  60 |         <div className="form-group">
+  61 |           <input
+  62 |             type="tel"
+
+Expected '</', got 'jsx text (
+        )'
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:20:37.890] Server  LOG      ✓ Compiled in 17ms
+[02:21:04.864] Server  LOG      ✓ Compiled in 15ms
+[02:21:19.039] Server  LOG      ✓ Compiled in 13ms
+[02:21:23.172] Server  LOG      ✓ Compiled in 13ms
+[02:21:26.120] Server  LOG      ✓ Compiled in 80ms
+[02:22:52.127] Server  LOG      ✓ Compiled in 13ms
+[02:23:04.929] Server  LOG      ✓ Compiled in 14ms
+[02:24:18.151] Server  LOG      ✓ Compiled in 15ms
+[02:24:18.290] Browser ERROR   ./components/ContactForm/ContactForm.jsx:58:15
+Parsing ecmascript source code failed
+  56 |             />
+  57 |           </div>
+> 58 |         </div>
+     |               ^
+> 59 |         {/* phone field  */}
+     | ^^^^^^^^^
+  60 |         <div className="form-group">
+  61 |           <input
+  62 |             type="tel"
+
+Expected '</', got 'jsx text (
+        )'
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:25:07.775] Server  LOG      ✓ Compiled in 11ms
+[02:25:32.533] Server  LOG      ✓ Compiled in 10ms
+[02:29:15.330] Server  LOG      ✓ Compiled in 11ms
+[02:29:35.365] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:30:22.895] Server  LOG      ✓ Compiled in 14ms
+[02:30:28.498] Server  LOG      ✓ Compiled in 15ms
+[02:30:29.292] Browser ERROR   ./components/ContactForm/ContactForm.jsx:36:11
+Parsing ecmascript source code failed
+  34 |       <form className="contact-form" onSubmit={handleSubmit}>
+  35 |         <div 
+> 36 |           <div className="form-group">
+     |           ^
+  37 |             <input
+  38 |               type="text"
+  39 |               name="name"
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:30:33.668] Server  LOG      ✓ Compiled in 15ms
+[02:30:34.289] Browser ERROR   ./components/ContactForm/ContactForm.jsx:83:14
+Parsing ecmascript source code failed
+  81 |           Send Message
+  82 |         </button>
+> 83 |       </form>
+     |              ^
+> 84 |     </section>
+     | ^^^^^
+  85 |   );
+  86 | }
+  87 |
+
+Expected '</', got 'jsx text (
+    )'
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:30:41.290] Browser ERROR   ./components/ContactForm/ContactForm.jsx:48:11
+Parsing ecmascript source code failed
+  46 |           </div>
+  47 |           <
+> 48 |           <div className="form-group">
+     |           ^
+  49 |             <input
+  50 |               type="email"
+  51 |               name="email"
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:30:43.289] Browser ERROR   ./components/ContactForm/ContactForm.jsx:48:11
+Parsing ecmascript source code failed
+  46 |           </div>
+  47 |           </
+> 48 |           <div className="form-group">
+     |           ^
+  49 |             <input
+  50 |               type="email"
+  51 |               name="email"
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:31:32.278] Server  LOG      ✓ Compiled in 17ms
+[02:31:33.289] Browser ERROR   ./components/ContactForm/ContactForm.jsx:47:17
+Parsing ecmascript source code failed
+  45 |             />
+  46 |           </div>
+> 47 |           </div>
+     |                 ^
+> 48 |           <div className="form-group">
+     | ^^^^^^^^^^^
+  49 |             <input
+  50 |               type="email"
+  51 |               name="email"
+
+Expected '</', got 'jsx text (
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:31:35.290] Browser ERROR   ./components/ContactForm/ContactForm.jsx:48:17
+Parsing ecmascript source code failed
+  46 |             />
+  47 |           </div>
+> 48 |           </div>
+     |                 ^
+> 49 |           <div className="form-group">
+     | ^^^^^^^^^^^
+  50 |             <input
+  51 |               type="email"
+  52 |               name="email"
+
+Expected '</', got 'jsx text (
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:31:46.135] Server  LOG      ✓ Compiled in 11ms
+[02:31:48.373] Server  LOG      ✓ Compiled in 48ms
+[02:31:49.290] Browser ERROR   ./components/ContactForm/ContactForm.jsx:51:13
+Parsing ecmascript source code failed
+  49 |           <div className="form-group">
+  50 |             <div
+> 51 |             <input
+     |             ^
+  52 |               type="email"
+  53 |               name="email"
+  54 |               placeholder="Email *"
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:31:54.128] Server  LOG      ✓ Compiled in 13ms
+[02:31:54.289] Browser ERROR   ./components/ContactForm/ContactForm.jsx:86:14
+Parsing ecmascript source code failed
+  84 |           Send Message
+  85 |         </button>
+> 86 |       </form>
+     |              ^
+> 87 |     </section>
+     | ^^^^^
+  88 |   );
+  89 | }
+  90 |
+
+Expected '</', got 'jsx text (
+    )'
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:31:59.289] Browser ERROR   ./components/ContactForm/ContactForm.jsx:62:9
+Parsing ecmascript source code failed
+  60 |           <
+  61 |         
+> 62 |         {/* phone field  */}
+     |         ^
+  63 |         <div className="form-group">
+  64 |           <input
+  65 |             type="tel"
+
+Expected '</', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:32:00.290] Browser ERROR   ./components/ContactForm/ContactForm.jsx:62:9
+Parsing ecmascript source code failed
+  60 |           </
+  61 |         
+> 62 |         {/* phone field  */}
+     |         ^
+  63 |         <div className="form-group">
+  64 |           <input
+  65 |             type="tel"
+
+Expected '</', got '{'
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:32:38.632] Server  LOG      ✓ Compiled in 23ms
+[02:32:39.290] Browser ERROR   ./components/ContactForm/ContactForm.jsx:60:17
+Parsing ecmascript source code failed
+  58 |             />
+  59 |           </div>
+> 60 |           </div>
+     |                 ^
+> 61 |         
+     | ^^^^^^^^
+> 62 |         {/* phone field  */}
+     | ^^^^^^^^^
+  63 |         <div className="form-group">
+  64 |           <input
+  65 |             type="tel"
+
+Expected '</', got 'jsx text (
+        
+        )'
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:32:41.290] Browser ERROR   ./components/ContactForm/ContactForm.jsx:61:17
+Parsing ecmascript source code failed
+  59 |             />
+  60 |           </div>
+> 61 |           </div>
+     |                 ^
+> 62 |         
+     | ^^^^^^^^
+> 63 |         {/* phone field  */}
+     | ^^^^^^^^^
+  64 |         <div className="form-group">
+  65 |           <input
+  66 |             type="tel"
+
+Expected '</', got 'jsx text (
+        
+        )'
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:32:47.021] Server  LOG      ✓ Compiled in 16ms
+[02:32:47.290] Browser ERROR   ./components/ContactForm/ContactForm.jsx:48:17
+Parsing ecmascript source code failed
+  46 |             />
+  47 |           </div>
+> 48 |           </div>
+     |                 ^
+> 49 |           <div className="form-row">
+     | ^^^^^^^^^^^
+  50 |           <div className="form-group">
+  51 |             
+  52 |             <input
+
+Expected '</', got 'jsx text (
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:33:00.558] Server  LOG      ✓ Compiled in 54ms
+[02:33:02.483] Server  LOG      ✓ Compiled in 15ms
+[02:33:23.052] Server  LOG      ✓ Compiled in 13ms
+[02:33:25.715] Server  LOG      ✓ Compiled in 10ms
+[02:33:27.573] Server  LOG      ✓ Compiled in 13ms
+[02:33:32.957] Server  LOG      ✓ Compiled in 12ms
+[02:33:36.948] Server  LOG      ✓ Compiled in 10ms
+[02:33:45.437] Server  LOG      ✓ Compiled in 16ms
+[02:33:46.290] Browser ERROR   ./components/ContactForm/ContactForm.jsx:88:14
+Parsing ecmascript source code failed
+  86 |           Send Message
+  87 |         </button>
+> 88 |       </form>
+     |              ^
+> 89 |     </section>
+     | ^^^^^
+  90 |   );
+  91 | }
+  92 |
+
+Expected '</', got 'jsx text (
+    )'
+
+Import traces:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./components/ContactForm/ContactForm.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Client Component SSR]
+    ./app/contact-us/page.jsx [Server Component]
+[02:34:02.217] Server  LOG      ✓ Compiled in 11ms
+[02:34:28.748] Server  LOG      ✓ Compiled in 55ms
+[02:34:29.290] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:5:3: Unknown word text-align
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[02:34:39.674] Server  LOG      ✓ Compiled in 13ms
+[02:34:45.684] Server  LOG      ✓ Compiled in 12ms
+[02:34:50.905] Server  LOG      ✓ Compiled in 11ms
+[02:35:09.509] Server  LOG      ✓ Compiled in 9ms
+[02:35:26.721] Server  LOG      ✓ Compiled in 35ms
+[02:35:27.290] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:28:3: Unknown word h
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[02:35:35.536] Server  LOG      ✓ Compiled in 36ms
+[02:35:36.290] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:28:3: Unknown word h
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[02:35:44.378] Server  LOG      ✓ Compiled in 10ms
+[02:35:51.299] Server  LOG      ✓ Compiled in 11ms
+[02:35:52.434] Server  LOG      ✓ Compiled in 10ms
+[02:35:58.983] Server  LOG      ✓ Compiled in 10ms
+[02:36:01.984] Server  LOG      ✓ Compiled in 37ms
+[02:36:02.290] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:47:1: Unknown word .full-name
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[02:36:28.896] Server  LOG      ✓ Compiled in 35ms
+[02:36:29.290] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:27:3: Unknown word box-shadow
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[02:36:34.449] Server  LOG      ✓ Compiled in 10ms
+[02:36:39.195] Server  LOG      ✓ Compiled in 10ms
+[02:36:58.148] Server  LOG      ✓ Compiled in 91ms
+[02:37:31.530] Server  LOG      ✓ Compiled in 9ms
+[02:37:32.839] Server  LOG      ✓ Compiled in 10ms
+[03:01:15.012] Server  LOG      ✓ Compiled in 39ms
+[03:03:16.079] Server  LOG      ✓ Compiled in 65ms
+[03:03:16.291] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:29:3: Unknown word m
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[03:03:21.488] Server  LOG      ✓ Compiled in 14ms
+[03:05:02.040] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:05:02.514] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/contact-us" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.js">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[03:05:57.570] Server  LOG      ✓ Compiled in 17ms
+[03:06:37.292] Server  LOG      ✓ Compiled in 39ms
+[03:06:38.291] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:29:3: Unknown word ro
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[03:06:41.452] Server  LOG      ✓ Compiled in 19ms
+[03:06:51.760] Server  LOG      ✓ Compiled in 13ms
+[03:06:57.388] Server  LOG      ✓ Compiled in 10ms
+[03:08:07.060] Server  LOG      ✓ Compiled in 9ms
+[03:08:11.409] Server  LOG      ✓ Compiled in 11ms
+[03:08:37.745] Server  LOG      ✓ Compiled in 12ms
+[03:08:40.375] Server  LOG      ✓ Compiled in 12ms
+[03:08:45.359] Server  LOG      ✓ Compiled in 14ms
+[03:09:14.636] Server  LOG      ✓ Compiled in 38ms
+[03:09:15.290] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:48:1: Unknown word form
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[03:09:34.760] Server  LOG      ✓ Compiled in 38ms
+[03:09:35.289] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:49:3: Unknown word widht
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[03:09:38.521] Server  LOG      ✓ Compiled in 17ms
+[03:09:45.899] Server  LOG      ✓ Compiled in 39ms
+[03:09:46.290] Browser ERROR   ./components/ContactForm/ContactForm.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/ContactForm/ContactForm.css:50:3: Unknown word text
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./components/ContactForm/ContactForm.css [Client Component Browser]
+    ./components/ContactForm/ContactForm.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Client Component Browser]
+    ./app/contact-us/page.jsx [Server Component]
+[03:09:51.364] Server  LOG      ✓ Compiled in 11ms
+[03:10:00.463] Server  LOG      ✓ Compiled in 12ms
+[03:10:08.865] Server  LOG      ✓ Compiled in 10ms
+[03:10:18.014] Server  LOG      ✓ Compiled in 16ms
+[03:10:22.356] Server  LOG      ✓ Compiled in 11ms
+[03:11:17.398] Server  LOG      ✓ Compiled in 11ms
+[03:11:20.367] Server  LOG      ✓ Compiled in 20ms
+[03:11:26.561] Server  LOG      ✓ Compiled in 10ms
+[03:13:17.952] Server  LOG      ✓ Compiled in 108ms
+[03:13:18.289] Browser ERROR   ./components/Header/Header.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/Header/Header.module.css:8:3: Unknown word width
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Server Component:
+    ./components/Header/Header.module.css
+    ./components/Header/Header.js
+    ./app/layout.js
+[03:13:22.289] Browser ERROR   ./components/Header/Header.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/Header/Header.module.css:8:3: Unknown word width
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Server Component:
+    ./components/Header/Header.module.css
+    ./components/Header/Header.js
+    ./app/layout.js
+[03:13:25.377] Server  LOG      ✓ Compiled in 12ms
+[03:13:37.643] Server  LOG      ✓ Compiled in 15ms
+[03:13:44.426] Server  LOG      ✓ Compiled in 12ms
+[03:13:52.590] Server  LOG      ✓ Compiled in 13ms
+[03:13:53.835] Server  LOG      ✓ Compiled in 12ms
+[03:14:25.670] Server  LOG      ✓ Compiled in 13ms
+[03:14:28.076] Server  LOG      ✓ Compiled in 15ms
+[03:15:02.959] Server  LOG      ✓ Compiled in 10ms
+[03:15:05.214] Server  LOG      ✓ Compiled in 12ms
+[03:26:34.291] Browser ERROR   ./components/Header/Header.js:4:57
+Parsing ecmascript source code failed
+  2 | import styles from './Header.module.css';
+  3 | import Image from 'next/image';
+> 4 | import { HEADER_LINKS } from '../../public/assets/data';\
+    |                                                         ^
+  5 |
+  6 | export default function Header() {
+  7 |   return (
+
+Expected unicode escape
+
+Import trace:
+  Server Component:
+    ./components/Header/Header.js
+    ./app/layout.js
+[03:26:38.299] Server  ERROR    ⨯ ReferenceError: impor is not defined
+[03:26:38.695] Server  ERROR    ⨯ ReferenceError: impor is not defined
+[03:26:39.097] Server  ERROR    ⨯ ReferenceError: impor is not defined
+[03:26:39.382] Server  ERROR    ⨯ ReferenceError: impor is not defined
+[03:26:39.383] Server  LOG      ✓ Compiled in 0ms
+[03:26:40.775] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:26:41.293] Browser WARN    Image with src "/images/services/teethcleaning.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:26:41.293] Browser WARN    Image with src "/images/appointment.avif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:26:43.109] Server  LOG      ✓ Compiled in 48ms
+[03:27:16.061] Server  LOG      ✓ Compiled in 142ms
+[03:27:23.236] Server  LOG      ✓ Compiled in 152ms
+[03:30:56.347] Server  LOG      ✓ Compiled in 0ms
+[03:33:12.066] Server  LOG      ✓ Compiled in 11ms
+[03:33:13.319] Server  LOG      ✓ Compiled in 10ms
+[03:33:19.656] Server  LOG      ✓ Compiled in 12ms
+[03:33:21.673] Server  LOG      ✓ Compiled in 9ms
+[03:33:22.771] Server  LOG      ✓ Compiled in 11ms
+[03:33:24.368] Server  LOG      ✓ Compiled in 18ms
+[03:33:37.394] Server  LOG      ✓ Compiled in 11ms
+[03:33:51.379] Server  LOG      ✓ Compiled in 33ms
+[03:35:13.358] Server  LOG      ✓ Compiled in 14ms
+[03:36:31.852] Server  LOG      ✓ Compiled in 61ms
+[03:36:32.290] Browser ERROR   ./components/Header/Header.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/Header/Header.module.css:69:3: Unknown word background
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Server Component:
+    ./components/Header/Header.module.css
+    ./components/Header/Header.js
+    ./app/layout.js
+[03:36:34.290] Browser ERROR   ./components/Header/Header.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/Header/Header.module.css:69:3: Unknown word background
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+
+Import trace:
+  Server Component:
+    ./components/Header/Header.module.css
+    ./components/Header/Header.js
+    ./app/layout.js
+[03:36:36.029] Server  LOG      ✓ Compiled in 456ms
+[03:36:50.312] Server  LOG      ✓ Compiled in 10ms
+[03:37:05.368] Server  LOG      ✓ Compiled in 27ms
+[03:37:08.420] Server  LOG      ✓ Compiled in 11ms
+[03:37:11.385] Server  LOG      ✓ Compiled in 10ms
+[03:37:20.474] Server  LOG      ✓ Compiled in 12ms
+[03:38:37.013] Server  LOG      ✓ Compiled in 11ms
+[03:38:38.389] Server  LOG      ✓ Compiled in 11ms
+[03:38:46.130] Server  LOG      ✓ Compiled in 10ms
+[03:38:52.225] Server  LOG      ✓ Compiled in 44ms
+[03:38:53.289] Browser ERROR   ./components/Header/Header.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/Header/Header.module.css:74:20: Unknown word s
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Server Component:
+    ./components/Header/Header.module.css
+    ./components/Header/Header.js
+    ./app/layout.js
+[03:38:57.983] Server  LOG      ✓ Compiled in 10ms
+[03:39:16.958] Server  LOG      ✓ Compiled in 22ms
+[03:39:59.674] Server  LOG      ✓ Compiled in 0ms
+[03:40:08.457] Server  LOG      ✓ Compiled in 40ms
+[03:40:09.103] Browser ERROR   ./components/Header/Header.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/Header/Header.module.css:70:3: Unknown word jus
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Server Component:
+    ./components/Header/Header.module.css
+    ./components/Header/Header.js
+    ./app/layout.js
+[03:40:11.270] Server  LOG      ✓ Compiled in 806ms
+[03:40:36.447] Server  LOG      ✓ Compiled in 12ms
+[03:40:39.576] Server  LOG      ✓ Compiled in 10ms
+[03:42:19.932] Server  LOG      ✓ Compiled in 38ms
+[03:42:20.373] Browser ERROR   ./components/Header/Header.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/Header/Header.module.css:68:3: Unknown word mar
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Server Component:
+    ./components/Header/Header.module.css
+    ./components/Header/Header.js
+    ./app/layout.js
+[03:42:23.369] Server  LOG      ✓ Compiled in 10ms
+[03:42:31.614] Server  LOG      ✓ Compiled in 39ms
+[03:42:32.289] Browser ERROR   ./components/Header/Header.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/Header/Header.module.css:78:3: Unknown word marfgin
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Server Component:
+    ./components/Header/Header.module.css
+    ./components/Header/Header.js
+    ./app/layout.js
+[03:42:34.290] Browser ERROR   ./components/Header/Header.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/Header/Header.module.css:78:3: Unknown word mar
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Server Component:
+    ./components/Header/Header.module.css
+    ./components/Header/Header.js
+    ./app/layout.js
+[03:42:38.289] Browser ERROR   ./components/Header/Header.module.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/Header/Header.module.css:78:3: Unknown word marg
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Server Component:
+    ./components/Header/Header.module.css
+    ./components/Header/Header.js
+    ./app/layout.js
+[03:42:39.437] Server  LOG      ✓ Compiled in 362ms
+[03:42:40.379] Server  LOG      ✓ Compiled in 12ms

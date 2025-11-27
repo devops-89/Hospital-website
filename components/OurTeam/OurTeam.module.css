@@ -1,0 +1,87 @@
+.section {
+  width: 100%;
+  padding: 80px 40px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+/* LEFT SIDE */
+.left {
+  flex: 1;
+}
+
+.tag {
+  background: #f2f4ff;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.heading {
+  margin: 25px 0 40px;
+  font-size: 55px;
+}
+
+/* .btn {
+  background: #0d1440;
+  color: white;
+  padding: 16px 30px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn svg {
+  background: white;
+  color: #0d1440;
+  border-radius: 50%;
+  padding: 5px;
+} */
+
+/* RIGHT SIDE CARD */
+.right {
+  flex: 1.2;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 620px;
+  border-radius: 26px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.06);
+}
+
+.heroImg {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.info {
+  padding: 25px 20px;
+}
+
+.info h3 {
+  font-size: 24px;
+}
+
+.info p {
+  font-size: 16px;
+  margin-top: 6px;
+}

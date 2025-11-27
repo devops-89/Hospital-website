@@ -1,0 +1,127 @@
+.cardsWrapper {
+  display: flex;
+  gap: 15px;
+  margin-top: 50px;
+  flex-wrap: wrap;       
+  justify-content: center;
+}
+
+.card {
+  background: #ffffffcc;
+  backdrop-filter: blur(12px);
+  border-radius: 22px;
+  padding: 28px;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 25px 55px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ------------ TEXT ------------ */
+
+.title {
+  font-size: 20px;
+}
+
+.desc {
+  font-size: 15px;
+}
+
+/* ------------ BUTTON ------------ */
+/* 
+.exploreBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+} */
+
+/* ------------ STAT CARD ------------ */
+
+.statNumber {
+  font-size: 26px;
+}
+
+.statLabel {
+  font-size: 15px;
+}
+
+.statIcon {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+/* ------------ PROFILE IMAGES ------------ */
+
+.peopleRow {
+  display: flex;
+  gap: -10px;
+  margin-top: 15px;
+}
+
+.personImg {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+/* ------------ QUOTE ------------ */
+
+.quote {
+  font-size: 15px;
+}
+
+.quoteName {
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+
+/* Mobile (max-width: 600px) */
+@media (max-width: 600px) {
+
+  .cardsWrapper {
+    gap: 16px;
+  }
+
+  .card {
+    width: 100%;         
+    height: auto;        
+    padding: 22px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+
+  .statNumber {
+    font-size: 22px;
+  }
+
+  .personImg {
+    width: 36px;
+    height: 36px;
+  }
+
+  .quote {
+    font-size: 14px;
+  }
+}
+
+/* 📱 Tablet (600px–900px) */
+@media (min-width: 600px) and (max-width: 900px) {
+  .card {
+    width: 45%;          
+  }
+}

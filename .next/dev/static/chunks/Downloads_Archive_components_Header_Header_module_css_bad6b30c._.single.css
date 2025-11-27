@@ -1,0 +1,89 @@
+/* [project]/Downloads/Archive/components/Header/Header.module.css [app-client] (css) */
+.Header-module__fAmccq__header {
+  z-index: 999;
+  background: #fff;
+  align-items: center;
+  width: 100%;
+  height: 96px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 4px #0000000d;
+}
+
+.Header-module__fAmccq__container {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1600px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+}
+
+.Header-module__fAmccq__logoBox {
+  align-items: center;
+  display: flex;
+}
+
+.Header-module__fAmccq__logo {
+  object-fit: contain;
+}
+
+.Header-module__fAmccq__nav {
+  gap: 2px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.Header-module__fAmccq__link {
+  color: #13195c;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.Header-module__fAmccq__active {
+  color: #13195c;
+  background: #eef0f8;
+  border-radius: 30px;
+  padding: 12px 20px;
+}
+
+.Header-module__fAmccq__link:hover {
+  color: #2a7ae2;
+}
+
+.Header-module__fAmccq__button {
+  color: #13195c;
+  cursor: pointer;
+  background: #dee2f5;
+  border: 2px solid #e2e4ef;
+  border-radius: 40px;
+  padding: 15px 40px;
+  font-size: 22px;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.Header-module__fAmccq__button:hover {
+  background: #d4d7eb;
+}
+
+@media (max-width: 1400px) {
+  .Header-module__fAmccq__container {
+    max-width: 1100px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .Header-module__fAmccq__nav {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=Downloads_Archive_components_Header_Header_module_css_bad6b30c._.single.css.map*/

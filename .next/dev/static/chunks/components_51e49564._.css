@@ -1,0 +1,197 @@
+/* [project]/components/PricingCards/PricingCards.css [app-client] (css) */
+.pricing-cards-section {
+  background-color: #f9f9f9;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 80px 10px;
+  display: flex;
+}
+
+.pricing-card {
+  text-align: left;
+  border-radius: 20px;
+  flex: 1;
+  min-width: 250px;
+  max-width: 350px;
+  padding: 40px 30px;
+  transition: all .3s;
+  box-shadow: 0 4px 15px #00000014;
+}
+
+.pricing-card.light {
+  color: #0a0a3a;
+  background: linear-gradient(#fff, #d8dbfa);
+}
+
+.pricing-card.dark {
+  color: #fff;
+  background: linear-gradient(to right, #1a247d 20%, #161c56 80%);
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+}
+
+.card-list {
+  margin: 0 0 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.card-list li {
+  border-bottom: 1px dashed #0000001a;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  font-size: 1rem;
+  display: flex;
+}
+
+.dark .card-list li {
+  border-color: #fff3;
+}
+
+@media (max-width: 992px) {
+  .pricing-cards-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-card {
+    max-width: 500px;
+  }
+}
+
+/* [project]/components/AppointmentSection/AppointmentSection.module.css [app-client] (css) */
+.AppointmentSection-module__EscrzW__section {
+  background: linear-gradient(135deg, #fff 0%, #b6baf9 100%);
+  border-radius: 18px;
+  width: 100%;
+  padding: 80px 40px;
+}
+
+.AppointmentSection-module__EscrzW__container {
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+}
+
+.AppointmentSection-module__EscrzW__left {
+  flex: 1;
+}
+
+.AppointmentSection-module__EscrzW__right {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+}
+
+.AppointmentSection-module__EscrzW__tag {
+  background: #e9edfb;
+  border-radius: 12px;
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.AppointmentSection-module__EscrzW__heading {
+  margin: 20px 0 40px;
+  font-size: 48px;
+}
+
+.AppointmentSection-module__EscrzW__form {
+  width: 100%;
+}
+
+.AppointmentSection-module__EscrzW__row {
+  gap: 25px;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.AppointmentSection-module__EscrzW__field, .AppointmentSection-module__EscrzW__fieldFull {
+  flex-direction: column;
+  display: flex;
+}
+
+.AppointmentSection-module__EscrzW__field input, .AppointmentSection-module__EscrzW__fieldFull input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #d7d7d7;
+  outline: none;
+  padding: 14px;
+  font-size: 16px;
+}
+
+.AppointmentSection-module__EscrzW__fieldFull textarea {
+  resize: none;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #d7d7d7;
+  outline: none;
+  height: 80px;
+  padding: 14px;
+}
+
+.AppointmentSection-module__EscrzW__field label, .AppointmentSection-module__EscrzW__fieldFull label {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.AppointmentSection-module__EscrzW__imageBox {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.AppointmentSection-module__EscrzW__heroImg {
+  object-fit: cover;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+
+/* [project]/components/Banner/Banner.css [app-client] (css) */
+.hero-section {
+  text-align: center;
+  background: linear-gradient(to right, #f5f5f5, #aeb6e6);
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 40vh;
+  margin-top: 60px;
+  padding: 60px 20px;
+  display: flex;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-tag {
+  text-transform: uppercase;
+  margin: 0;
+  font-family: plus-jakarta-sans;
+  font-size: 13px;
+}
+
+.hero-heading {
+  margin-top: 10px;
+  font-size: 68px;
+  font-weight: 500;
+}
+
+.hero-heading span {
+  font-family: instrument\, sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=components_51e49564._.css.map*/

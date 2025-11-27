@@ -1,0 +1,91 @@
+/* [project]/components/AppointmentSection/AppointmentSection.module.css [app-client] (css) */
+.AppointmentSection-module__EscrzW__section {
+  background: linear-gradient(135deg, #fff 0%, #b6baf9 100%);
+  border-radius: 18px;
+  width: 100%;
+  padding: 80px 40px;
+}
+
+.AppointmentSection-module__EscrzW__container {
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+}
+
+.AppointmentSection-module__EscrzW__left {
+  flex: 1;
+}
+
+.AppointmentSection-module__EscrzW__right {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+}
+
+.AppointmentSection-module__EscrzW__tag {
+  background: #e9edfb;
+  border-radius: 12px;
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.AppointmentSection-module__EscrzW__heading {
+  margin: 20px 0 40px;
+  font-size: 48px;
+}
+
+.AppointmentSection-module__EscrzW__form {
+  width: 100%;
+}
+
+.AppointmentSection-module__EscrzW__row {
+  gap: 25px;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.AppointmentSection-module__EscrzW__field, .AppointmentSection-module__EscrzW__fieldFull {
+  flex-direction: column;
+  display: flex;
+}
+
+.AppointmentSection-module__EscrzW__field input, .AppointmentSection-module__EscrzW__fieldFull input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #d7d7d7;
+  outline: none;
+  padding: 14px;
+  font-size: 16px;
+}
+
+.AppointmentSection-module__EscrzW__fieldFull textarea {
+  resize: none;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #d7d7d7;
+  outline: none;
+  height: 80px;
+  padding: 14px;
+}
+
+.AppointmentSection-module__EscrzW__field label, .AppointmentSection-module__EscrzW__fieldFull label {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.AppointmentSection-module__EscrzW__imageBox {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.AppointmentSection-module__EscrzW__heroImg {
+  object-fit: cover;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=components_AppointmentSection_AppointmentSection_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,379 @@
+/* [project]/components/TransformSection/TransformSection.css [app-client] (css) */
+.transform-section {
+  background-color: #f9fafb;
+  justify-content: center;
+  padding: 80px 0;
+  display: flex;
+}
+
+.transform-container {
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  max-width: 1150px;
+  display: flex;
+}
+
+.transform-image img {
+  background: linear-gradient(90deg, #c8c7ff, #d8e3ff);
+  border-radius: 20px;
+  width: 500px;
+  height: auto;
+}
+
+.transform-content {
+  flex: 1;
+}
+
+.transform-content h2 {
+  color: #0d1454;
+  margin-bottom: 20px;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.transform-content p {
+  color: #2c2f55;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.contact-info {
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.phone-icon {
+  color: #0d1454;
+  background: #f2f3f6;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+}
+
+.call-label {
+  color: #777;
+  margin-bottom: 5px;
+  font-size: .9rem;
+}
+
+.phone-number {
+  color: #0d1454;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.schedule-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0d1454;
+  border: none;
+  border-radius: 30px;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  font-size: 1rem;
+  transition: all .3s;
+  display: flex;
+}
+
+.schedule-btn span {
+  color: #0d1454;
+  background: #fff;
+  border-radius: 50%;
+  padding: 5px 8px;
+  font-size: 1.1rem;
+}
+
+.schedule-btn:hover {
+  transform: scale(1.05);
+}
+
+/* [project]/components/ServicesSpecialists/SpecialistsSection.css [app-client] (css) */
+.specialists-section {
+  text-align: center;
+  background: #fff;
+  padding: 80px 40px;
+}
+
+.specialists-header .tag {
+  color: #3b3b98;
+  background: #f1f3ff;
+  border-radius: 20px;
+  padding: 6px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.specialists-header h2 {
+  color: #1b1b3a;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.specialists-grid {
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 40px;
+  display: grid;
+}
+
+.specialist-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 25px;
+  transition: transform .3s;
+  box-shadow: 0 25px 60px #00000014;
+}
+
+.specialist-card:hover {
+  transform: translateY(-10px);
+}
+
+.specialist-img img {
+  border-radius: 16px;
+  width: 100%;
+}
+
+.specialist-card h3 {
+  color: #1b1b3a;
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.specialist-card p {
+  color: #777;
+  margin-top: 6px;
+  font-size: 16px;
+}
+
+@media (max-width: 991px) {
+  .specialists-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .specialists-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .services-section {
+    padding: 50px 20px;
+  }
+
+  .service-img {
+    height: 150px;
+  }
+}
+
+/* [project]/components/ServicesDental/Services.css [app-client] (css) */
+.services-section {
+  background-color: #f9f9f9;
+  justify-content: center;
+  padding: 80px 40px;
+  display: flex;
+}
+
+.services-container {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+}
+
+.service-card {
+  background: linear-gradient(to bottom right, #fff, #e8ebff);
+  border-radius: 15px;
+  transition: all .3s;
+  overflow: hidden;
+  box-shadow: 0 4px 10px #0000000d;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px #0000001a;
+}
+
+.service-img {
+  object-fit: cover;
+  width: 100%;
+  height: 180px;
+}
+
+.service-content {
+  text-align: left;
+  padding: 20px;
+}
+
+.service-content h3 {
+  color: #0a0a3a;
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.service-content p {
+  color: #444;
+  font-size: .95rem;
+  line-height: 1.5;
+}
+
+/* [project]/components/PricingCards/PricingCards.css [app-client] (css) */
+.pricing-cards-section {
+  background-color: #f9f9f9;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 80px 10px;
+  display: flex;
+}
+
+.pricing-card {
+  text-align: left;
+  border-radius: 20px;
+  flex: 1;
+  min-width: 250px;
+  max-width: 350px;
+  padding: 40px 30px;
+  transition: all .3s;
+  box-shadow: 0 4px 15px #00000014;
+}
+
+.pricing-card.light {
+  color: #0a0a3a;
+  background: linear-gradient(#fff, #d8dbfa);
+}
+
+.pricing-card.dark {
+  color: #fff;
+  background: linear-gradient(to right, #373d87 0%, #151a4d 100%);
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.card-list {
+  margin: 0 0 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.card-list li {
+  border-bottom: 1px dashed #0000001a;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  font-size: 1rem;
+  display: flex;
+}
+
+.dark .card-list li {
+  border-color: #fff3;
+}
+
+.book-btn {
+  color: #0a0a3a;
+  cursor: pointer;
+  background: #dde0fc;
+  border: 1px solid #1d1d6a;
+  border-radius: 30px;
+  width: 100%;
+  padding: 14px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all .3s;
+  display: block;
+}
+
+.book-btn:hover {
+  color: #fff;
+  background: #0a0a3a;
+}
+
+.dark-btn {
+  color: #0a0a3a;
+  background: #fff;
+}
+
+.dark-btn:hover {
+  background: #c8cef6;
+}
+
+@media (max-width: 992px) {
+  .pricing-cards-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-card {
+    max-width: 500px;
+  }
+}
+
+/* [project]/components/Banner/Banner.css [app-client] (css) */
+.hero-section {
+  text-align: center;
+  background: linear-gradient(to right, #f5f5f5, #aeb6e6);
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 40vh;
+  margin-top: 60px;
+  padding: 60px 20px;
+  display: flex;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-tag {
+  letter-spacing: 2px;
+  color: #12175c;
+  text-transform: uppercase;
+  margin: 0;
+  font-family: plus-jakarta-sans;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.hero-heading {
+  color: #12175c;
+  letter-spacing: 1.5px;
+  margin-top: 0;
+  font-family: plus-jakarta-sans;
+  font-size: 68px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.hero-heading span {
+  color: #12175c;
+  letter-spacing: -2px;
+  font-family: instrument-sans;
+  font-style: italic;
+  font-weight: 400;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=components_ca4d5203._.css.map*/

@@ -1,0 +1,535 @@
+/* [project]/Downloads/Archive/components/HeroSection/HeroSection.module.css [app-client] (css) */
+.HeroSection-module__LyD72a__hero {
+  width: 100%;
+  margin-top: 80px;
+  position: relative;
+  overflow: visible;
+}
+
+.HeroSection-module__LyD72a__bgImage {
+  border-radius: 0 0 20px 20px;
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.HeroSection-module__LyD72a__image {
+  object-fit: cover;
+  object-position: right center;
+}
+
+.HeroSection-module__LyD72a__logoContainer {
+  justify-content: flex-end;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.HeroSection-module__LyD72a__overlay {
+  z-index: 3;
+  background: linear-gradient(to right, #8369ff1f, #0000 60%);
+  align-items: flex-start;
+  min-height: 600px;
+  padding-top: 160px;
+  display: flex;
+  position: relative;
+}
+
+.HeroSection-module__LyD72a__container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.HeroSection-module__LyD72a__tagline {
+  color: #2a7ae2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  font-size: .9rem;
+}
+
+.HeroSection-module__LyD72a__title {
+  color: #13195c;
+  margin-bottom: 1.5rem;
+  font-family: Plus Jakarta Sans;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.HeroSection-module__LyD72a__highlight {
+  color: #13195c;
+  font-family: Instrument Serif;
+  font-size: 68px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.HeroSection-module__LyD72a__ctaButton {
+  color: #fff;
+  background-color: #13195c;
+  border-radius: 50px;
+  padding: .8rem 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all .3s;
+  display: inline-block;
+  box-shadow: 0 4px 10px #13195c4d;
+}
+
+.HeroSection-module__LyD72a__ctaButton:hover {
+  background-color: #0a0e33;
+  transform: translateY(-2px);
+}
+
+.HeroSection-module__LyD72a__cards {
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  display: flex;
+}
+
+.HeroSection-module__LyD72a__card {
+  background: #fff;
+  border-radius: 16px;
+  flex: 1;
+  min-width: 200px;
+  max-width: 240px;
+  padding: 1.5rem;
+  transition: transform .3s;
+  box-shadow: 0 4px 15px #00000014;
+}
+
+.HeroSection-module__LyD72a__card:hover {
+  transform: translateY(-5px);
+}
+
+.HeroSection-module__LyD72a__card h3 {
+  color: #13195c;
+  margin: .5rem 0;
+  font-size: 1.1rem;
+}
+
+.HeroSection-module__LyD72a__card p {
+  color: #555;
+  margin: .5rem 0;
+  font-size: .9rem;
+}
+
+.HeroSection-module__LyD72a__number {
+  color: #2a7ae2;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.HeroSection-module__LyD72a__explore {
+  color: #2a7ae2;
+  font-size: .9rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.HeroSection-module__LyD72a__explore:after {
+  content: " →";
+}
+
+.HeroSection-module__LyD72a__icon {
+  justify-content: center;
+  margin-bottom: .5rem;
+  display: flex;
+}
+
+.HeroSection-module__LyD72a__author {
+  color: #2a7ae2;
+  margin-top: .5rem;
+  font-style: italic;
+}
+
+@media (max-width: 1300px) {
+  .HeroSection-module__LyD72a__container {
+    max-width: 1000px;
+  }
+
+  .HeroSection-module__LyD72a__title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .HeroSection-module__LyD72a__overlay {
+    padding-top: 100px;
+  }
+
+  .HeroSection-module__LyD72a__title {
+    font-size: 2.5rem;
+  }
+
+  .HeroSection-module__LyD72a__cards {
+    justify-content: center;
+  }
+
+  .HeroSection-module__LyD72a__card {
+    min-width: 180px;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .HeroSection-module__LyD72a__hero {
+    min-height: 700px;
+  }
+
+  .HeroSection-module__LyD72a__overlay {
+    background: linear-gradient(#8369ff33, #0000);
+    padding-top: 80px;
+  }
+
+  .HeroSection-module__LyD72a__title {
+    font-size: 2.2rem;
+  }
+
+  .HeroSection-module__LyD72a__title br {
+    display: none;
+  }
+
+  .HeroSection-module__LyD72a__cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .HeroSection-module__LyD72a__card {
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .HeroSection-module__LyD72a__title {
+    font-size: 1.8rem;
+  }
+
+  .HeroSection-module__LyD72a__ctaButton {
+    padding: .7rem 1.5rem;
+    font-size: .9rem;
+  }
+}
+
+/* [project]/Downloads/Archive/components/LogoBadge/LogoBadge.module.css [app-client] (css) */
+.LogoBadge-module__CoMFSq__badgeWrapper {
+  z-index: 10;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 400px;
+  left: 700px;
+}
+
+.LogoBadge-module__CoMFSq__rotatingRing {
+  width: 200px;
+  height: 200px;
+  animation: 9s linear infinite LogoBadge-module__CoMFSq__rotate;
+}
+
+@keyframes LogoBadge-module__CoMFSq__rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.LogoBadge-module__CoMFSq__circleText {
+  fill: #13195c;
+  width: 200px;
+  height: 200px;
+}
+
+.LogoBadge-module__CoMFSq__text {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.LogoBadge-module__CoMFSq__centerCircle {
+  background: radial-gradient(circle, #f0f0f0, #d8d8d8);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  box-shadow: 0 6px 20px #0003;
+}
+
+.LogoBadge-module__CoMFSq__centerCircle span {
+  color: #13195c;
+  font-size: 54px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .LogoBadge-module__CoMFSq__circle {
+    width: 70px;
+    height: 70px;
+  }
+
+  .LogoBadge-module__CoMFSq__letter {
+    font-size: 1.9rem;
+  }
+
+  .LogoBadge-module__CoMFSq__textTop, .LogoBadge-module__CoMFSq__textBottom {
+    width: 120px;
+    margin-left: -60px;
+    font-size: .6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .LogoBadge-module__CoMFSq__circle {
+    width: 60px;
+    height: 60px;
+  }
+
+  .LogoBadge-module__CoMFSq__letter {
+    font-size: 1.6rem;
+  }
+
+  .LogoBadge-module__CoMFSq__textTop, .LogoBadge-module__CoMFSq__textBottom {
+    width: 100px;
+    margin-left: -50px;
+    font-size: .55rem;
+  }
+}
+
+/* [project]/Downloads/Archive/components/HeroCards/HeroCards.module.css [app-client] (css) */
+.HeroCards-module__BdYR4q__cardsWrapper {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.HeroCards-module__BdYR4q__card {
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  background: #fffc;
+  border-radius: 22px;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: 200px;
+  padding: 28px;
+  display: flex;
+  box-shadow: 0 25px 55px #0000000f;
+}
+
+.HeroCards-module__BdYR4q__title {
+  color: #0b1a44;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.HeroCards-module__BdYR4q__desc {
+  color: #5c6786;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.HeroCards-module__BdYR4q__exploreBtn {
+  color: #0b1a44;
+  cursor: pointer;
+  background: none;
+  border: none;
+  align-items: center;
+  gap: 6px;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+}
+
+.HeroCards-module__BdYR4q__statNumber {
+  color: #0b1a44;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.HeroCards-module__BdYR4q__statLabel {
+  color: #3b4a6b;
+  font-size: 15px;
+}
+
+.HeroCards-module__BdYR4q__statIcon {
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+.HeroCards-module__BdYR4q__peopleRow {
+  gap: -10px;
+  margin-top: 15px;
+  display: flex;
+}
+
+.HeroCards-module__BdYR4q__personImg {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+}
+
+.HeroCards-module__BdYR4q__quote {
+  color: #0b1a44;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.HeroCards-module__BdYR4q__quoteName {
+  color: #62708f;
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .HeroCards-module__BdYR4q__cardsWrapper {
+    gap: 16px;
+  }
+
+  .HeroCards-module__BdYR4q__card {
+    width: 100%;
+    height: auto;
+    padding: 22px;
+  }
+
+  .HeroCards-module__BdYR4q__title {
+    font-size: 18px;
+  }
+
+  .HeroCards-module__BdYR4q__desc {
+    font-size: 14px;
+  }
+
+  .HeroCards-module__BdYR4q__statNumber {
+    font-size: 22px;
+  }
+
+  .HeroCards-module__BdYR4q__personImg {
+    width: 36px;
+    height: 36px;
+  }
+
+  .HeroCards-module__BdYR4q__quote {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .HeroCards-module__BdYR4q__card {
+    width: 45%;
+  }
+}
+
+/* [project]/Downloads/Archive/components/Header/Header.module.css [app-client] (css) */
+.Header-module__fAmccq__header {
+  z-index: 999;
+  background: #fff;
+  align-items: center;
+  width: 100%;
+  height: 96px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 4px #0000000d;
+}
+
+.Header-module__fAmccq__container {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1600px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+}
+
+.Header-module__fAmccq__logoBox {
+  align-items: center;
+  display: flex;
+}
+
+.Header-module__fAmccq__logo {
+  object-fit: contain;
+}
+
+.Header-module__fAmccq__nav {
+  gap: 2px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.Header-module__fAmccq__link {
+  color: #13195c;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.Header-module__fAmccq__active {
+  color: #13195c;
+  background: #eef0f8;
+  border-radius: 30px;
+  padding: 12px 20px;
+}
+
+.Header-module__fAmccq__link:hover {
+  color: #2a7ae2;
+}
+
+.Header-module__fAmccq__button {
+  color: #13195c;
+  cursor: pointer;
+  background: #dee2f5;
+  border: 2px solid #e2e4ef;
+  border-radius: 40px;
+  padding: 15px 40px;
+  font-size: 22px;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.Header-module__fAmccq__button:hover {
+  background: #d4d7eb;
+}
+
+@media (max-width: 1400px) {
+  .Header-module__fAmccq__container {
+    max-width: 1100px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .Header-module__fAmccq__nav {
+    display: none;
+  }
+}
+
+/* [project]/Downloads/Archive/app/globals.css [app-client] (css) */
+
+
+/*# sourceMappingURL=Downloads_Archive_5fdad600._.css.map*/

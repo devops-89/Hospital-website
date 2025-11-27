@@ -1,0 +1,129 @@
+/* [project]/Downloads/Archive/components/HeroCards/HeroCards.module.css [app-client] (css) */
+.HeroCards-module__BdYR4q__cardsWrapper {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.HeroCards-module__BdYR4q__card {
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  background: #fffc;
+  border-radius: 22px;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: 200px;
+  padding: 28px;
+  display: flex;
+  box-shadow: 0 25px 55px #0000000f;
+}
+
+.HeroCards-module__BdYR4q__title {
+  color: #0b1a44;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.HeroCards-module__BdYR4q__desc {
+  color: #5c6786;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.HeroCards-module__BdYR4q__exploreBtn {
+  color: #0b1a44;
+  cursor: pointer;
+  background: none;
+  border: none;
+  align-items: center;
+  gap: 6px;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+}
+
+.HeroCards-module__BdYR4q__statNumber {
+  color: #0b1a44;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.HeroCards-module__BdYR4q__statLabel {
+  color: #3b4a6b;
+  font-size: 15px;
+}
+
+.HeroCards-module__BdYR4q__statIcon {
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+.HeroCards-module__BdYR4q__peopleRow {
+  gap: -10px;
+  margin-top: 15px;
+  display: flex;
+}
+
+.HeroCards-module__BdYR4q__personImg {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+}
+
+.HeroCards-module__BdYR4q__quote {
+  color: #0b1a44;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.HeroCards-module__BdYR4q__quoteName {
+  color: #62708f;
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .HeroCards-module__BdYR4q__cardsWrapper {
+    gap: 16px;
+  }
+
+  .HeroCards-module__BdYR4q__card {
+    width: 100%;
+    height: auto;
+    padding: 22px;
+  }
+
+  .HeroCards-module__BdYR4q__title {
+    font-size: 18px;
+  }
+
+  .HeroCards-module__BdYR4q__desc {
+    font-size: 14px;
+  }
+
+  .HeroCards-module__BdYR4q__statNumber {
+    font-size: 22px;
+  }
+
+  .HeroCards-module__BdYR4q__personImg {
+    width: 36px;
+    height: 36px;
+  }
+
+  .HeroCards-module__BdYR4q__quote {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .HeroCards-module__BdYR4q__card {
+    width: 45%;
+  }
+}
+
+/*# sourceMappingURL=Downloads_Archive_components_HeroCards_HeroCards_module_css_bad6b30c._.single.css.map*/

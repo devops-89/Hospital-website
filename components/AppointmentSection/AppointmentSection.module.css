@@ -1,0 +1,124 @@
+.section {
+  width: 100%;
+  background: linear-gradient(135deg, #ffffff 0%, #b6baf9 100%);
+  padding: 80px 40px;
+  border-radius: 18px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.tag {
+  background: #e9edfb;
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.heading {
+  font-size: 48px;
+  margin: 20px 0 40px;
+}
+
+.form {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+/* .field,
+.fieldFull {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldFull {
+  flex: 1;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #324268;
+}
+
+input,
+textarea {
+  padding: 14px 14px;
+  border: none;
+  border-bottom: 1px solid #d7d7d7;
+  outline: none;
+  font-size: 16px;
+  color: #333;
+  background: transparent;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+} */
+.field,
+.fieldFull {
+  display: flex;
+  flex-direction: column;
+}
+
+.field input,
+.fieldFull input {
+  padding: 14px 14px;
+  border: none;
+  border-bottom: 1px solid #d7d7d7;
+  outline: none;
+  font-size: 16px;
+  background: transparent;
+}
+
+.fieldFull textarea {
+  padding: 14px 14px;
+  border: none;
+  border-bottom: 1px solid #d7d7d7;
+  outline: none;
+  height: 80px;
+  resize: none;
+  background: transparent;
+}
+
+.field label,
+.fieldFull label {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.imageBox {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.heroImg {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}

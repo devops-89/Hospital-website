@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/kunalsharma/Desktop/untitled%20folder/apexcare/app/care-services/page.js"],"sourcesContent":["import ServicesHero from \"../components/ServicesHero/HeroSection.jsx\";\r\nimport ServicesDental from \"../components/ServicesDental/Services.jsx\";\r\nimport ServicesSpecialists from \"../components/ServicesSpecialists/SpecialistsSection.jsx\";\r\nimport TransformSection from \"../components/TransformSection/TransformSection.jsx\";\r\n\r\n\r\nexport default function Hero() {\r\n  return (\r\n    <>\r\n      <ServicesHero /> \r\n      <ServicesDental />\r\n      <ServicesSpecialists />\r\n      <TransformSection />\r\n    </>\r\n  );\r\n}"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAMe,SAAS;IACtB,qBACE;;0BACE,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;;;AAGP","debugId":null}}]
+}

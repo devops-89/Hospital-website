@@ -1,0 +1,89 @@
+.section {
+  width: 100%;
+  padding: 80px 40px;
+}
+
+.container {
+  max-width: 1550px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* LEFT CARD */
+.leftCard {
+  width: 330px;
+  background: linear-gradient(180deg, #ffffff 20%, #cfd7ff 100%);
+  padding: 35px 30px;
+  border-radius: 28px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.08);
+}
+
+.tag {
+  background: #eef1ff;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.cardText {
+  margin: 25px 0;
+  font-size: 20px;
+}
+
+.profile {
+  margin-top: 35px;
+}
+
+.role {
+  margin-top: 3px;
+}
+
+/* CENTER IMAGE */
+.centerImage .heroImg {
+  border-radius: 30px;
+  object-fit: cover;
+  width: 480px;
+  height: 620px;
+}
+
+/* RIGHT */
+.rightText {
+  flex: 1;
+  padding-left: 40px;
+}
+
+.quoteIcon {
+  font-size: 90px;
+  color: #b6c3ff;
+  margin-bottom: 20px;
+}
+
+.bigText {
+  font-size: 30px;
+}
+
+.userInfo {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-top: 2px solid #e6e6e6;
+  padding-top: 30px;
+}
+
+.userImg {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userName {
+  font-size: 18px;
+}
+
+.userJob {
+  font-size: 14px;
+  margin-top: 4px;
+}

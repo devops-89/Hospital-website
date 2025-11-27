@@ -1,0 +1,251 @@
+/* [project]/components/AboutHero/HeroSection.css [app-client] (css) */
+.pricing-section {
+  text-align: center;
+  color: #0a0a3a;
+  background: linear-gradient(to right, #f9f9f9 0%, #aab4f0 100%);
+  border-radius: 20px;
+  max-width: 99%;
+  margin-top: 40px;
+  padding: 130px 400px;
+}
+
+.pricing-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.pricing-tag {
+  letter-spacing: 2px;
+  color: #0a0a3a;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.pricing-title {
+  color: #0a0a3a;
+  margin: 0;
+  font-family: poppins, "sans-serif";
+  font-size: 4.5rem;
+  font-weight: 500;
+}
+
+.pricing-subtitle {
+  color: #0a0a3a;
+  margin-top: 10px;
+  font-family: Plus Jakarta Sans;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .pricing-title {
+    font-size: 2.2rem;
+  }
+
+  .pricing-subtitle {
+    font-size: 1.8rem;
+  }
+
+  .pricing-section {
+    padding: 70px 15px;
+  }
+}
+
+.appointment-section {
+  color: #0a0a3a;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 20px;
+  display: flex;
+}
+
+.appointment-container {
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+.appointment-tag {
+  color: #0a0a3a;
+  text-transform: uppercase;
+  background: #fff;
+  border: 1px solid #0a0a3a;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  padding: 6px 18px;
+  font-size: .9rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.appointment-title {
+  color: #24246a;
+  margin-bottom: 40px;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.appointment-form {
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 15px;
+  padding: 50px;
+  box-shadow: 0 4px 15px #0000000d;
+}
+
+.form-row {
+  gap: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.form-group {
+  text-align: left;
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+}
+
+.form-group label {
+  color: #2e2e50;
+  margin-bottom: 8px;
+  font-size: .95rem;
+  font-weight: 500;
+}
+
+.form-group input, .form-group textarea {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  resize: none;
+  min-height: 80px;
+}
+
+.appointment-btn {
+  color: #fff;
+  cursor: pointer;
+  background: #13195c;
+  border: none;
+  border-radius: 40px;
+  width: 100%;
+  margin-top: 30px;
+  padding: 16px 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.appointment-btn:hover {
+  background: #1b1b6b;
+}
+
+.transform-section {
+  background-color: #f9fafb;
+  justify-content: center;
+  padding: 80px 0;
+  display: flex;
+}
+
+.transform-container {
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  max-width: 1150px;
+  display: flex;
+}
+
+.transform-image img {
+  background: linear-gradient(90deg, #c8c7ff, #d8e3ff);
+  border-radius: 20px;
+  width: 500px;
+  height: auto;
+}
+
+.transform-content {
+  flex: 1;
+}
+
+.transform-content h2 {
+  color: #0d1454;
+  margin-bottom: 20px;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.transform-content p {
+  color: #2c2f55;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.contact-info {
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.phone-icon {
+  color: #0d1454;
+  background: #f2f3f6;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+}
+
+.call-label {
+  color: #777;
+  margin-bottom: 5px;
+  font-size: .9rem;
+}
+
+.phone-number {
+  color: #0d1454;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.schedule-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0d1454;
+  border: none;
+  border-radius: 30px;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  font-size: 1rem;
+  transition: all .3s;
+  display: flex;
+}
+
+.schedule-btn span {
+  color: #0d1454;
+  background: #fff;
+  border-radius: 50%;
+  padding: 5px 8px;
+  font-size: 1.1rem;
+}
+
+.schedule-btn:hover {
+  transform: scale(1.05);
+}
+
+/*# sourceMappingURL=components_AboutHero_HeroSection_a9c0af11.css.map*/

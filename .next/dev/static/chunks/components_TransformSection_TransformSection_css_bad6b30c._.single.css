@@ -1,0 +1,78 @@
+/* [project]/components/TransformSection/TransformSection.css [app-client] (css) */
+.transform-section {
+  background-color: #f9fafb;
+  justify-content: center;
+  padding: 80px 0;
+  display: flex;
+}
+
+.transform-container {
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  max-width: 1150px;
+  display: flex;
+}
+
+.transform-image img {
+  background: linear-gradient(90deg, #c8c7ff, #d8e3ff);
+  border-radius: 20px;
+  width: 500px;
+  height: auto;
+}
+
+.transform-content {
+  flex: 1;
+}
+
+.transform-content h2 {
+  margin-bottom: 20px;
+  font-size: 3.2rem;
+}
+
+.transform-content p {
+  font-size: 1.2rem;
+}
+
+.contact-info {
+  align-items: center;
+  gap: 20px;
+  display: flex;
+}
+
+.phone-icon {
+  color: #0d1454;
+  background: #f2f3f6;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  display: flex;
+}
+
+.phone-icon:hover {
+  color: #fff;
+  background: #0d1454;
+  transition: all .5s;
+}
+
+.call-label {
+  margin: 15px 0 5px;
+  font-size: 16px;
+}
+
+.phone-number {
+  text-underline-offset: 2px;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 18px;
+  text-decoration: underline;
+  transition: color .3s;
+}
+
+.phone-number:hover {
+  color: #4a8be5;
+}
+
+/*# sourceMappingURL=components_TransformSection_TransformSection_css_bad6b30c._.single.css.map*/
