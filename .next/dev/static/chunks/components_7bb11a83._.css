@@ -709,7 +709,7 @@
 /* [project]/components/ServicesSection/ServicesSection.module.css [app-client] (css) */
 .ServicesSection-module__ZVNfMW__section {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1250px;
   margin: auto;
   padding: 80px 40px;
 }
@@ -731,6 +731,19 @@
   display: flex;
 }
 
+.ServicesSection-module__ZVNfMW__moreBtn {
+  color: #fff;
+  cursor: pointer;
+  background: #0d1440;
+  border: none;
+  border-radius: 40px;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  font-size: 17px;
+  display: flex;
+}
+
 .ServicesSection-module__ZVNfMW__heading {
   margin-top: 25px;
   font-size: 50px;
@@ -743,8 +756,15 @@
   display: flex;
 }
 
+.ServicesSection-module__ZVNfMW__headingWrapper {
+  justify-content: space-between;
+  align-items: start;
+  display: flex;
+}
+
 .ServicesSection-module__ZVNfMW__left {
   flex: 1;
+  font-family: plus-jakarta-sans, sans-serif;
 }
 
 .ServicesSection-module__ZVNfMW__serviceItem {
@@ -776,7 +796,7 @@
 .ServicesSection-module__ZVNfMW__right {
   flex-direction: row;
   flex: 2;
-  align-items: flex-start;
+  align-items: flex-end;
   gap: 25px;
   display: flex;
 }
@@ -813,12 +833,12 @@
 }
 
 .ServicesSection-module__ZVNfMW__testimonial {
-  background: linear-gradient(140deg, #fff 0%, #e9f1ff 100%);
+  background: linear-gradient(#fff 50%, #b3bbed 100%);
   border-radius: 26px;
   flex-direction: column;
-  flex-shrink: 0;
+  justify-content: end;
   gap: 20px;
-  width: 150px;
+  width: 200px;
   padding: 35px;
   display: flex;
   box-shadow: 0 30px 60px #0000000f;
@@ -1040,6 +1060,12 @@
 .SuccessStory-module__NJYpuW__userJob {
   margin-top: 4px;
   font-size: 14px;
+}
+
+.SuccessStory-module__NJYpuW__active {
+  color: #000;
+  border-bottom: 2px solid #000;
+  font-weight: 600;
 }
 
 /* [project]/components/OurTeam/OurTeam.module.css [app-client] (css) */

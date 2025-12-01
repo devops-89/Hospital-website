@@ -52,16 +52,15 @@ export default function ServicesSection() {
       {/**/}
       <div className={styles.topRow}>
         <p className={styles.tag}># SERVICES</p>
-
+      </div>
+      <div className={styles.headingWrapper}>
+        <h2 className={styles.heading}>
+          Comprehensive dental care <br /> for your smile
+        </h2>
         <button className={styles.moreBtn}>
           More Service <ArrowUpRight size={18} />
         </button>
       </div>
-
-      <h2 className={styles.heading}>
-        Comprehensive dental care <br /> for your smile
-      </h2>
-
       <div className={styles.wrapper}>
         {/* LEFT LIST */}
         <div className={styles.left}>

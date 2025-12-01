@@ -37,6 +37,7 @@
 .Header-module__arFiJq__nav {
   gap: 5px;
   margin: 0 auto;
+  font-family: plus-jakarta-sans, sans-serif;
   display: flex;
 }
 
@@ -75,6 +76,7 @@
   border-radius: 40px;
   margin: 0;
   padding: 12px 25px;
+  font-family: plus-jakarta-sans, sans-serif;
   font-size: 18px;
   transition: all .3s;
 }

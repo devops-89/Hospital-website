@@ -1,6 +1,6 @@
 .section {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1250px;
   margin: auto;
   padding: 80px 40px;
 }
@@ -21,7 +21,7 @@
   justify-content: space-between;
   align-items: center;
 }
-/* 
+
 .moreBtn {
   background: #0d1440;
   color: #fff;
@@ -33,7 +33,7 @@
   gap: 10px;
   align-items: center;
   cursor: pointer;
-} */
+}
 
 .heading {
   font-size: 50px;
@@ -46,9 +46,15 @@
   gap: 40px;
   align-items: flex-start;
 }
+.headingWrapper {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+} 
 
 .left {
   flex: 1;
+  font-family: "plus-jakarta-sans", sans-serif;
 }
 
 .serviceItem {
@@ -82,7 +88,7 @@
   display: flex;
   flex-direction: row;
   gap: 25px;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 .imageBox {
   position: relative;
@@ -123,15 +129,16 @@
 
 }
 .testimonial {
-  width: 150px;
+  width: 200px;
   padding: 35px;
   border-radius: 26px;
-  background: linear-gradient(140deg, #ffffff 0%, #e9f1ff 100%);
+  background: linear-gradient(to bottom, #ffffff 50%, #b3bbed 100%);
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.06);
   display: flex;
+  justify-content: end;
   flex-direction: column;
   gap: 20px;
-  flex-shrink: 0;
+
 }
 
 .quote {
