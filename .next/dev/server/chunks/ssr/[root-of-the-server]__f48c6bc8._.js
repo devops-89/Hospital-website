@@ -473,13 +473,11 @@ const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$pr
     throw new Error("Attempted to call the default export of [project]/components/AppointmentSection/AppointmentSection.jsx from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
 }, "[project]/components/AppointmentSection/AppointmentSection.jsx", "default");
 }),
-"[project]/components/AppointmentSection/AppointmentSection.jsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
+"[project]/components/AppointmentSection/AppointmentSection.jsx [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AppointmentSection$2f$AppointmentSection$2e$jsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/components/AppointmentSection/AppointmentSection.jsx [app-rsc] (client reference proxy) <module evaluation>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AppointmentSection$2f$AppointmentSection$2e$jsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/components/AppointmentSection/AppointmentSection.jsx [app-rsc] (client reference proxy)");
-;
-__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AppointmentSection$2f$AppointmentSection$2e$jsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
+const e = new Error("Could not parse module '[project]/components/AppointmentSection/AppointmentSection.jsx'\n\nExpected ',', got 'import'");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
 }),
 "[project]/components/SuccessStory/SuccessStory.jsx [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__) => {
 "use strict";

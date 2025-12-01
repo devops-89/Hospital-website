@@ -1398,6 +1398,7 @@ __turbopack_context__.v({
   "container": "SuccessStory-module__NJYpuW__container",
   "heroImg": "SuccessStory-module__NJYpuW__heroImg",
   "leftCard": "SuccessStory-module__NJYpuW__leftCard",
+  "link": "SuccessStory-module__NJYpuW__link",
   "profile": "SuccessStory-module__NJYpuW__profile",
   "quoteIcon": "SuccessStory-module__NJYpuW__quoteIcon",
   "rightText": "SuccessStory-module__NJYpuW__rightText",
@@ -1418,8 +1419,12 @@ __turbopack_context__.s([
     ()=>SuccessStory
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@/public/images/happypa'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SuccessStory$2f$SuccessStory$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/components/SuccessStory/SuccessStory.module.css [app-ssr] (css module)");
 "use client";
 ;
@@ -1440,7 +1445,7 @@ function SuccessStory() {
                             children: "# SUCCESS STORY"
                         }, void 0, false, {
                             fileName: "[project]/components/SuccessStory/SuccessStory.jsx",
-                            lineNumber: 14,
+                            lineNumber: 13,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1448,7 +1453,7 @@ function SuccessStory() {
                             children: "The best dental experience I’ve ever had! Friendly staff and pain-free treatment"
                         }, void 0, false, {
                             fileName: "[project]/components/SuccessStory/SuccessStory.jsx",
-                            lineNumber: 16,
+                            lineNumber: 15,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1459,7 +1464,7 @@ function SuccessStory() {
                                     children: "Sarah M"
                                 }, void 0, false, {
                                     fileName: "[project]/components/SuccessStory/SuccessStory.jsx",
-                                    lineNumber: 22,
+                                    lineNumber: 21,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1467,37 +1472,35 @@ function SuccessStory() {
                                     children: "– Teeth Whitening Patient"
                                 }, void 0, false, {
                                     fileName: "[project]/components/SuccessStory/SuccessStory.jsx",
-                                    lineNumber: 23,
+                                    lineNumber: 22,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/SuccessStory/SuccessStory.jsx",
-                            lineNumber: 21,
+                            lineNumber: 20,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/SuccessStory/SuccessStory.jsx",
-                    lineNumber: 13,
+                    lineNumber: 12,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SuccessStory$2f$SuccessStory$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].centerImage,
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        src: "/images/happypatient.avif",
-                        width: 500,
-                        height: 650,
+                        src: HappyPatient,
                         alt: "Happy Patient",
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SuccessStory$2f$SuccessStory$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].heroImg
                     }, void 0, false, {
                         fileName: "[project]/components/SuccessStory/SuccessStory.jsx",
-                        lineNumber: 29,
+                        lineNumber: 28,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/SuccessStory/SuccessStory.jsx",
-                    lineNumber: 28,
+                    lineNumber: 27,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1508,7 +1511,7 @@ function SuccessStory() {
                             children: "❞"
                         }, void 0, false, {
                             fileName: "[project]/components/SuccessStory/SuccessStory.jsx",
-                            lineNumber: 40,
+                            lineNumber: 37,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1516,7 +1519,7 @@ function SuccessStory() {
                             children: "Amazing experience! The team is caring, and professional. My smile has never looked better—highly recommend their dental care services."
                         }, void 0, false, {
                             fileName: "[project]/components/SuccessStory/SuccessStory.jsx",
-                            lineNumber: 42,
+                            lineNumber: 39,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1530,7 +1533,7 @@ function SuccessStory() {
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SuccessStory$2f$SuccessStory$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].userImg
                                 }, void 0, false, {
                                     fileName: "[project]/components/SuccessStory/SuccessStory.jsx",
-                                    lineNumber: 48,
+                                    lineNumber: 45,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1540,7 +1543,7 @@ function SuccessStory() {
                                             children: "Juairiya"
                                         }, void 0, false, {
                                             fileName: "[project]/components/SuccessStory/SuccessStory.jsx",
-                                            lineNumber: 57,
+                                            lineNumber: 54,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1548,25 +1551,25 @@ function SuccessStory() {
                                             children: "Medical Assistant"
                                         }, void 0, false, {
                                             fileName: "[project]/components/SuccessStory/SuccessStory.jsx",
-                                            lineNumber: 58,
+                                            lineNumber: 55,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/SuccessStory/SuccessStory.jsx",
-                                    lineNumber: 56,
+                                    lineNumber: 53,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/SuccessStory/SuccessStory.jsx",
-                            lineNumber: 47,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/SuccessStory/SuccessStory.jsx",
-                    lineNumber: 39,
+                    lineNumber: 36,
                     columnNumber: 9
                 }, this)
             ]

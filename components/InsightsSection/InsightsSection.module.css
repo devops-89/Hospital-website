@@ -1,6 +1,6 @@
 .section {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1350px;
   margin: auto;
   padding: 80px 40px;
 }
@@ -17,15 +17,20 @@
 }
 
 .tag {
-  background: #f2f4ff;
-  padding: 8px 15px;
-  font-size: 14px;
-  border-radius: 20px;
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: transparent;
+  border-radius: 15px;
+  outline: 1px solid #e5e5e5;
 }
 
 .heading {
   font-size: 48px;
   margin-top: 20px;
+  font-family: "plus-jakarta-sans , sans-serif";
 }
 
 /* RIGHT SIDE BUTTON */
@@ -53,11 +58,14 @@
 .cardsWrapper {
   margin-top: 60px;
   display: flex;
-  gap: 60px;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 .card {
   flex: 1;
+  column-count: 2;
+  column-gap: 40px;
 }
 
 .cardImage {
@@ -69,6 +77,11 @@
 
 .content {
   margin-top: 20px;
+  /* display: flex;
+  align-items: start;
+  justify-content: end;
+  flex-direction: column;
+} */
 }
 
 .date {

@@ -1,6 +1,6 @@
 .section {
   width: 100%;
-  background: linear-gradient(135deg, #ffffff 0%, #b6baf9 100%);
+  background: linear-gradient(to right, #ffffff 0%, #b6baf9 100%);
   padding: 80px 40px;
   border-radius: 18px;
 }

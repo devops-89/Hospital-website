@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import use
 import Image from "next/image";
 import styles from "./AppointmentSection.module.css";
 
@@ -16,7 +16,7 @@ export default function AppointmentSection() {
             Easy & quick <br /> appointment booking
           </h2>
 
-          <form className={styles.form}>
+          {/* <form className={styles.form}>
             <div className={styles.row}>
               <div className={styles.field}>
                 <label>Full name *</label>
@@ -54,9 +54,11 @@ export default function AppointmentSection() {
                 <textarea placeholder="Write your message..." />
               </div>
             </div>
+            
 
             <button className={styles.btn}>Reserve Your Spot</button>
-          </form>
+          </form> */}
+
         </div>
 
         {/* RIGHT IMAGE */}

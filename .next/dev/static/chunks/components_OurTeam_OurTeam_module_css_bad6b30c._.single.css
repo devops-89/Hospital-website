@@ -18,14 +18,19 @@
 }
 
 .OurTeam-module__GvAq4W__tag {
-  background: #f2f4ff;
-  border-radius: 20px;
-  padding: 6px 16px;
-  font-size: 14px;
+  text-transform: uppercase;
+  background: none;
+  border-radius: 15px;
+  outline: 1px solid #e5e5e5;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 400;
+  display: inline-block;
 }
 
 .OurTeam-module__GvAq4W__heading {
   margin: 25px 0 40px;
+  font-family: plus-jakarta-sans \, sans-serif;
   font-size: 55px;
 }
 
@@ -39,7 +44,7 @@
   background: #fff;
   border-radius: 26px;
   width: 100%;
-  max-width: 620px;
+  max-width: 500px;
   overflow: hidden;
   box-shadow: 0 25px 60px #0000000f;
 }
@@ -52,11 +57,11 @@
 }
 
 .OurTeam-module__GvAq4W__info {
-  padding: 25px 20px;
+  padding: 10px 20px;
 }
 
 .OurTeam-module__GvAq4W__info h3 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .OurTeam-module__GvAq4W__info p {

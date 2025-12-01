@@ -1,7 +1,7 @@
 /* [project]/components/InsightsSection/InsightsSection.module.css [app-client] (css) */
 .InsightsSection-module__03_usa__section {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1350px;
   margin: auto;
   padding: 80px 40px;
 }
@@ -17,25 +17,33 @@
 }
 
 .InsightsSection-module__03_usa__tag {
-  background: #f2f4ff;
-  border-radius: 20px;
-  padding: 8px 15px;
-  font-size: 14px;
+  text-transform: uppercase;
+  background: none;
+  border-radius: 15px;
+  outline: 1px solid #e5e5e5;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 400;
+  display: inline-block;
 }
 
 .InsightsSection-module__03_usa__heading {
   margin-top: 20px;
+  font-family: plus-jakarta-sans \, sans-serif;
   font-size: 48px;
 }
 
 .InsightsSection-module__03_usa__cardsWrapper {
-  gap: 60px;
+  flex-wrap: wrap;
+  gap: 50px;
   margin-top: 60px;
   display: flex;
 }
 
 .InsightsSection-module__03_usa__card {
+  column-count: 2;
   flex: 1;
+  column-gap: 40px;
 }
 
 .InsightsSection-module__03_usa__cardImage {

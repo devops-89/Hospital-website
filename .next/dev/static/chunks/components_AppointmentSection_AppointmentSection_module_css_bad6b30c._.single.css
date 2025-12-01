@@ -1,6 +1,6 @@
 /* [project]/components/AppointmentSection/AppointmentSection.module.css [app-client] (css) */
 .AppointmentSection-module__EscrzW__section {
-  background: linear-gradient(135deg, #fff 0%, #b6baf9 100%);
+  background: linear-gradient(to right, #fff 0%, #b6baf9 100%);
   border-radius: 18px;
   width: 100%;
   padding: 80px 40px;

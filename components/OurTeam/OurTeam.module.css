@@ -18,15 +18,20 @@
 }
 
 .tag {
-  background: #f2f4ff;
-  padding: 6px 16px;
-  border-radius: 20px;
-  font-size: 14px;
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: transparent;
+  border-radius: 15px;
+  outline: 1px solid #e5e5e5;
 }
 
 .heading {
   margin: 25px 0 40px;
   font-size: 55px;
+  font-family: "plus-jakarta-sans , sans-serif";
 }
 
 /* .btn {
@@ -59,7 +64,7 @@
 
 .card {
   width: 100%;
-  max-width: 620px;
+  max-width: 500px;
   border-radius: 26px;
   overflow: hidden;
   background: white;
@@ -74,11 +79,11 @@
 }
 
 .info {
-  padding: 25px 20px;
+  padding: 10px 20px;
 }
 
 .info h3 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .info p {

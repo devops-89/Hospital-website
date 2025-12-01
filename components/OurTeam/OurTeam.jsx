@@ -1,14 +1,13 @@
 "use client";
-import React from "react";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import styles from "./OurTeam.module.css";
+import Doctor from "@/public/images/doctor.jpg";
 
 export default function OurTeam() {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-
         {/* LEFT TEXT BLOCK */}
         <div className={styles.left}>
           <span className={styles.tag}># OUR TEAM</span>
@@ -25,13 +24,7 @@ export default function OurTeam() {
         {/* RIGHT DOCTOR CARD */}
         <div className={styles.right}>
           <div className={styles.card}>
-            <Image
-              src="/images/doctor.jpg"
-              alt="Doctor"
-              width={600}
-              height={650}
-              className={styles.heroImg}
-            />
+            <Image src={Doctor} alt="Doctor" className={styles.heroImg} />
 
             <div className={styles.info}>
               <h3>Dr. John Smith</h3>
@@ -39,7 +32,6 @@ export default function OurTeam() {
             </div>
           </div>
         </div>
-
       </div>
     </section>
   );

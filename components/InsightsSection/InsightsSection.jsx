@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import styles from "./InsightsSection.module.css";
