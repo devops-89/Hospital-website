@@ -122,3 +122,29 @@ textarea {
   border-radius: 20px;
   object-fit: cover;
 }
+.form-row {
+  display: flex;
+  flex-wrap: flex;
+  gap: 50px;
+}
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.form-group input,
+.form-group textarea {
+  border: none;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 10px 5px;
+}
+.form-btn {
+  width: 100%;
+  padding: 15px;
+  justify-content: center;
+  border: none;
+  color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+}
