@@ -3,6 +3,8 @@
   background: linear-gradient(to right, #fff 0%, #b6baf9 100%);
   border-radius: 18px;
   width: 100%;
+  max-width: 1350px;
+  margin: auto;
   padding: 80px 40px;
 }
 

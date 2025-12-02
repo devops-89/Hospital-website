@@ -37,7 +37,7 @@
 
 .HeroSection-module__2k8MBW__container {
   width: 100%;
-  max-width: 1340px;
+  max-width: 1350px;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -426,6 +426,8 @@
 /* [project]/components/meet-doctor/meet-doctor.module.css [app-client] (css) */
 .meet-doctor-module__ddm7ya__section {
   width: 100%;
+  max-width: 1350px;
+  margin: auto;
   padding: 180px 0;
   position: relative;
 }
@@ -474,17 +476,15 @@
 
 .meet-doctor-module__ddm7ya__bgImageWrapper {
   z-index: -1;
-  width: 100%;
-  height: 100%;
   position: absolute;
   top: 10%;
-  left: 45%;
+  left: 55%;
   overflow: hidden;
 }
 
 .meet-doctor-module__ddm7ya__bgImage {
-  width: 850px;
-  height: 650px;
+  width: 100%;
+  height: 100%;
 }
 
 .meet-doctor-module__ddm7ya__heroImage {
@@ -889,6 +889,8 @@
   background: linear-gradient(to right, #fff 0%, #b6baf9 100%);
   border-radius: 18px;
   width: 100%;
+  max-width: 1350px;
+  margin: auto;
   padding: 80px 40px;
 }
 
@@ -975,6 +977,8 @@
 /* [project]/components/SuccessStory/SuccessStory.module.css [app-client] (css) */
 .SuccessStory-module__NJYpuW__section {
   width: 100%;
+  max-width: 1350px;
+  margin: auto;
   padding: 80px 40px;
 }
 
@@ -982,8 +986,6 @@
   justify-content: space-between;
   align-items: end;
   gap: 30px;
-  max-width: 1350px;
-  margin: 0 auto;
   display: flex;
 }
 
@@ -1091,6 +1093,8 @@
 /* [project]/components/OurTeam/OurTeam.module.css [app-client] (css) */
 .OurTeam-module__GvAq4W__section {
   width: 100%;
+  max-width: 1350px;
+  margin: auto;
   padding: 80px 40px;
 }
 

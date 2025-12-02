@@ -1,5 +1,5 @@
-[00:00:02.263] Server  LOG      ✓ Ready in 1584ms
-[00:00:08.927] Server  WARN     ⚠ ./public/images/appointment.avif
+[00:00:02.115] Server  LOG      ✓ Ready in 1473ms
+[00:00:04.437] Server  WARN     ⚠ ./public/images/appointment.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -11,7 +11,7 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[00:00:08.927] Server  WARN     ⚠ ./public/images/happypatient1.avif
+[00:00:04.437] Server  WARN     ⚠ ./public/images/happypatient1.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -23,7 +23,7 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[00:00:08.928] Server  WARN     ⚠ ./public/images/hero-bg.avif
+[00:00:04.437] Server  WARN     ⚠ ./public/images/hero-bg.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -34,7 +34,7 @@ Import trace:
     ./app/page.js
 
 
-[00:00:08.928] Server  WARN     ⚠ ./public/images/whychooseus1.avif
+[00:00:04.438] Server  WARN     ⚠ ./public/images/whychooseus1.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -46,7 +46,7 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[00:00:10.125] Server  WARN     ⚠ ./public/images/appointment.avif
+[00:00:05.248] Server  WARN     ⚠ ./public/images/appointment.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -58,7 +58,7 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[00:00:10.125] Server  WARN     ⚠ ./public/images/happypatient1.avif
+[00:00:05.248] Server  WARN     ⚠ ./public/images/happypatient1.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -70,7 +70,7 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[00:00:10.125] Server  WARN     ⚠ ./public/images/hero-bg.avif
+[00:00:05.248] Server  WARN     ⚠ ./public/images/hero-bg.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -81,7 +81,7 @@ Import trace:
     ./app/page.js
 
 
-[00:00:10.126] Server  WARN     ⚠ ./public/images/whychooseus1.avif
+[00:00:05.249] Server  WARN     ⚠ ./public/images/whychooseus1.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -93,2730 +93,13 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[00:00:10.256] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:14.123] Browser WARN    Image with src "/images/services/teethcleaning.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:17.419] Browser WARN    Image with src "/_next/static/media/appointment.f03f458d.avif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:33.115] Server  LOG      ✓ Compiled in 16ms
-[00:22:13.306] Server  LOG      ✓ Compiled in 14ms
-[00:22:29.806] Server  LOG      ✓ Compiled in 12ms
-[00:22:36.795] Server  LOG      ✓ Compiled in 12ms
-[00:44:23.959] Server  LOG      ✓ Compiled in 53ms
-[00:44:28.917] Server  LOG      ✓ Compiled in 13ms
-[00:44:54.684] Server  LOG      ✓ Compiled in 16ms
-[00:44:56.183] Server  LOG      ✓ Compiled in 9ms
-[00:45:04.738] Server  LOG      ✓ Compiled in 11ms
-[00:45:06.138] Server  LOG      ✓ Compiled in 10ms
-[00:45:46.099] Server  LOG      ✓ Compiled in 11ms
-[00:45:51.374] Server  LOG      ✓ Compiled in 12ms
-[00:46:28.473] Server  LOG      ✓ Compiled in 19ms
-[00:46:32.095] Server  LOG      ✓ Compiled in 11ms
-[00:46:34.440] Server  LOG      ✓ Compiled in 14ms
-[00:46:36.386] Server  LOG      ✓ Compiled in 11ms
-[00:46:38.320] Server  LOG      ✓ Compiled in 44ms
-[00:46:40.162] Server  LOG      ✓ Compiled in 12ms
-[00:46:47.541] Server  LOG      ✓ Compiled in 10ms
-[00:46:49.062] Server  LOG      ✓ Compiled in 10ms
-[00:46:52.173] Server  LOG      ✓ Compiled in 29ms
-[00:46:57.439] Server  LOG      ✓ Compiled in 11ms
-[00:47:01.653] Server  LOG      ✓ Compiled in 11ms
-[00:47:04.740] Server  LOG      ✓ Compiled in 14ms
-[00:47:08.086] Server  LOG      ✓ Compiled in 10ms
-[00:47:11.586] Server  LOG      ✓ Compiled in 11ms
-[00:47:28.889] Server  LOG      ✓ Compiled in 30ms
-[00:47:29.034] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:130:1
-Parsing ecmascript source code failed
-  128 |     </section>
-  129 |   );
-> 130 | }
-      | ^
-  131 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[00:47:31.763] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[00:47:31.763] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[00:47:31.763] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[00:47:31.764] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[00:47:57.526] Server  LOG      ✓ Compiled in 18ms
-[00:47:58.033] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:131:1
-Parsing ecmascript source code failed
-  129 |     </section>
-  130 |   );
-> 131 | }
-      | ^
-  132 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[00:48:03.034] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:129:1
-Parsing ecmascript source code failed
-  127 |     </section>
-  128 |   );
-> 129 | }
-      | ^
-  130 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[00:49:38.034] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:130:1
-Parsing ecmascript source code failed
-  128 |     </section>
-  129 |   );
-> 130 | }
-      | ^
-  131 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[00:49:44.033] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:130:1
-Parsing ecmascript source code failed
-  128 |     </section>
-  129 |   );
-> 130 | }
-      | ^
-  131 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[00:49:45.033] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:130:1
-Parsing ecmascript source code failed
-  128 |     </section>
-  129 |   );
-> 130 | }
-      | ^
-  131 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[00:50:11.034] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:130:1
-Parsing ecmascript source code failed
-  128 |     </section>
-  129 |   );
-> 130 | }
-      | ^
-  131 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[00:50:13.034] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:130:1
-Parsing ecmascript source code failed
-  128 |     </section>
-  129 |   );
-> 130 | }
-      | ^
-  131 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[00:50:15.034] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:130:1
-Parsing ecmascript source code failed
-  128 |     </section>
-  129 |   );
-> 130 | }
-      | ^
-  131 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[00:50:17.035] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:130:1
-Parsing ecmascript source code failed
-  128 |     </section>
-  129 |   );
-> 130 | }
-      | ^
-  131 |
-
-Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[00:50:19.510] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[00:50:19.510] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[00:50:19.510] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[00:50:19.511] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[00:52:13.354] Server  LOG      ✓ Compiled in 47ms
-[00:52:14.034] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
+[00:00:05.539] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.612] Browser WARN    Image with src "/images/services/teethcleaning.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:17.246] Browser WARN    Image with src "/_next/static/media/appointment.f03f458d.avif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:34.265] Server  LOG      ✓ Compiled in 44ms
+[00:01:34.370] Browser ERROR   ./components/meet-doctor/meet-doctor.module.css
 Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:54:1: Unknown word .
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[00:52:16.034] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:54:1: Unknown word .AppointmentForm
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[00:52:18.330] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[00:52:18.330] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[00:52:18.330] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[00:52:18.330] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[00:52:20.132] Server  LOG      ✓ Compiled in 10ms
-[00:52:27.103] Server  LOG      ✓ Compiled in 11ms
-[00:52:32.099] Server  LOG      ✓ Compiled in 10ms
-[00:52:38.675] Server  LOG      ✓ Compiled in 10ms
-[00:52:47.215] Server  LOG      ✓ Compiled in 13ms
-[00:52:55.500] Server  LOG      ✓ Compiled in 31ms
-[00:53:01.983] Server  LOG      ✓ Compiled in 9ms
-[00:53:31.293] Server  LOG      ✓ Compiled in 39ms
-[00:53:32.033] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:63:1: Unknown word .form
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[00:53:32.790] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[00:53:32.790] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[00:53:32.791] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[00:53:32.791] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[00:58:05.042] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[00:58:05.043] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[00:58:05.044] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[00:58:05.044] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[01:14:35.095] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[01:14:35.096] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[01:14:35.096] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[01:14:35.096] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[01:14:35.684] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[01:14:35.684] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[01:14:35.684] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[01:14:35.684] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[01:14:35.763] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:14:36.049] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.js">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body
--                           data-new-gr-c-s-check-loaded="14.1264.0"
--                           data-gr-ext-installed=""
-                          >
-                  ...
-
-[01:14:36.049] Browser WARN    Image with src "/images/services/teethcleaning.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:14:36.049] Browser WARN    Image with src "/_next/static/media/appointment.f03f458d.avif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:14:49.281] Server  LOG      ✓ Compiled in 18ms
-[02:03:27.586] Server  LOG      ✓ Compiled in 40ms
-[02:11:58.214] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:11:58.214] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:11:58.214] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[02:11:58.214] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:27:38.050] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:27:38.050] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:27:38.050] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[02:27:38.050] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:39:30.341] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:39:30.341] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:39:30.341] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[02:39:30.342] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:39:30.942] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:39:30.943] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:39:30.943] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[02:39:30.943] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:39:31.024] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:39:31.340] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.js">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body
--                           data-new-gr-c-s-check-loaded="14.1264.0"
--                           data-gr-ext-installed=""
-                          >
-                  ...
-
-[02:39:31.340] Browser WARN    Image with src "/images/services/teethcleaning.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[02:39:31.340] Browser WARN    Image with src "/_next/static/media/appointment.f03f458d.avif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:40:21.640] Server  LOG      ✓ Compiled in 43ms
-[02:40:22.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:97:19
-Parsing ecmascript source code failed
-   95 |                 />
-   96 |               </div>
->  97 |             </div>
-      |                   ^
->  98 |             <div className="form-rowA">
-      | ^^^^^^^^^^^^^
-   99 |               <div className="form-groupA">
-  100 |                 <textarea
-  101 |                   name="appointmentNote"
-
-Expected '</', got 'jsx text (
-            )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:40:25.896] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:97:19
-Parsing ecmascript source code failed
-   95 |                 />
-   96 |               </div>
->  97 |             </div>
-      |                   ^
->  98 |            
-      | ^^^^^^^^^^^
->  99 |               <div className="form-groupA">
-      | ^^^^^^^^^^^^^^^
-  100 |                 <textarea
-  101 |                   name="appointmentNote"
-  102 |                   placeholder="Appointment Note *"
-
-Expected '</', got 'jsx text (
-           
-              )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:40:34.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:97:19
-Parsing ecmascript source code failed
-   95 |                 />
-   96 |               </div>
->  97 |             </div>
-      |                   ^
->  98 |            
-      | ^^^^^^^^^^^
->  99 |               <div className="form-groupA">
-      | ^^^^^^^^^^^^^^^
-  100 |                 <textarea
-  101 |                   name="appointmentNote"
-  102 |                   placeholder="Appointment Note *"
-
-Expected '</', got 'jsx text (
-           
-              )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:40:38.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:110:18
-Parsing ecmascript source code failed
-  108 |               Reserve Your Spot
-  109 |             </button>
-> 110 |           </form>
-      |                  ^
-> 111 |           </div>
-      | ^^^^^^^^^^^
-  112 |
-  113 |         {/* RIGHT IMAGE */}
-  114 |         <div className={styles.right}>
-
-Expected '</', got 'jsx text (
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:40:41.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:109:18
-Parsing ecmascript source code failed
-  107 |               Reserve Your Spot
-  108 |             </button>
-> 109 |           </form>
-      |                  ^
-> 110 |           </div>
-      | ^^^^^^^^^^^
-  111 |
-  112 |         {/* RIGHT IMAGE */}
-  113 |         <div className={styles.right}>
-
-Expected '</', got 'jsx text (
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:40:43.272] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:109:18
-Parsing ecmascript source code failed
-  107 |               Reserve Your Spot
-  108 |             </button>
-> 109 |           </form>
-      |                  ^
-> 110 |           </div>
-      | ^^^^^^^^^^^
-  111 |
-  112 |         {/* RIGHT IMAGE */}
-  113 |         <div className={styles.right}>
-
-Expected '</', got 'jsx text (
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:40:53.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:109:18
-Parsing ecmascript source code failed
-  107 |               Reserve Your Spot
-  108 |             </button>
-> 109 |           </form> 
-      |                  ^
-> 110 |           </div>
-      | ^^^^^^^^^^^
-  111 |
-  112 |         {/* RIGHT IMAGE */}
-  113 |         <div className={styles.right}>
-
-Expected '</', got 'jsx text ( 
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:41:04.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:109:18
-Parsing ecmascript source code failed
-  107 |               Reserve Your Spot
-  108 |             </button>
-> 109 |           </form> 
-      |                  ^
-> 110 |           </div>
-      | ^^^^^^^^^^^
-  111 |           
-  112 |
-  113 |         {/* RIGHT IMAGE */}
-
-Expected '</', got 'jsx text ( 
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:41:07.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:109:18
-Parsing ecmascript source code failed
-  107 |               Reserve Your Spot
-  108 |             </button>
-> 109 |           </form> 
-      |                  ^
-> 110 |           </div>
-      | ^^^^^^^^^^^
-  111 |           </
-  112 |
-  113 |         {/* RIGHT IMAGE */}
-
-Expected '</', got 'jsx text ( 
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:41:09.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:109:18
-Parsing ecmascript source code failed
-  107 |               Reserve Your Spot
-  108 |             </button>
-> 109 |           </form> 
-      |                  ^
-> 110 |           </div>
-      | ^^^^^^^^^^^
-  111 |           </div
-  112 |
-  113 |         {/* RIGHT IMAGE */}
-
-Expected '</', got 'jsx text ( 
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:41:10.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:109:18
-Parsing ecmascript source code failed
-  107 |               Reserve Your Spot
-  108 |             </button>
-> 109 |           </form> 
-      |                  ^
-> 110 |           </div>
-      | ^^^^^^^^^^^
-  111 |           </div>
-  112 |
-  113 |         {/* RIGHT IMAGE */}
-
-Expected '</', got 'jsx text ( 
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:41:13.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:109:18
-Parsing ecmascript source code failed
-  107 |               Reserve Your Spot
-  108 |             </button>
-> 109 |           </form> 
-      |                  ^
-> 110 |           </div>
-      | ^^^^^^^^^^^
-  111 |           
-  112 |
-  113 |         {/* RIGHT IMAGE */}
-
-Expected '</', got 'jsx text ( 
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:41:14.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:110:18
-Parsing ecmascript source code failed
-  108 |             </button>
-  109 |             
-> 110 |           </form> 
-      |                  ^
-> 111 |           </div>
-      | ^^^^^^^^^^^
-  112 |           
-  113 |
-  114 |         {/* RIGHT IMAGE */}
-
-Expected '</', got 'jsx text ( 
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:41:16.230] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:110:18
-Parsing ecmascript source code failed
-  108 |             </button>
-  109 |             </div>
-> 110 |           </form> 
-      |                  ^
-> 111 |           </div>
-      | ^^^^^^^^^^^
-  112 |           
-  113 |
-  114 |         {/* RIGHT IMAGE */}
-
-Expected '</', got 'jsx text ( 
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:41:19.857] Server  ERROR    ⨯ ./components/AppointmentSection/AppointmentSection.jsx:110:18
-Parsing ecmascript source code failed
-  108 |             </button>
-  109 |             </div>
-> 110 |           </form> 
-      |                  ^
-> 111 |           </div>
-      | ^^^^^^^^^^^
-  112 |           
-  113 |
-  114 |         {/* RIGHT IMAGE */}
-
-Expected '</', got 'jsx text ( 
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-
-
-[02:41:19.860] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:41:19.860] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:41:19.861] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[02:41:19.861] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:41:19.973] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:110:18
-Parsing ecmascript source code failed
-  108 |             </button>
-  109 |             </div>
-> 110 |           </form> 
-      |                  ^
-> 111 |           </div>
-      | ^^^^^^^^^^^
-  112 |           
-  113 |
-  114 |         {/* RIGHT IMAGE */}
-
-Expected '</', got 'jsx text ( 
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:41:20.911] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:110:18
-Parsing ecmascript source code failed
-  108 |             </button>
-  109 |             </div>
-> 110 |           </form> 
-      |                  ^
-> 111 |           </div>
-      | ^^^^^^^^^^^
-  112 |           
-  113 |
-  114 |         {/* RIGHT IMAGE */}
-
-Expected '</', got 'jsx text ( 
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:41:20.911] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:110:18
-Parsing ecmascript source code failed
-  108 |             </button>
-  109 |             </div>
-> 110 |           </form> 
-      |                  ^
-> 111 |           </div>
-      | ^^^^^^^^^^^
-  112 |           
-  113 |
-  114 |         {/* RIGHT IMAGE */}
-
-Expected '</', got 'jsx text ( 
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:41:21.309] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:110:18
-Parsing ecmascript source code failed
-  108 |             </button>
-  109 |             </div>
-> 110 |           </form> 
-      |                  ^
-> 111 |           </div>
-      | ^^^^^^^^^^^
-  112 |           
-  113 |
-  114 |         {/* RIGHT IMAGE */}
-
-Expected '</', got 'jsx text ( 
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:41:21.495] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:41:21.496] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:41:21.496] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[02:41:21.496] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:41:21.603] Browser ERROR   uncaughtError: Error: ./components/AppointmentSection/AppointmentSection.jsx:110:18
-Parsing ecmascript source code failed
-  108 |             </button>
-  109 |             </div>
-> 110 |           </form> 
-      |                  ^
-> 111 |           </div>
-      | ^^^^^^^^^^^
-  112 |           
-  113 |
-  114 |         {/* RIGHT IMAGE */}
-
-Expected '</', got 'jsx text ( 
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-
-
-[02:41:21.848] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:110:18
-Parsing ecmascript source code failed
-  108 |             </button>
-  109 |             </div>
-> 110 |           </form> 
-      |                  ^
-> 111 |           </div>
-      | ^^^^^^^^^^^
-  112 |           
-  113 |
-  114 |         {/* RIGHT IMAGE */}
-
-Expected '</', got 'jsx text ( 
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:41:21.848] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:110:18
-Parsing ecmascript source code failed
-  108 |             </button>
-  109 |             </div>
-> 110 |           </form> 
-      |                  ^
-> 111 |           </div>
-      | ^^^^^^^^^^^
-  112 |           
-  113 |
-  114 |         {/* RIGHT IMAGE */}
-
-Expected '</', got 'jsx text ( 
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:41:37.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:111:18
-Parsing ecmascript source code failed
-  109 |             </button>
-  110 |             </div>
-> 111 |           </form> 
-      |                  ^
-> 112 |           </div>
-      | ^^^^^^^^^^^
-  113 |           
-  114 |
-  115 |         {/* RIGHT IMAGE */}
-
-Expected '</', got 'jsx text ( 
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:41:38.272] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:107:13
-Parsing ecmascript source code failed
-  105 |           
-  106 |           <
-> 107 |             <button type="submit" className="form-btn">
-      |             ^
-  108 |               Reserve Your Spot
-  109 |             </button>
-  110 |             </div>
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:41:40.324] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:41:40.324] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:41:40.324] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[02:41:40.325] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:41:40.978] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:41:40.979] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:41:40.979] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[02:41:40.979] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:41:41.028] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:41:42.195] Browser WARN    Image with src "/images/services/teethcleaning.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[02:41:42.828] Browser WARN    Image with src "/_next/static/media/appointment.f03f458d.avif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:56:43.439] Server  LOG      ✓ Compiled in 12ms
-[02:56:44.274] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:41:30
-Parsing ecmascript source code failed
-  39 |             Easy & quick <br /> appointment booking
-  40 |           </h2>
-> 41 |           <form className={} onSubmit={handleSubmit}>
-     |                              ^^^^^^^^
-  42 |             <div className="form-rowA">
-  43 |               <div className="form-groupA">
-  44 |                 <input
-
-Expected '</', got 'onSubmit'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[02:56:47.193] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:56:47.194] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:56:47.194] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[02:56:47.194] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[02:57:09.811] Server  LOG      ✓ Compiled in 10ms
-[02:57:17.354] Server  LOG      ✓ Compiled in 11ms
-[02:57:23.847] Server  LOG      ✓ Compiled in 10ms
-[02:57:25.962] Server  LOG      ✓ Compiled in 10ms
-[02:57:30.398] Server  LOG      ✓ Compiled in 10ms
-[02:57:35.116] Server  LOG      ✓ Compiled in 13ms
-[02:58:05.066] Server  LOG      ✓ Compiled in 10ms
-[02:58:09.929] Server  LOG      ✓ Compiled in 10ms
-[03:03:11.187] Server  LOG      ✓ Compiled in 12ms
-[03:03:12.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:41:28
-Parsing ecmascript source code failed
-  39 |             Easy & quick <br /> appointment booking
-  40 |           </h2>
-> 41 |           <form className= onSubmit={handleSubmit}>
-     |                            ^^^^^^^^
-  42 |             <div className={styles.formRowA}>
-  43 |               <div className={styles.formGroupA}>
-  44 |                 <input
-
-Expected '</', got 'onSubmit'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[03:03:12.391] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:03:12.391] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:03:12.391] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[03:03:12.392] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:03:13.529] Server  LOG      ✓ Compiled in 12ms
-[03:03:34.055] Server  LOG      ✓ Compiled in 12ms
-[03:03:34.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:41:28
-Parsing ecmascript source code failed
-  39 |             Easy & quick <br /> appointment booking
-  40 |           </h2>
-> 41 |           <form className= onSubmit={handleSubmit}>
-     |                            ^^^^^^^^
-  42 |             <div className={styles.formRowA}>
-  43 |               <div className={styles.formGroupA}>
-  44 |                 <input
-
-Expected '</', got 'onSubmit'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[03:03:36.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:41:30
-Parsing ecmascript source code failed
-  39 |             Easy & quick <br /> appointment booking
-  40 |           </h2>
-> 41 |           <form className={} onSubmit={handleSubmit}>
-     |                              ^^^^^^^^
-  42 |             <div className={styles.formRowA}>
-  43 |               <div className={styles.formGroupA}>
-  44 |                 <input
-
-Expected '</', got 'onSubmit'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[03:03:39.752] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:03:39.752] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:03:39.753] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[03:03:39.753] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:04:48.777] Server  LOG      ✓ Compiled in 15ms
-[03:04:50.179] Server  LOG      ✓ Compiled in 9ms
-[03:10:20.238] Server  LOG      ✓ Compiled in 13ms
-[03:10:25.369] Server  LOG      ✓ Compiled in 11ms
-[03:10:38.327] Server  LOG      ✓ Compiled in 45ms
-[03:10:39.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:62:17: Unknown word \
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[03:10:40.002] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:10:40.002] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:10:40.003] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[03:10:40.003] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:10:48.899] Server  LOG      ✓ Compiled in 12ms
-[03:10:51.348] Server  LOG      ✓ Compiled in 10ms
-[03:10:54.717] Server  LOG      ✓ Compiled in 13ms
-[03:10:58.582] Server  LOG      ✓ Compiled in 10ms
-[03:11:02.068] Server  LOG      ✓ Compiled in 9ms
-[03:11:05.064] Server  LOG      ✓ Compiled in 11ms
-[03:11:05.274] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:86:49
-Parsing ecmascript source code failed
-  84 |               </div>
-  85 |           
-> 86 |               <div className={styles.formGroup  A}>
-     |                                                 ^
-  87 |                 <input
-  88 |                   type="tel"
-  89 |                   name="phoneNumber"
-
-Expected '</', got 'A'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[03:11:06.625] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:11:06.625] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:11:06.626] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[03:11:06.626] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:11:09.836] Server  LOG      ✓ Compiled in 11ms
-[03:11:14.037] Server  LOG      ✓ Compiled in 10ms
-[03:11:22.809] Server  LOG      ✓ Compiled in 13ms
-[03:11:24.707] Server  LOG      ✓ Compiled in 15ms
-[03:11:27.283] Server  LOG      ✓ Compiled in 12ms
-[03:11:53.649] Server  LOG      ✓ Compiled in 10ms
-[03:11:57.404] Server  LOG      ✓ Compiled in 12ms
-[03:11:59.428] Server  LOG      ✓ Compiled in 39ms
-[03:12:00.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:63:1: Unknown word colo
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[03:12:02.524] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:12:02.525] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:12:02.525] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[03:12:02.525] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:12:09.501] Server  LOG      ✓ Compiled in 9ms
-[03:12:11.745] Server  LOG      ✓ Compiled in 10ms
-[03:12:14.340] Server  LOG      ✓ Compiled in 17ms
-[03:12:20.005] Server  LOG      ✓ Compiled in 11ms
-[03:12:21.111] Server  LOG      ✓ Compiled in 12ms
-[03:12:46.720] Server  LOG      ✓ Compiled in 39ms
-[03:12:47.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:63:2: Unknown word flw
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[03:12:48.821] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:12:48.822] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:12:48.822] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[03:12:48.822] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:12:50.346] Server  LOG      ✓ Compiled in 14ms
-[03:13:00.344] Server  LOG      ✓ Compiled in 12ms
-[03:13:15.346] Server  LOG      ✓ Compiled in 19ms
-[03:13:18.339] Server  LOG      ✓ Compiled in 10ms
-[03:13:27.503] Server  LOG      ✓ Compiled in 9ms
-[03:13:34.340] Server  LOG      ✓ Compiled in 16ms
-[03:13:37.018] Server  LOG      ✓ Compiled in 10ms
-[03:13:39.341] Server  LOG      ✓ Compiled in 13ms
-[03:13:46.339] Server  LOG      ✓ Compiled in 12ms
-[03:13:58.340] Server  LOG      ✓ Compiled in 11ms
-[03:14:06.393] Server  LOG      ✓ Compiled in 11ms
-[03:15:23.340] Server  LOG      ✓ Compiled in 37ms
-[03:15:24.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:67:1: Unknown word .
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[03:15:25.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:67:1: Unknown word .f
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[03:15:26.347] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:15:26.348] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:15:26.348] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[03:15:26.348] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:15:37.814] Server  LOG      ✓ Compiled in 42ms
-[03:15:38.219] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:69:3: Unknown word disp
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[03:15:39.766] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:15:39.766] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:15:39.766] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[03:15:39.766] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:15:50.141] Server  LOG      ✓ Compiled in 13ms
-[03:15:52.338] Server  LOG      ✓ Compiled in 10ms
-[03:15:58.370] Server  LOG      ✓ Compiled in 11ms
-[03:16:01.597] Server  LOG      ✓ Compiled in 10ms
-[03:16:04.869] Server  LOG      ✓ Compiled in 11ms
-[03:16:06.346] Server  LOG      ✓ Compiled in 9ms
-[03:16:13.749] Server  LOG      ✓ Compiled in 38ms
-[03:16:14.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:71:3: Unknown word margin
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[03:16:15.572] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:16:15.572] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:16:15.573] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[03:16:15.573] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:16:49.154] Server  LOG      ✓ Compiled in 15ms
-[03:16:49.274] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:86:15
-Parsing ecmascript source code failed
-  84 |               </div>
-  85 |           </div
-> 86 |               <div className={styles.formGroup}>
-     |               ^
-  87 |                 <input
-  88 |                   type="tel"
-  89 |                   name="phoneNumber"
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[03:16:51.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:110:19
-Parsing ecmascript source code failed
-  108 |               Reserve Your Spot
-  109 |             </button>
-> 110 |             </div>
-      |                   ^
-> 111 |           </form> 
-      | ^^^^^^^^^^^
-  112 |           </div>
-  113 |           
-  114 |
-
-Expected '</', got 'jsx text (
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[03:17:01.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:110:19
-Parsing ecmascript source code failed
-  108 |               Reserve Your Spot
-  109 |             </button>
-> 110 |             </div>
-      |                   ^
-> 111 |           </form> 
-      | ^^^^^^^^^^^
-  112 |           </div>
-  113 |           
-  114 |
-
-Expected '</', got 'jsx text (
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[03:17:02.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:111:19
-Parsing ecmascript source code failed
-  109 |               Reserve Your Spot
-  110 |             </button>
-> 111 |             </div>
-      |                   ^
-> 112 |           </form> 
-      | ^^^^^^^^^^^
-  113 |           </div>
-  114 |           
-  115 |
-
-Expected '</', got 'jsx text (
-          )'
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[03:17:06.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.jsx:87:15
-Parsing ecmascript source code failed
-  85 |           </div>
-  86 |           <div
-> 87 |               <div className={styles.formGroup}>
-     |               ^
-  88 |                 <input
-  89 |                   type="tel"
-  90 |                   name="phoneNumber"
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./components/AppointmentSection/AppointmentSection.jsx
-    ./app/page.js
-[03:17:09.871] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:17:09.872] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:17:09.872] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[03:17:09.872] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:17:16.312] Server  LOG      ✓ Compiled in 14ms
-[03:17:18.658] Server  LOG      ✓ Compiled in 10ms
-[03:33:24.633] Server  LOG      ✓ Compiled in 131ms
-[03:33:25.274] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:73:1: Unknown word .
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[03:33:29.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:73:1: Unknown word .formGroup
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[03:33:31.274] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:73:1: Unknown word .formGroup
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[03:33:33.274] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:73:1: Unknown word .formGroup
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[03:33:35.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:73:1: Unknown word .formGroup
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[03:33:36.274] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:73:1: Unknown word .formGroup
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[03:33:39.274] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:73:1: Unknown word .formGroup
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[03:33:41.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css:74:1
-Parsing CSS source code failed
-  72 | }
-  73 | .formGroup input,
-> 74 | {
-     | ^
-  75 |   
-  76 | }
-  77 |
-
-Invalid empty selector
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[03:33:49.274] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css:75:1
-Parsing CSS source code failed
-  73 | .formGroup input,
-  74 |   
-> 75 | {
-     | ^
-  76 |
-  77 | }
-  78 |
-
-Invalid empty selector
-
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-  Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-[03:33:50.423] Server  LOG      ✓ Compiled in 14ms
-[03:33:50.439] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:33:50.439] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:33:50.439] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[03:33:50.440] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:34:18.993] Server  LOG      ✓ Compiled in 8ms
-[03:34:35.831] Server  LOG      ✓ Compiled in 40ms
-[03:34:36.274] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:77:1: Unknown word border
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/meet-doctor/meet-doctor.module.css:3:3: Unknown word width
     [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
     [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
     [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
@@ -2830,64 +113,17 @@ CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/A
 
 Import traces:
   Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
+    ./components/meet-doctor/meet-doctor.module.css [Client Component Browser]
+    ./components/meet-doctor/meet-doctor.js [Client Component Browser]
+    ./components/meet-doctor/meet-doctor.js [Server Component]
     ./app/page.js [Server Component]
 
   Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
+    ./components/meet-doctor/meet-doctor.module.css [Client Component SSR]
+    ./components/meet-doctor/meet-doctor.js [Client Component SSR]
+    ./components/meet-doctor/meet-doctor.js [Server Component]
     ./app/page.js [Server Component]
-[03:34:38.961] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:34:38.961] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:34:38.962] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[03:34:38.962] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:36:11.185] Server  WARN     ⚠ ./public/images/appointment.avif
+[00:01:36.616] Server  WARN     ⚠ ./public/images/appointment.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -2899,7 +135,7 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[03:36:11.186] Server  WARN     ⚠ ./public/images/happypatient1.avif
+[00:01:36.617] Server  WARN     ⚠ ./public/images/happypatient1.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -2911,7 +147,7 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[03:36:11.187] Server  WARN     ⚠ ./public/images/hero-bg.avif
+[00:01:36.617] Server  WARN     ⚠ ./public/images/hero-bg.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -2922,7 +158,7 @@ Import trace:
     ./app/page.js
 
 
-[03:36:11.188] Server  WARN     ⚠ ./public/images/whychooseus1.avif
+[00:01:36.617] Server  WARN     ⚠ ./public/images/whychooseus1.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -2934,7 +170,12 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[03:36:11.864] Server  WARN     ⚠ ./public/images/appointment.avif
+[00:01:39.969] Server  LOG      ✓ Compiled in 12ms
+[00:01:44.408] Server  LOG      ✓ Compiled in 15ms
+[00:01:46.684] Server  LOG      ✓ Compiled in 12ms
+[00:20:58.400] Server  LOG      ✓ Compiled in 14ms
+[00:21:01.361] Server  LOG      ✓ Compiled in 11ms
+[00:21:31.167] Server  WARN     ⚠ ./public/images/appointment.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -2946,7 +187,7 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[03:36:11.864] Server  WARN     ⚠ ./public/images/happypatient1.avif
+[00:21:31.167] Server  WARN     ⚠ ./public/images/happypatient1.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -2958,7 +199,7 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[03:36:11.864] Server  WARN     ⚠ ./public/images/hero-bg.avif
+[00:21:31.167] Server  WARN     ⚠ ./public/images/hero-bg.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -2969,7 +210,7 @@ Import trace:
     ./app/page.js
 
 
-[03:36:11.864] Server  WARN     ⚠ ./public/images/whychooseus1.avif
+[00:21:31.167] Server  WARN     ⚠ ./public/images/whychooseus1.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -2981,52 +222,8 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[03:36:11.944] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:36:12.366] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.js">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body
--                           data-new-gr-c-s-check-loaded="14.1264.0"
--                           data-gr-ext-installed=""
-                          >
-                  ...
-
-[03:36:12.366] Browser WARN    Image with src "/images/services/teethcleaning.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:36:12.366] Browser WARN    Image with src "/_next/static/media/appointment.f03f458d.avif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:40:13.189] Server  LOG      ✓ Compiled in 15ms
-[03:40:38.824] Server  LOG      ✓ Compiled in 9ms
-[03:40:57.342] Server  LOG      ✓ Compiled in 11ms
-[03:41:02.345] Server  LOG      ✓ Compiled in 11ms
-[03:41:10.262] Server  LOG      ✓ Compiled in 11ms
-[03:42:12.111] Server  WARN     ⚠ ./public/images/appointment.avif
+[00:21:31.241] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:33.807] Server  WARN     ⚠ ./public/images/appointment.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -3038,7 +235,7 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[03:42:12.111] Server  WARN     ⚠ ./public/images/happypatient1.avif
+[00:21:33.808] Server  WARN     ⚠ ./public/images/happypatient1.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -3050,7 +247,7 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[03:42:12.112] Server  WARN     ⚠ ./public/images/hero-bg.avif
+[00:21:33.808] Server  WARN     ⚠ ./public/images/hero-bg.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -3061,7 +258,7 @@ Import trace:
     ./app/page.js
 
 
-[03:42:12.112] Server  WARN     ⚠ ./public/images/whychooseus1.avif
+[00:21:33.808] Server  WARN     ⚠ ./public/images/whychooseus1.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -3073,60 +270,11 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[03:42:12.508] Server  WARN     ⚠ ./public/images/appointment.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/appointment.avif
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:42:12.508] Server  WARN     ⚠ ./public/images/happypatient1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/happypatient1.avif
-    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
-    ./components/SuccessStory/SuccessStory.jsx [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:42:12.509] Server  WARN     ⚠ ./public/images/hero-bg.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Server Component:
-    ./public/images/hero-bg.avif
-    ./components/HeroSection/HeroSection.js
-    ./app/page.js
-
-
-[03:42:12.509] Server  WARN     ⚠ ./public/images/whychooseus1.avif
-AVIF image not supported
-This version of Turbopack does not support AVIF images, will emit without optimization or encoding
-
-Import trace:
-  Client Component SSR:
-    ./public/images/whychooseus1.avif
-    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
-    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
-    ./app/page.js [Server Component]
-
-
-[03:42:12.537] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[03:42:12.831] Browser WARN    Image with src "/images/services/teethcleaning.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[03:42:12.831] Browser WARN    Image with src "/_next/static/media/appointment.f03f458d.avif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[03:47:14.495] Server  LOG      ✓ Compiled in 46ms
-[03:47:15.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
+[00:22:36.243] Browser WARN    Image with src "/images/services/teethcleaning.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:24:27.848] Server  LOG      ✓ Compiled in 40ms
+[00:24:28.371] Browser ERROR   ./components/meet-doctor/meet-doctor.module.css
 Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:81:1: Unknown word .for
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/meet-doctor/meet-doctor.module.css:6:3: Unknown word margin
     [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
     [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
     [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
@@ -3140,75 +288,168 @@ CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/A
 
 Import traces:
   Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
+    ./components/meet-doctor/meet-doctor.module.css [Client Component Browser]
+    ./components/meet-doctor/meet-doctor.js [Client Component Browser]
+    ./components/meet-doctor/meet-doctor.js [Server Component]
     ./app/page.js [Server Component]
 
   Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
+    ./components/meet-doctor/meet-doctor.module.css [Client Component SSR]
+    ./components/meet-doctor/meet-doctor.js [Client Component SSR]
+    ./components/meet-doctor/meet-doctor.js [Server Component]
     ./app/page.js [Server Component]
-[03:47:17.274] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:81:1: Unknown word .formGroup
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+[00:24:29.753] Server  WARN     ⚠ ./public/images/appointment.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
-
+Import trace:
   Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
+    ./public/images/appointment.avif
     ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
     ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
     ./app/page.js [Server Component]
-[03:47:34.274] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
-Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:81:1: Unknown word .formGroup
-    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
-    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
-    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
-    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
-    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
-    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
-    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
 
-Import traces:
-  Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
-    ./app/page.js [Server Component]
 
+[00:24:29.753] Server  WARN     ⚠ ./public/images/happypatient1.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
   Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
+    ./public/images/happypatient1.avif
+    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
+    ./components/SuccessStory/SuccessStory.jsx [Server Component]
+    ./app/page.js [Server Component]
+
+
+[00:24:29.753] Server  WARN     ⚠ ./public/images/hero-bg.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./public/images/hero-bg.avif
+    ./components/HeroSection/HeroSection.js
+    ./app/page.js
+
+
+[00:24:29.754] Server  WARN     ⚠ ./public/images/whychooseus1.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./public/images/whychooseus1.avif
+    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
+    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
+    ./app/page.js [Server Component]
+
+
+[00:24:41.406] Browser WARN    Image with src "/_next/static/media/appointment.f03f458d.avif" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:25:30.829] Server  LOG      ✓ Compiled in 19ms
+[00:28:38.503] Server  LOG      ✓ Compiled in 30ms
+[00:34:40.375] Server  WARN     ⚠ ./public/images/appointment.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./public/images/appointment.avif
     ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
     ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
     ./app/page.js [Server Component]
-[03:47:49.274] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
+
+
+[00:34:40.375] Server  WARN     ⚠ ./public/images/happypatient1.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./public/images/happypatient1.avif
+    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
+    ./components/SuccessStory/SuccessStory.jsx [Server Component]
+    ./app/page.js [Server Component]
+
+
+[00:34:40.375] Server  WARN     ⚠ ./public/images/hero-bg.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./public/images/hero-bg.avif
+    ./components/HeroSection/HeroSection.js
+    ./app/page.js
+
+
+[00:34:40.375] Server  WARN     ⚠ ./public/images/whychooseus1.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./public/images/whychooseus1.avif
+    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
+    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
+    ./app/page.js [Server Component]
+
+
+[00:57:41.390] Server  WARN     ⚠ ./public/images/appointment.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./public/images/appointment.avif
+    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
+    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
+    ./app/page.js [Server Component]
+
+
+[00:57:41.390] Server  WARN     ⚠ ./public/images/happypatient1.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./public/images/happypatient1.avif
+    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
+    ./components/SuccessStory/SuccessStory.jsx [Server Component]
+    ./app/page.js [Server Component]
+
+
+[00:57:41.391] Server  WARN     ⚠ ./public/images/hero-bg.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./public/images/hero-bg.avif
+    ./components/HeroSection/HeroSection.js
+    ./app/page.js
+
+
+[00:57:41.391] Server  WARN     ⚠ ./public/images/whychooseus1.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./public/images/whychooseus1.avif
+    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
+    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
+    ./app/page.js [Server Component]
+
+
+[01:09:19.920] Server  LOG      ✓ Compiled in 42ms
+[01:09:20.073] Browser ERROR   ./components/meet-doctor/meet-doctor.module.css
 Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:81:12: Unknown word input
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/meet-doctor/meet-doctor.module.css:55:3: Unknown word width
     [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
     [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
     [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:435:12)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
     [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
     [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
     [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
@@ -3218,23 +459,23 @@ CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/A
 
 Import traces:
   Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
+    ./components/meet-doctor/meet-doctor.module.css [Client Component Browser]
+    ./components/meet-doctor/meet-doctor.js [Client Component Browser]
+    ./components/meet-doctor/meet-doctor.js [Server Component]
     ./app/page.js [Server Component]
 
   Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
+    ./components/meet-doctor/meet-doctor.module.css [Client Component SSR]
+    ./components/meet-doctor/meet-doctor.js [Client Component SSR]
+    ./components/meet-doctor/meet-doctor.js [Server Component]
     ./app/page.js [Server Component]
-[03:47:51.273] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
+[01:09:23.039] Browser ERROR   ./components/meet-doctor/meet-doctor.module.css
 Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:81:12: Unknown word input
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/meet-doctor/meet-doctor.module.css:54:11: Missed semicolon
     [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:435:12)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
     [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
     [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
     [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
@@ -3244,23 +485,23 @@ CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/A
 
 Import traces:
   Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
+    ./components/meet-doctor/meet-doctor.module.css [Client Component Browser]
+    ./components/meet-doctor/meet-doctor.js [Client Component Browser]
+    ./components/meet-doctor/meet-doctor.js [Server Component]
     ./app/page.js [Server Component]
 
   Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
+    ./components/meet-doctor/meet-doctor.module.css [Client Component SSR]
+    ./components/meet-doctor/meet-doctor.js [Client Component SSR]
+    ./components/meet-doctor/meet-doctor.js [Server Component]
     ./app/page.js [Server Component]
-[03:47:54.297] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
+[01:09:23.649] Browser ERROR   ./components/meet-doctor/meet-doctor.module.css
 Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:81:12: Unknown word input
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/meet-doctor/meet-doctor.module.css:54:13: Missed semicolon
     [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
-    [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
-    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:236:16)]
-    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:435:12)]
+    [at Parser.checkMissedSemicolon (turbopack:///[project]/node_modules/postcss/lib/parser.js:138:22)]
+    [at Parser.decl (turbopack:///[project]/node_modules/postcss/lib/parser.js:296:12)]
+    [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:401:18)]
     [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:472:16)]
     [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
     [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
@@ -3270,17 +511,17 @@ CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/A
 
 Import traces:
   Client Component Browser:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component Browser]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
+    ./components/meet-doctor/meet-doctor.module.css [Client Component Browser]
+    ./components/meet-doctor/meet-doctor.js [Client Component Browser]
+    ./components/meet-doctor/meet-doctor.js [Server Component]
     ./app/page.js [Server Component]
 
   Client Component SSR:
-    ./components/AppointmentSection/AppointmentSection.module.css [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
-    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
+    ./components/meet-doctor/meet-doctor.module.css [Client Component SSR]
+    ./components/meet-doctor/meet-doctor.js [Client Component SSR]
+    ./components/meet-doctor/meet-doctor.js [Server Component]
     ./app/page.js [Server Component]
-[03:47:55.257] Server  WARN     ⚠ ./public/images/appointment.avif
+[01:09:26.362] Server  WARN     ⚠ ./public/images/appointment.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -3292,7 +533,7 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[03:47:55.258] Server  WARN     ⚠ ./public/images/happypatient1.avif
+[01:09:26.363] Server  WARN     ⚠ ./public/images/happypatient1.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -3304,7 +545,7 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[03:47:55.258] Server  WARN     ⚠ ./public/images/hero-bg.avif
+[01:09:26.363] Server  WARN     ⚠ ./public/images/hero-bg.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -3315,7 +556,7 @@ Import trace:
     ./app/page.js
 
 
-[03:47:55.258] Server  WARN     ⚠ ./public/images/whychooseus1.avif
+[01:09:26.363] Server  WARN     ⚠ ./public/images/whychooseus1.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -3327,11 +568,28 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[03:48:01.490] Server  LOG      ✓ Compiled in 10ms
-[03:48:07.038] Server  LOG      ✓ Compiled in 39ms
-[03:48:07.274] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
+[01:10:01.146] Server  LOG      ✓ Compiled in 10ms
+[01:12:04.809] Server  LOG      ✓ Compiled in 12ms
+[01:12:16.149] Server  LOG      ✓ Compiled in 11ms
+[01:12:24.137] Server  LOG      ✓ Compiled in 10ms
+[01:12:25.303] Server  LOG      ✓ Compiled in 10ms
+[01:12:27.058] Server  LOG      ✓ Compiled in 11ms
+[01:12:32.188] Server  LOG      ✓ Compiled in 12ms
+[01:13:21.338] Server  LOG      ✓ Compiled in 10ms
+[01:18:43.243] Server  LOG      ✓ Compiled in 27ms
+[01:19:02.220] Server  LOG      ✓ Compiled in 66ms
+[01:19:20.146] Server  LOG      ✓ Compiled in 11ms
+[01:19:31.139] Server  LOG      ✓ Compiled in 12ms
+[01:21:05.143] Server  LOG      ✓ Compiled in 13ms
+[01:21:11.139] Server  LOG      ✓ Compiled in 11ms
+[01:21:58.143] Server  LOG      ✓ Compiled in 10ms
+[01:22:21.069] Server  LOG      ✓ Compiled in 15ms
+[01:22:23.422] Server  LOG      ✓ Compiled in 11ms
+[01:22:38.489] Server  LOG      ✓ Compiled in 10ms
+[01:22:42.887] Server  LOG      ✓ Compiled in 41ms
+[01:22:43.074] Browser ERROR   ./components/AppointmentSection/AppointmentSection.module.css
 Error evaluating Node.js code
-CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:84:3: Unknown word font
+CssSyntaxError: /Users/kunalsharma/Desktop/untitled folder/apexcare/components/AppointmentSection/AppointmentSection.module.css:7:3: Unknown word ma
     [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
     [at Parser.unknownWord (turbopack:///[project]/node_modules/postcss/lib/parser.js:595:22)]
     [at Parser.other (turbopack:///[project]/node_modules/postcss/lib/parser.js:437:12)]
@@ -3355,7 +613,7 @@ Import traces:
     ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
     ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
     ./app/page.js [Server Component]
-[03:48:10.731] Server  WARN     ⚠ ./public/images/appointment.avif
+[01:22:45.562] Server  WARN     ⚠ ./public/images/appointment.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -3367,7 +625,7 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[03:48:10.732] Server  WARN     ⚠ ./public/images/happypatient1.avif
+[01:22:45.563] Server  WARN     ⚠ ./public/images/happypatient1.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -3379,7 +637,7 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[03:48:10.732] Server  WARN     ⚠ ./public/images/hero-bg.avif
+[01:22:45.563] Server  WARN     ⚠ ./public/images/hero-bg.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -3390,7 +648,7 @@ Import trace:
     ./app/page.js
 
 
-[03:48:10.733] Server  WARN     ⚠ ./public/images/whychooseus1.avif
+[01:22:45.563] Server  WARN     ⚠ ./public/images/whychooseus1.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -3402,9 +660,14 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[03:48:16.345] Server  LOG      ✓ Compiled in 30ms
-[03:48:20.806] Server  LOG      ✓ Compiled in 11ms
-[04:01:34.275] Server  WARN     ⚠ ./public/images/appointment.avif
+[01:24:07.064] Server  LOG      ✓ Compiled in 13ms
+[01:24:09.268] Server  LOG      ✓ Compiled in 10ms
+[01:24:20.273] Server  LOG      ✓ Compiled in 11ms
+[01:26:11.144] Server  LOG      ✓ Compiled in 13ms
+[01:26:31.015] Server  LOG      ✓ Compiled in 13ms
+[01:26:38.146] Server  LOG      ✓ Compiled in 13ms
+[01:26:46.170] Server  LOG      ✓ Compiled in 10ms
+[01:28:00.338] Server  WARN     ⚠ ./public/images/appointment.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -3416,7 +679,7 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[04:01:34.276] Server  WARN     ⚠ ./public/images/happypatient1.avif
+[01:28:00.338] Server  WARN     ⚠ ./public/images/happypatient1.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -3428,7 +691,7 @@ Import trace:
     ./app/page.js [Server Component]
 
 
-[04:01:34.276] Server  WARN     ⚠ ./public/images/hero-bg.avif
+[01:28:00.338] Server  WARN     ⚠ ./public/images/hero-bg.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
@@ -3439,7 +702,59 @@ Import trace:
     ./app/page.js
 
 
-[04:01:34.276] Server  WARN     ⚠ ./public/images/whychooseus1.avif
+[01:28:00.338] Server  WARN     ⚠ ./public/images/whychooseus1.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./public/images/whychooseus1.avif
+    ./components/WhyChooseUs/WhyChooseUs.js [Client Component SSR]
+    ./components/WhyChooseUs/WhyChooseUs.js [Server Component]
+    ./app/page.js [Server Component]
+
+
+[01:40:53.167] Server  LOG      ✓ Compiled in 34ms
+[01:41:02.839] Server  LOG      ✓ Compiled in 11ms
+[01:41:36.663] Server  LOG      ✓ Compiled in 14ms
+[01:41:40.325] Server  LOG      ✓ Compiled in 10ms
+[01:41:42.312] Server  LOG      ✓ Compiled in 21ms
+[01:44:31.449] Server  WARN     ⚠ ./public/images/appointment.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./public/images/appointment.avif
+    ./components/AppointmentSection/AppointmentSection.jsx [Client Component SSR]
+    ./components/AppointmentSection/AppointmentSection.jsx [Server Component]
+    ./app/page.js [Server Component]
+
+
+[01:44:31.450] Server  WARN     ⚠ ./public/images/happypatient1.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./public/images/happypatient1.avif
+    ./components/SuccessStory/SuccessStory.jsx [Client Component SSR]
+    ./components/SuccessStory/SuccessStory.jsx [Server Component]
+    ./app/page.js [Server Component]
+
+
+[01:44:31.450] Server  WARN     ⚠ ./public/images/hero-bg.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Server Component:
+    ./public/images/hero-bg.avif
+    ./components/HeroSection/HeroSection.js
+    ./app/page.js
+
+
+[01:44:31.450] Server  WARN     ⚠ ./public/images/whychooseus1.avif
 AVIF image not supported
 This version of Turbopack does not support AVIF images, will emit without optimization or encoding
 
