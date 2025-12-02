@@ -38,9 +38,9 @@ export default function AppointmentSection() {
           <h2 className={styles.heading}>
             Easy & quick <br /> appointment booking
           </h2>
-          <form className="AppointmentForm" onSubmit={handleSubmit}>
-            <div className="form-row">
-              <div className="form-group">
+          <form className={styles.AppointmentForm} onSubmit={handleSubmit}>
+            <div className={styles.formRow}>
+              <div className={styles.formGroup}>
                 <input
                   type="text"
                   name="name"
@@ -50,7 +50,7 @@ export default function AppointmentSection() {
                   required
                 />
               </div>
-              <div className="form-group">
+              <div className={styles.formGroup}>
                 <input
                   type="email"
                   name="email"
@@ -61,8 +61,8 @@ export default function AppointmentSection() {
                 />
               </div>
             </div>
-            <div className="form-row">
-              <div className="form-group">
+            <div className={styles.formRow}>
+              <div className={styles.formGroup}>
                 <input
                   type="date"
                   name="appointmentDate"
@@ -72,7 +72,7 @@ export default function AppointmentSection() {
                   required
                 />
               </div>
-              <div className="form-group">
+              <div className={styles.formGroup}>
                 <input
                   type="time"
                   name="appointmentTime"
@@ -83,8 +83,8 @@ export default function AppointmentSection() {
                 />
               </div>
             </div>
-            <div className="form-row">
-              <div className="form-group">
+            <div>
+              <div className={styles.formGroup}>
                 <input
                   type="tel"
                   name="phoneNumber"
@@ -95,8 +95,8 @@ export default function AppointmentSection() {
                 />
               </div>
             </div>
-            <div className="form-row">
-              <div className="form-group">
+            <div>
+              <div className={styles.formGroup}>
                 <textarea
                   name="appointmentNote"
                   placeholder="Appointment Note *"
@@ -105,55 +105,11 @@ export default function AppointmentSection() {
                   required
                 />
               </div>
+              <button type="submit" className={styles.formBtn}>
+                Reserve Your Spot
+              </button>
             </div>
-            <button type="submit" className="form-btn">
-              Reserve Your Spot
-            </button>
           </form>
-          
-          {/* <form className={styles.form}>
-            <div className={styles.row}>
-              <div className={styles.field}>
-                <label>Full name *</label>
-                <input type="text" placeholder="Enter your name" />
-              </div>
-
-              <div className={styles.field}>
-                <label>Email *</label>
-                <input type="email" placeholder="Enter your email" />
-              </div>
-            </div>
-
-            <div className={styles.row}>
-              <div className={styles.field}>
-                <label>Appointment date *</label>
-                <input type="date" />
-              </div>
-
-              <div className={styles.field}>
-                <label>Appointment time *</label>
-                <input type="time" />
-              </div>
-            </div>
-
-            <div className={styles.row}>
-              <div className={styles.fieldFull}>
-                <label>Phone number *</label>
-                <input type="text" placeholder="Enter phone number" />
-              </div>
-            </div>
-
-            <div className={styles.row}>
-              <div className={styles.fieldFull}>
-                <label>Additional Notes *</label>
-                <textarea placeholder="Write your message..." />
-              </div>
-            </div>
-            
-
-            <button className={styles.btn}>Reserve Your Spot</button>
-          </form> */}
-          {/* form start */}
         </div>
 
         {/* RIGHT IMAGE */}

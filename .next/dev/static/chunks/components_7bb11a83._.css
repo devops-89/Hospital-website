@@ -896,7 +896,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 60px;
-  max-width: 1400px;
+  max-width: 1350px;
   margin: auto;
   display: flex;
 }
@@ -923,43 +923,8 @@
   font-size: 48px;
 }
 
-.AppointmentSection-module__EscrzW__form {
+.AppointmentSection-module__EscrzW__AppointmentForm {
   width: 100%;
-}
-
-.AppointmentSection-module__EscrzW__row {
-  gap: 25px;
-  margin-bottom: 25px;
-  display: flex;
-}
-
-.AppointmentSection-module__EscrzW__field, .AppointmentSection-module__EscrzW__fieldFull {
-  flex-direction: column;
-  display: flex;
-}
-
-.AppointmentSection-module__EscrzW__field input, .AppointmentSection-module__EscrzW__fieldFull input {
-  background: none;
-  border: none;
-  border-bottom: 1px solid #d7d7d7;
-  outline: none;
-  padding: 14px;
-  font-size: 16px;
-}
-
-.AppointmentSection-module__EscrzW__fieldFull textarea {
-  resize: none;
-  background: none;
-  border: none;
-  border-bottom: 1px solid #d7d7d7;
-  outline: none;
-  height: 80px;
-  padding: 14px;
-}
-
-.AppointmentSection-module__EscrzW__field label, .AppointmentSection-module__EscrzW__fieldFull label {
-  margin-bottom: 6px;
-  font-size: 15px;
 }
 
 .AppointmentSection-module__EscrzW__imageBox {
@@ -974,33 +939,37 @@
   height: auto;
 }
 
-.AppointmentSection-module__EscrzW__form-row {
-  flex-wrap: flex;
-  gap: 50px;
+.AppointmentSection-module__EscrzW__AppointmentForm {
+  text-align: left;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 550px;
+  margin-bottom: 50px;
+  padding: 50px 0;
+}
+
+.AppointmentSection-module__EscrzW__formRow {
+  flex-wrap: wrap;
+  gap: 20px;
   display: flex;
 }
 
-.AppointmentSection-module__EscrzW__form-group {
+.AppointmentSection-module__EscrzW__formGroup {
   flex-direction: column;
   flex: 1;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   display: flex;
 }
 
-.AppointmentSection-module__EscrzW__form-group input, .AppointmentSection-module__EscrzW__form-group textarea {
+.AppointmentSection-module__EscrzW__formGroup input, .AppointmentSection-module__EscrzW__formGroup textarea {
+  background: none;
   border: none;
   border-bottom: 1px solid #d9d9d9;
   padding: 10px 5px;
 }
 
-.AppointmentSection-module__EscrzW__form-btn {
-  color: #fff;
-  cursor: pointer;
-  border: none;
-  border-radius: 25px;
-  justify-content: center;
-  width: 100%;
-  padding: 15px;
+.AppointmentSection-module__EscrzW__formGroup input::placeholder, .AppointmentSection-module__EscrzW__formGroup textarea::placeholder {
+  font-size: 15px;
 }
 
 /* [project]/components/SuccessStory/SuccessStory.module.css [app-client] (css) */

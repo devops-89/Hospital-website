@@ -1112,19 +1112,15 @@ const __TURBOPACK__default__export__ = {
 "[project]/components/AppointmentSection/AppointmentSection.module.css [app-ssr] (css module)", ((__turbopack_context__) => {
 
 __turbopack_context__.v({
+  "AppointmentForm": "AppointmentSection-module__EscrzW__AppointmentForm",
   "container": "AppointmentSection-module__EscrzW__container",
-  "field": "AppointmentSection-module__EscrzW__field",
-  "fieldFull": "AppointmentSection-module__EscrzW__fieldFull",
-  "form": "AppointmentSection-module__EscrzW__form",
-  "form-btn": "AppointmentSection-module__EscrzW__form-btn",
-  "form-group": "AppointmentSection-module__EscrzW__form-group",
-  "form-row": "AppointmentSection-module__EscrzW__form-row",
+  "formGroup": "AppointmentSection-module__EscrzW__formGroup",
+  "formRow": "AppointmentSection-module__EscrzW__formRow",
   "heading": "AppointmentSection-module__EscrzW__heading",
   "heroImg": "AppointmentSection-module__EscrzW__heroImg",
   "imageBox": "AppointmentSection-module__EscrzW__imageBox",
   "left": "AppointmentSection-module__EscrzW__left",
   "right": "AppointmentSection-module__EscrzW__right",
-  "row": "AppointmentSection-module__EscrzW__row",
   "section": "AppointmentSection-module__EscrzW__section",
   "tag": "AppointmentSection-module__EscrzW__tag",
 });
@@ -1209,14 +1205,14 @@ function AppointmentSection() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
-                            className: "AppointmentForm",
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AppointmentSection$2f$AppointmentSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].AppointmentForm,
                             onSubmit: handleSubmit,
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "form-row",
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AppointmentSection$2f$AppointmentSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].formRow,
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "form-group",
+                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AppointmentSection$2f$AppointmentSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].formGroup,
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                 type: "text",
                                                 name: "name",
@@ -1235,7 +1231,7 @@ function AppointmentSection() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "form-group",
+                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AppointmentSection$2f$AppointmentSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].formGroup,
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                 type: "email",
                                                 name: "email",
@@ -1260,10 +1256,10 @@ function AppointmentSection() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "form-row",
+                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AppointmentSection$2f$AppointmentSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].formRow,
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "form-group",
+                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AppointmentSection$2f$AppointmentSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].formGroup,
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                 type: "date",
                                                 name: "appointmentDate",
@@ -1282,7 +1278,7 @@ function AppointmentSection() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "form-group",
+                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AppointmentSection$2f$AppointmentSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].formGroup,
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                 type: "time",
                                                 name: "appointmentTime",
@@ -1307,9 +1303,8 @@ function AppointmentSection() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "form-row",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "form-group",
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AppointmentSection$2f$AppointmentSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].formGroup,
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                             type: "tel",
                                             name: "phoneNumber",
@@ -1333,37 +1328,38 @@ function AppointmentSection() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "form-row",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "form-group",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
-                                            name: "appointmentNote",
-                                            placeholder: "Appointment Note *",
-                                            value: form.appointmentNote,
-                                            onChange: handleChange,
-                                            required: true
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AppointmentSection$2f$AppointmentSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].formGroup,
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
+                                                name: "appointmentNote",
+                                                placeholder: "Appointment Note *",
+                                                value: form.appointmentNote,
+                                                onChange: handleChange,
+                                                required: true
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/AppointmentSection/AppointmentSection.jsx",
+                                                lineNumber: 100,
+                                                columnNumber: 17
+                                            }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/AppointmentSection/AppointmentSection.jsx",
-                                            lineNumber: 100,
-                                            columnNumber: 17
+                                            lineNumber: 99,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            type: "submit",
+                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AppointmentSection$2f$AppointmentSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].formBtn,
+                                            children: "Reserve Your Spot"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/AppointmentSection/AppointmentSection.jsx",
+                                            lineNumber: 108,
+                                            columnNumber: 15
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/AppointmentSection/AppointmentSection.jsx",
-                                        lineNumber: 99,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/components/AppointmentSection/AppointmentSection.jsx",
                                     lineNumber: 98,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    type: "submit",
-                                    className: "form-btn",
-                                    children: "Reserve Your Spot"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/AppointmentSection/AppointmentSection.jsx",
-                                    lineNumber: 109,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -1390,17 +1386,17 @@ function AppointmentSection() {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$AppointmentSection$2f$AppointmentSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].heroImg
                         }, void 0, false, {
                             fileName: "[project]/components/AppointmentSection/AppointmentSection.jsx",
-                            lineNumber: 162,
+                            lineNumber: 118,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/AppointmentSection/AppointmentSection.jsx",
-                        lineNumber: 161,
+                        lineNumber: 117,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/AppointmentSection/AppointmentSection.jsx",
-                    lineNumber: 160,
+                    lineNumber: 116,
                     columnNumber: 9
                 }, this)
             ]
