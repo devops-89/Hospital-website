@@ -6,7 +6,7 @@ import Root from "@/public/images/Root-Canal-Therapy.jpg"
 import TeethCleaning from "@/public/images/Teeth-Cleaning.jpg"
 import TeethWhitening from "@/public/images/Teeth-Whitening.jpg"
 import Orthodontics from "@/public/images/Orthodontics.jpg"
-import DentalImplants from "@/public/images/Dental-Implants.jpg"
+import DentalImplants from "@/public/images/Dental-Implant.jpg"
 import EmergencyCare from "@/public/images/Emergency-Care.jpg"
 import FillingsAndRestorations from "@/public/images/Fillings-and-Restorations.jpg"
 
@@ -63,6 +63,8 @@ const ServicesSection = () => {
               src={service.img}
               alt={service.title}
               className="service-img"
+              fill
+              priority
             />
             <div className="service-content">
               <h3>{service.title}</h3>
