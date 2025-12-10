@@ -5,7 +5,7 @@ import styles from "./WhyChooseUs.module.css";
 import whyChoose1 from "@/public/images/whychooseusteeth.svg";
 import whyChoose2 from "@/public/images/whychooseiconstate.svg";
 import whyChoose3 from "@/public/images/whychooseiconcare.svg";
-import whyChooseus2 from "@/public/images/whychooseus1.avif";
+import whyChooseus2 from "@/public/images/whychooseus1.webp";
 
 export default function WhyChooseUs() {
   return (

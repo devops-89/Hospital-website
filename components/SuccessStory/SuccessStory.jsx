@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import HappyPatient from "@/public/images/happypatient1.avif";
+import HappyPatient from "@/public/images/happypatient.webp";
 
 import styles from "./SuccessStory.module.css";
 

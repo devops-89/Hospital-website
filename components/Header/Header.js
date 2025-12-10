@@ -6,10 +6,12 @@ import { HEADER_LINKS } from "../../public/assets/data";
 import logo from "../../public/logo.svg";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { ArrowUpRight } from "lucide-react";
+import { useRouter, usePathname } from "next/navigation";
 
 export default function Header() {
   const router = useRouter();
+  const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -25,12 +27,14 @@ export default function Header() {
         </div>
 
         {/* Navigation - Desktop */}
-        <nav className={styles.nav} >
+        <nav className={styles.nav}>
           {HEADER_LINKS.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className={`${styles.link} ${styles.active}`}
+              className={`${styles.link} ${
+                pathname === link.href ? styles.active : ""
+              }`}
             >
               {link.label}
             </Link>
@@ -39,7 +43,12 @@ export default function Header() {
 
         {/* Button - Desktop */}
         <div className={styles.headerBtn}>
-          <button className={styles.button}>Let’s Talk →</button>
+          <button
+            className={styles.button}
+            onClick={() => router.push("/contact-us")}
+          >
+            Let's Talk <ArrowUpRight />
+          </button>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -54,18 +63,25 @@ export default function Header() {
           isMenuOpen ? styles.open : ""
         }`}
       >
-        <nav className={styles.mobileNav} onClick={() => router.push("/")}  >
+        <nav className={styles.mobileNav}>
           {HEADER_LINKS.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className={styles.mobileLink}
+              className={`${styles.mobileLink} ${
+                pathname === link.href ? styles.activeMobile : ""
+              }`}
               onClick={() => setIsMenuOpen(false)}
             >
               {link.label}
             </Link>
           ))}
-          <button className={styles.mobileButton}>Let’s Talk →</button>
+          <button
+            className={styles.mobileButton}
+            onClick={() => router.push("/contact-us")}
+          >
+            Let's Talk <ArrowUpRight />
+          </button>
         </nav>
       </div>
     </header>

@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import AppointmentImage from "@/public/images/appointment.avif";
+import AppointmentImage from "@/public/images/appointment.webp";
 import styles from "./AppointmentSection.module.css";
 import { useRouter } from "next/navigation";
 import { ArrowUpRight } from "lucide-react";

@@ -4,7 +4,7 @@ import Link from "next/link";
 import styles from "./HeroSection.module.css";
 import LogoBadge from "../LogoBadge/LogoBadge";
 import HeroCards from "../HeroCards/HeroCards";
-import HeroBg from "@/public/images/hero-bg.avif";
+import HeroBg from "@/public/images/hero-bg.webp";
 import {useRouter} from "next/navigation";
 import { ArrowUpRight } from "lucide-react";
 
