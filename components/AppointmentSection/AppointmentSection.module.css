@@ -75,10 +75,79 @@
   border: none;
   border-bottom: 1px solid #d9d9d9;
   padding: 10px 5px;
-
 }
 .formGroup input::placeholder,
 .formGroup textarea::placeholder {
-
   font-size: 15px;
-} 
+}
+
+.formBtn {
+  background: #13195c;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 40px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  /* width: 100%; */
+  font-weight: 400;
+}
+.formBtn svg {
+  background: white;
+  color: #0d1440;
+  border-radius: 50%;
+  padding: 5px;
+  width: 28px;
+  height: 28px;
+
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+  .container {
+    gap: 40px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 950px) {
+  .section {
+    padding: 60px 20px;
+  }
+  .container {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+    justify-content: center;
+  }
+  .heading {
+    font-size: 36px;
+    margin: 20px 0 30px;
+  }
+  .AppointmentForm {
+    padding: 20px 0;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .imageBox {
+    max-width: 500px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .formRow {
+    flex-direction: column;
+    gap: 0;
+  }
+  .heading {
+    font-size: 32px;
+  }
+}

@@ -1,10 +1,13 @@
 import React from "react";
 import Image from "next/image";
+import {useRouter} from "next/navigation"
+import { ArrowUpRight } from "lucide-react";
 import "./OurJourney.css";
 import Doctorsdiscuss from "@/public/images/meeting-hospital.jpg";
 import DoctorXray from "@/public/images/doctor-checking-x-rays.jpg";
 
 export default function AboutJourney() {
+  const router = useRouter();
   return (
     <section className="about-journey-section">
       <div className="about-top">
@@ -22,7 +25,7 @@ export default function AboutJourney() {
           </p>
           <div className="new-div-join">
             <div className="about-top">
-              <div className="about-top-card">
+              <div className="about-top-card1">
                 <div className="about-members">
                   <img src="https://i.pravatar.cc/50?img=12" alt="" />
                   <img src="https://i.pravatar.cc/50?img=15" alt="" />
@@ -60,7 +63,7 @@ export default function AboutJourney() {
         </div>
 
         <div className="lower-content">
-          <span className="lower-tag"># About ApexCare</span>
+          <span className="lower-tag"># About K.R.N</span>
           <h2 className="lower-title">
             Innovative tools in a <br /> modern environment
           </h2>
@@ -81,8 +84,11 @@ export default function AboutJourney() {
             <li>Modern, Comfortable Facilities</li>
           </ul>
 
-          <button className="visit-btn">
-            Schedule Your Visit <span>➜</span>
+          <button
+            onClick={() => router.push("/contact-us")}
+            className="visit-btn"
+          >
+            Schedule Your Visit <ArrowUpRight />
           </button>
         </div>
       </div>

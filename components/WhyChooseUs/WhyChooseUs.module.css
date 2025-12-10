@@ -65,6 +65,10 @@
   gap: 18px;
 }
 
+.card:first-child {
+  border-radius: 22px 0 0 22px;
+}
+
 .iconCircle {
   width: 65px;
   height: 65px;
@@ -104,25 +108,55 @@
 }
 
 /*  RESPONSIVE */
+@media (max-width: 1200px) {
+  .headingWrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .certBox {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
 @media (max-width: 1020px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
   .imageCard {
     height: 350px;
+    border-radius: 22px; /* Reset border radius for grid items */
+  }
+  .card {
+    border-radius: 22px; /* Reset border radius for grid items */
   }
 }
 
 @media (max-width: 650px) {
+  .section {
+    padding: 60px 20px;
+  }
   .cards {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
   .heading {
-    font-size: 36px;
+    font-size: 32px;
   }
   .topRow {
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
+  }
+  .certBox {
+    flex-direction: row; /* Keep row but maybe wrap text if needed */
+    align-items: flex-start;
+  }
+  .certTitle {
+    font-size: 14px;
+  }
+  .visitLink {
+    font-size: 16px;
   }
 }

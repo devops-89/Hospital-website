@@ -6,21 +6,29 @@
 .about-top {
   display: flex;
   justify-content: center;
+ 
   /* align-items: center; */
   gap: 40px;
   margin-bottom: 80px;
-  margin-top: -160px;
+  margin-top: -110px;
 }
 
 .about-top-img img {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 20px;
 }
 
 .about-top-card {
   background: #f9faff;
-  padding: 30px;
+  padding: 40px 20px;
+  border-radius: 20px;
+  max-width: 400px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
+.about-top-card1 {
+  background: #f9faff;
+  padding: 25px;
   border-radius: 20px;
   max-width: 400px;
   box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
@@ -75,6 +83,7 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
+
 }
 
 .lower-img img {
@@ -88,12 +97,14 @@
 }
 
 .lower-tag {
-  background: #eef1ff;
-  padding: 6px 14px;
-  border-radius: 18px;
-  font-size: 13px;
-
   display: inline-block;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: transparent;
+  border-radius: 15px;
+  outline: 1px solid #e5e5e5;
   margin-bottom: 18px;
 }
 
@@ -109,7 +120,7 @@
 
 .lower-list li {
   font-size: 16px;
-  margin-bottom: 6px;
+  margin: 6px 0 0 20px;
 }
 
 /* .visit-btn {
@@ -126,7 +137,14 @@
   gap: 8px;
   transition: 0.3s;
 } */
-
+.visit-btn svg {
+  background: white;
+  color: #0d1440;
+  border-radius: 50%;
+  padding: 5px;
+  width: 28px;
+  height: 28px;
+}
 .journey-container {
   display: flex;
   gap: 80px;
@@ -138,9 +156,24 @@
 @media (max-width: 992px) {
   .about-top {
     flex-direction: column;
+    margin-top: -100px; /* Adjust overlap */
+    align-items: center;
   }
   .about-lower {
     flex-direction: column;
+  }
+  .story-section {
+    grid-template-columns: 1fr;
+    padding: 80px 40px;
+    gap: 40px;
+  }
+  .story-right p {
+    padding-right: 0;
+    max-width: 100%;
+  }
+  .journey-container {
+    flex-direction: column;
+    gap: 40px;
   }
 }
 
@@ -148,14 +181,46 @@
   margin-top: 275px;
 }
 
+@media (max-width: 768px) {
+  .about-journey-section {
+    padding: 60px 20px;
+  }
+  .about-top {
+    margin-top: -60px;
+    gap: 30px;
+  }
+  .about-top-card {
+    width: 100%;
+  }
+  .story-section {
+    padding: 60px 20px;
+  }
+  .story-left h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .lower-title {
+    font-size: 32px;
+  }
+  .lower-img img {
+    height: auto;
+  }
+}
+
 @media (max-width: 576px) {
   .about-journey-section {
-    padding: 40px 25px;
+    padding: 40px 20px;
   }
   .journey-title {
     font-size: 28px;
   }
   .lower-title {
     font-size: 28px;
+  }
+  .story-left h2 {
+    font-size: 32px;
+  }
+  .about-top-card h3 {
+    font-size: 20px;
   }
 }

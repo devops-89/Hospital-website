@@ -3,6 +3,8 @@ import { useState } from "react";
 import Image from "next/image";
 import AppointmentImage from "@/public/images/appointment.avif";
 import styles from "./AppointmentSection.module.css";
+import { useRouter } from "next/navigation";
+import { ArrowUpRight } from "lucide-react";
 export default function AppointmentSection() {
   const [form, setForm] = useState({
     name: "",
@@ -105,8 +107,12 @@ export default function AppointmentSection() {
                   required
                 />
               </div>
-              <button type="submit" className={styles.formBtn}>
-                Reserve Your Spot
+              <button
+                type="submit"
+                className={styles.formBtn}
+                onClick={() => router.push("/appointment")}
+              >
+                Reserve Your Spot <ArrowUpRight />
               </button>
             </div>
           </form>

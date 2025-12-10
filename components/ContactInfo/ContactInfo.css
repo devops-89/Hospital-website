@@ -56,3 +56,25 @@
 .email-link:hover {
   color: #4a8be5;
 }
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .contact-info-container {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-info-section {
+    padding: 60px 20px;
+  }
+  .contact-info-container {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  .contact-info-box {
+    align-items: center;
+    text-align: center;
+  }
+}

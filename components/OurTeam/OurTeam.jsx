@@ -3,8 +3,10 @@ import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import styles from "./OurTeam.module.css";
 import Doctor from "@/public/images/doctor.jpg";
+import {useRouter} from "next/navigation"
 
 export default function OurTeam() {
+  const router = useRouter()
   return (
     <section className={styles.section}>
       <div className={styles.container}>
@@ -16,7 +18,7 @@ export default function OurTeam() {
             Your trusted dental <br /> professionals
           </h2>
 
-          <button className={styles.btn}>
+          <button onClick= {() => router.push("/about")} className={styles.btn}>
             See a Doctor Today <ArrowUpRight size={18} />
           </button>
         </div>

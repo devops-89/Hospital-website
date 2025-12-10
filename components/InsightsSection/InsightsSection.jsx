@@ -1,9 +1,13 @@
 "use client";
 import Image from "next/image";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowRight, ArrowUp, ArrowUpRight } from "lucide-react";
 import styles from "./InsightsSection.module.css";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function InsightsSection() {
+  const router = useRouter();
+
   const blogs = [
     {
       id: 1,
@@ -31,7 +35,10 @@ export default function InsightsSection() {
           </h2>
         </div>
 
-        <button className={styles.btn}>
+        <button
+          onClick={() => router.push("/care-services")}
+          className={styles.btn}
+        >
           Check All Insights <ArrowUpRight size={20} />
         </button>
       </div>
@@ -52,9 +59,14 @@ export default function InsightsSection() {
               <p className={styles.date}>{b.date}</p>
               <h3 className={styles.title}>{b.title}</h3>
               <p className={styles.desc}>{b.desc}</p>
-              <button className={styles.roundBtn}>
-                <ArrowUpRight size={20} />
-              </button>
+              {/* <button className={styles.roundBtn}>
+                asdfghj
+                <ArrowUpRight size={10000} color="white" />
+              </button> */}
+
+              <Link href="/care-services" className={styles.roundBtn}>
+                <ArrowUpRight size={20} color="white" />
+              </Link>
             </div>
           </div>
         ))}

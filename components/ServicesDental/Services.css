@@ -44,4 +44,39 @@
 
 .service-content p {
   font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .services-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .services-section {
+    padding: 60px 20px;
+  }
+  .services-container {
+    gap: 20px;
+  }
+  .service-content h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+  .service-card {
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .service-content {
+    padding: 15px;
+  }
 }

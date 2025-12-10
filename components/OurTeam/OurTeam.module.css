@@ -36,7 +36,7 @@
   font-family: "plus-jakarta-sans , sans-serif";
 }
 
-/* .btn {
+.btn {
   background: #0d1440;
   color: white;
   padding: 16px 30px;
@@ -44,10 +44,15 @@
   border-radius: 40px;
   cursor: pointer;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   display: flex;
   align-items: center;
   gap: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #1b3a90;
 }
 
 .btn svg {
@@ -55,7 +60,9 @@
   color: #0d1440;
   border-radius: 50%;
   padding: 5px;
-} */
+  width: 28px;
+  height: 28px;
+}
 
 /* RIGHT SIDE CARD */
 .right {
@@ -81,14 +88,58 @@
 }
 
 .info {
-  padding: 10px 20px;
+  padding: 20px 25px;
 }
 
 .info h3 {
-  font-size: 20px;
+  font-size: 22px;
+  margin-bottom: 5px;
 }
 
 .info p {
   font-size: 16px;
-  margin-top: 6px;
+  color: #666;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+  .container {
+    gap: 40px;
+  }
+  .heading {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 950px) {
+  .section {
+    padding: 60px 20px;
+  }
+  .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heading {
+    font-size: 36px;
+    margin: 20px 0 30px;
+  }
+  .right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 32px;
+  }
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
 }

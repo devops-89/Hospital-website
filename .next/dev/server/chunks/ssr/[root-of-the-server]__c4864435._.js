@@ -21,6 +21,8 @@ __turbopack_context__.s([
     ()=>__TURBOPACK__default__export__
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fa/index.mjs [app-rsc] (ecmascript)");
+;
 ;
 ;
 const PricingCards = ()=>{
@@ -35,7 +37,7 @@ const PricingCards = ()=>{
                         children: "General Dentistry"
                     }, void 0, false, {
                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                        lineNumber: 7,
+                        lineNumber: 8,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -47,37 +49,15 @@ const PricingCards = ()=>{
                                         children: "Routine Checkup & Cleaning"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 9,
+                                        lineNumber: 10,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "$75"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 9,
+                                        lineNumber: 10,
                                         columnNumber: 54
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                lineNumber: 9,
-                                columnNumber: 11
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        children: "Teeth Whitening (In-office)"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 10,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        children: "$150"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 10,
-                                        columnNumber: 55
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
@@ -88,18 +68,18 @@ const PricingCards = ()=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        children: "X-Rays & Diagnostic Exam"
+                                        children: "Teeth Whitening (In-office)"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
                                         lineNumber: 11,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        children: "$50"
+                                        children: "$150"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
                                         lineNumber: 11,
-                                        columnNumber: 52
+                                        columnNumber: 55
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
@@ -110,14 +90,14 @@ const PricingCards = ()=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        children: "Fillings (Tooth-colored)"
+                                        children: "X-Rays & Diagnostic Exam"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
                                         lineNumber: 12,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        children: "$80"
+                                        children: "$50"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
                                         lineNumber: 12,
@@ -128,25 +108,54 @@ const PricingCards = ()=>{
                                 fileName: "[project]/components/PricingCards/PricingCards.jsx",
                                 lineNumber: 12,
                                 columnNumber: 11
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        children: "Fillings (Tooth-colored)"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/PricingCards/PricingCards.jsx",
+                                        lineNumber: 13,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        children: "$80"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/PricingCards/PricingCards.jsx",
+                                        lineNumber: 13,
+                                        columnNumber: 52
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/PricingCards/PricingCards.jsx",
+                                lineNumber: 13,
+                                columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                        lineNumber: 8,
+                        lineNumber: 9,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         className: "book-btn",
-                        children: "Book Now ↗"
-                    }, void 0, false, {
+                        children: [
+                            "Book Now",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaArrowRight"], {}, void 0, false, {
+                                fileName: "[project]/components/PricingCards/PricingCards.jsx",
+                                lineNumber: 16,
+                                columnNumber: 11
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                        lineNumber: 14,
+                        lineNumber: 15,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                lineNumber: 6,
+                lineNumber: 7,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -160,7 +169,7 @@ const PricingCards = ()=>{
                         children: "Advanced Treatments"
                     }, void 0, false, {
                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                        lineNumber: 18,
+                        lineNumber: 21,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -172,20 +181,20 @@ const PricingCards = ()=>{
                                         children: "Root Canal Therapy"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 20,
+                                        lineNumber: 23,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "$75"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 20,
+                                        lineNumber: 23,
                                         columnNumber: 46
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                lineNumber: 20,
+                                lineNumber: 23,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -194,20 +203,20 @@ const PricingCards = ()=>{
                                         children: "Dental Implants"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 21,
+                                        lineNumber: 24,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "$150"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 21,
+                                        lineNumber: 24,
                                         columnNumber: 43
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                lineNumber: 21,
+                                lineNumber: 24,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -216,20 +225,20 @@ const PricingCards = ()=>{
                                         children: "Orthodontic Braces"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 22,
+                                        lineNumber: 25,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "$50"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 22,
+                                        lineNumber: 25,
                                         columnNumber: 46
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                lineNumber: 22,
+                                lineNumber: 25,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -238,40 +247,47 @@ const PricingCards = ()=>{
                                         children: "Wisdom Tooth Extraction"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 23,
+                                        lineNumber: 26,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "$80"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 23,
+                                        lineNumber: 26,
                                         columnNumber: 51
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                lineNumber: 23,
+                                lineNumber: 26,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                        lineNumber: 19,
+                        lineNumber: 22,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         className: "book-btn dark-btn",
-                        children: "Book Now ↗"
-                    }, void 0, false, {
+                        children: [
+                            "Book Now",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaArrowRight"], {}, void 0, false, {
+                                fileName: "[project]/components/PricingCards/PricingCards.jsx",
+                                lineNumber: 29,
+                                columnNumber: 11
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                        lineNumber: 25,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                lineNumber: 17,
+                lineNumber: 20,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -282,7 +298,7 @@ const PricingCards = ()=>{
                         children: "Pediatric & Emergency"
                     }, void 0, false, {
                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                        lineNumber: 29,
+                        lineNumber: 34,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -294,20 +310,20 @@ const PricingCards = ()=>{
                                         children: "Pediatric Consultation"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 31,
+                                        lineNumber: 36,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "$75"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 31,
+                                        lineNumber: 36,
                                         columnNumber: 50
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                lineNumber: 31,
+                                lineNumber: 36,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -316,20 +332,20 @@ const PricingCards = ()=>{
                                         children: "Emergency Dental Visit"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 32,
+                                        lineNumber: 37,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "$150"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 32,
+                                        lineNumber: 37,
                                         columnNumber: 50
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                lineNumber: 32,
+                                lineNumber: 37,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -338,20 +354,20 @@ const PricingCards = ()=>{
                                         children: "Fluoride Treatment"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 33,
+                                        lineNumber: 38,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "$50"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 33,
+                                        lineNumber: 38,
                                         columnNumber: 46
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                lineNumber: 33,
+                                lineNumber: 38,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -360,46 +376,53 @@ const PricingCards = ()=>{
                                         children: "Family Checkup Pack (3 Members)"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 34,
+                                        lineNumber: 39,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "$80"
                                     }, void 0, false, {
                                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                        lineNumber: 34,
+                                        lineNumber: 39,
                                         columnNumber: 59
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                                lineNumber: 34,
+                                lineNumber: 39,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                        lineNumber: 30,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         className: "book-btn",
-                        children: "Book Now ↗"
-                    }, void 0, false, {
+                        children: [
+                            "Book Now",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaArrowRight"], {}, void 0, false, {
+                                fileName: "[project]/components/PricingCards/PricingCards.jsx",
+                                lineNumber: 42,
+                                columnNumber: 11
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                        lineNumber: 36,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/PricingCards/PricingCards.jsx",
-                lineNumber: 28,
+                lineNumber: 33,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/components/PricingCards/PricingCards.jsx",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

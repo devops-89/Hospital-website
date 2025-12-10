@@ -88,4 +88,81 @@
   font-size: 15px;
 }
 
+.AppointmentSection-module__EscrzW__formBtn {
+  color: #fff;
+  cursor: pointer;
+  background: #13195c;
+  border: none;
+  border-radius: 40px;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.AppointmentSection-module__EscrzW__formBtn svg {
+  color: #0d1440;
+  background: #fff;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  padding: 5px;
+}
+
+@media (max-width: 1200px) {
+  .AppointmentSection-module__EscrzW__container {
+    gap: 40px;
+  }
+
+  .AppointmentSection-module__EscrzW__heading {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 950px) {
+  .AppointmentSection-module__EscrzW__section {
+    padding: 60px 20px;
+  }
+
+  .AppointmentSection-module__EscrzW__container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .AppointmentSection-module__EscrzW__left {
+    width: 100%;
+  }
+
+  .AppointmentSection-module__EscrzW__right {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .AppointmentSection-module__EscrzW__heading {
+    margin: 20px 0 30px;
+    font-size: 36px;
+  }
+
+  .AppointmentSection-module__EscrzW__AppointmentForm {
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding: 20px 0;
+  }
+
+  .AppointmentSection-module__EscrzW__imageBox {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .AppointmentSection-module__EscrzW__formRow {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .AppointmentSection-module__EscrzW__heading {
+    font-size: 32px;
+  }
+}
+
 /*# sourceMappingURL=components_AppointmentSection_AppointmentSection_module_css_bad6b30c._.single.css.map*/

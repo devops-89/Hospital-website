@@ -7,7 +7,7 @@
 .about-top {
   justify-content: center;
   gap: 40px;
-  margin-top: -160px;
+  margin-top: -110px;
   margin-bottom: 80px;
   display: flex;
 }
@@ -15,14 +15,22 @@
 .about-top-img img {
   border-radius: 20px;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .about-top-card {
   background: #f9faff;
   border-radius: 20px;
   max-width: 400px;
-  padding: 30px;
+  padding: 40px 20px;
+  box-shadow: 0 20px 45px #00000014;
+}
+
+.about-top-card1 {
+  background: #f9faff;
+  border-radius: 20px;
+  max-width: 400px;
+  padding: 25px;
   box-shadow: 0 20px 45px #00000014;
 }
 
@@ -88,11 +96,14 @@
 }
 
 .lower-tag {
-  background: #eef1ff;
-  border-radius: 18px;
+  text-transform: uppercase;
+  background: none;
+  border-radius: 15px;
+  outline: 1px solid #e5e5e5;
   margin-bottom: 18px;
-  padding: 6px 14px;
+  padding: 8px 12px;
   font-size: 13px;
+  font-weight: 400;
   display: inline-block;
 }
 
@@ -107,8 +118,17 @@
 }
 
 .lower-list li {
-  margin-bottom: 6px;
+  margin: 6px 0 0 20px;
   font-size: 16px;
+}
+
+.visit-btn svg {
+  color: #0d1440;
+  background: #fff;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  padding: 5px;
 }
 
 .journey-container {
@@ -120,8 +140,30 @@
 }
 
 @media (max-width: 992px) {
-  .about-top, .about-lower {
+  .about-top {
     flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+  }
+
+  .about-lower {
+    flex-direction: column;
+  }
+
+  .story-section {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 80px 40px;
+  }
+
+  .story-right p {
+    max-width: 100%;
+    padding-right: 0;
+  }
+
+  .journey-container {
+    flex-direction: column;
+    gap: 40px;
   }
 }
 
@@ -129,13 +171,53 @@
   margin-top: 275px;
 }
 
+@media (max-width: 768px) {
+  .about-journey-section {
+    padding: 60px 20px;
+  }
+
+  .about-top {
+    gap: 30px;
+    margin-top: -60px;
+  }
+
+  .about-top-card {
+    width: 100%;
+  }
+
+  .story-section {
+    padding: 60px 20px;
+  }
+
+  .story-left h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+
+  .lower-title {
+    font-size: 32px;
+  }
+
+  .lower-img img {
+    height: auto;
+  }
+}
+
 @media (max-width: 576px) {
   .about-journey-section {
-    padding: 40px 25px;
+    padding: 40px 20px;
   }
 
   .journey-title, .lower-title {
     font-size: 28px;
+  }
+
+  .story-left h2 {
+    font-size: 32px;
+  }
+
+  .about-top-card h3 {
+    font-size: 20px;
   }
 }
 

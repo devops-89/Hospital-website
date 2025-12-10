@@ -1,4 +1,5 @@
 import "./PricingCards.css";
+import { FaArrowRight } from "react-icons/fa"
 
 const PricingCards = () => {
   return (
@@ -11,7 +12,9 @@ const PricingCards = () => {
           <li><span>X-Rays & Diagnostic Exam</span><span>$50</span></li>
           <li><span>Fillings (Tooth-colored)</span><span>$80</span></li>
         </ul>
-        <button className="book-btn">Book Now ↗</button>
+        <button className="book-btn">Book Now 
+          <FaArrowRight />
+        </button>
       </div>
 
       <div className="pricing-card dark">
@@ -22,7 +25,9 @@ const PricingCards = () => {
           <li><span>Orthodontic Braces</span><span>$50</span></li>
           <li><span>Wisdom Tooth Extraction</span><span>$80</span></li>
         </ul>
-        <button className="book-btn dark-btn">Book Now ↗</button>
+        <button className="book-btn dark-btn">Book Now 
+          <FaArrowRight />
+        </button>
       </div>
 
       <div className="pricing-card light">
@@ -33,7 +38,9 @@ const PricingCards = () => {
           <li><span>Fluoride Treatment</span><span>$50</span></li>
           <li><span>Family Checkup Pack (3 Members)</span><span>$80</span></li>
         </ul>
-        <button className="book-btn">Book Now ↗</button>
+        <button className="book-btn">Book Now 
+          <FaArrowRight />
+        </button>
       </div>
     </section>
   );

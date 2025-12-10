@@ -3,7 +3,7 @@
   background-color: #f9f9f9;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 2rem;
   padding: 80px 10px;
   display: flex;
@@ -55,14 +55,84 @@
   border-color: #fff3;
 }
 
+.book-btn {
+  color: #0a0a3a;
+  cursor: pointer;
+  background: #dde0fc;
+  border: 1px solid #1d1d6a;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 14px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all .3s;
+  display: flex;
+}
+
+.book-btn svg {
+  color: #fff;
+  background: #0a0a3b;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  padding: 5px;
+}
+
+.book-btn:hover {
+  color: #fff;
+  background: #0a0a3a;
+}
+
+.dark-btn {
+  color: #0a0a3a;
+  background: #fff;
+}
+
+.dark-btn svg {
+  color: #fff;
+  background: #0a0a3b;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  padding: 5px;
+}
+
+.dark-btn:hover {
+  background: #c8cef6;
+}
+
 @media (max-width: 992px) {
   .pricing-cards-section {
     flex-direction: column;
     align-items: center;
+    padding: 60px 20px;
   }
 
   .pricing-card {
+    width: 100%;
     max-width: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricing-cards-section {
+    padding: 40px 20px;
+  }
+
+  .card-title {
+    font-size: 1.4rem;
+  }
+
+  .card-list li {
+    padding: 15px 0;
+    font-size: .9rem;
+  }
+
+  .book-btn {
+    padding: 12px 0;
+    font-size: .9rem;
   }
 }
 

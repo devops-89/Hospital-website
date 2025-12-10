@@ -129,8 +129,13 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-up-right.js [app-client] (ecmascript) <export default as ArrowUpRight>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$meeting$2d$hospital$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$images$2f$meeting$2d$hospital$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/images/meeting-hospital.jpg.mjs { IMAGE => "[project]/public/images/meeting-hospital.jpg (static in ecmascript, tag client)" } [app-client] (structured image object with data url, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$doctor$2d$checking$2d$x$2d$rays$2e$jpg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$images$2f$doctor$2d$checking$2d$x$2d$rays$2e$jpg__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/images/doctor-checking-x-rays.jpg.mjs { IMAGE => "[project]/public/images/doctor-checking-x-rays.jpg (static in ecmascript, tag client)" } [app-client] (structured image object with data url, ecmascript)');
+;
+var _s = __turbopack_context__.k.signature();
+;
 ;
 ;
 ;
@@ -138,6 +143,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$images$2f$doctor$2
 ;
 ;
 function AboutJourney() {
+    _s();
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "about-journey-section",
         children: [
@@ -151,12 +158,12 @@ function AboutJourney() {
                             alt: "Doctors discussing"
                         }, void 0, false, {
                             fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                            lineNumber: 12,
+                            lineNumber: 15,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                        lineNumber: 11,
+                        lineNumber: 14,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -166,14 +173,14 @@ function AboutJourney() {
                                 children: "Our Mission & Vision"
                             }, void 0, false, {
                                 fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                lineNumber: 16,
+                                lineNumber: 19,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "At ApexCare, we are dedicated to providing personalised, compassionate dental care using the latest technology. Our goal is to help you achieve a healthy, confident smile while building lasting relationships based on trust, respect, and excellence."
                             }, void 0, false, {
                                 fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                lineNumber: 17,
+                                lineNumber: 20,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -181,7 +188,7 @@ function AboutJourney() {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "about-top",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "about-top-card",
+                                        className: "about-top-card1",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "about-members",
                                             children: [
@@ -190,7 +197,7 @@ function AboutJourney() {
                                                     alt: ""
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                                    lineNumber: 27,
+                                                    lineNumber: 30,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -198,7 +205,7 @@ function AboutJourney() {
                                                     alt: ""
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                                    lineNumber: 28,
+                                                    lineNumber: 31,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -206,47 +213,47 @@ function AboutJourney() {
                                                     alt: ""
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                                    lineNumber: 29,
+                                                    lineNumber: 32,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "Join 5,000+ satisfied members"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                                    lineNumber: 30,
+                                                    lineNumber: 33,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                            lineNumber: 26,
+                                            lineNumber: 29,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                        lineNumber: 25,
+                                        lineNumber: 28,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                    lineNumber: 24,
+                                    lineNumber: 27,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                lineNumber: 23,
+                                lineNumber: 26,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                        lineNumber: 15,
+                        lineNumber: 18,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                lineNumber: 10,
+                lineNumber: 13,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -259,19 +266,19 @@ function AboutJourney() {
                                 "Our journey and ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                    lineNumber: 41,
+                                    lineNumber: 44,
                                     columnNumber: 29
                                 }, this),
                                 "commitment to care"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                            lineNumber: 40,
+                            lineNumber: 43,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                        lineNumber: 39,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -280,18 +287,18 @@ function AboutJourney() {
                             children: "Founded in 1995, ApexCare started with a passion for creating healthy smiles in a welcoming environment. What began as a small clinic has grown into a leading dental practice known for combining expert care with advanced technology. Over the years, we have expanded our services, embraced innovation, and built a team committed to making every visit comfortable and personalized."
                         }, void 0, false, {
                             fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                            lineNumber: 47,
+                            lineNumber: 50,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                        lineNumber: 46,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                lineNumber: 38,
+                lineNumber: 41,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -304,12 +311,12 @@ function AboutJourney() {
                             alt: "Doctor holding X-ray"
                         }, void 0, false, {
                             fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                            lineNumber: 59,
+                            lineNumber: 62,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                        lineNumber: 58,
+                        lineNumber: 61,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -317,10 +324,10 @@ function AboutJourney() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "lower-tag",
-                                children: "# About ApexCare"
+                                children: "# About K.R.N"
                             }, void 0, false, {
                                 fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                lineNumber: 63,
+                                lineNumber: 66,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -329,14 +336,14 @@ function AboutJourney() {
                                     "Innovative tools in a ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                        lineNumber: 65,
+                                        lineNumber: 68,
                                         columnNumber: 35
                                     }, this),
                                     " modern environment"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                lineNumber: 64,
+                                lineNumber: 67,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -344,7 +351,7 @@ function AboutJourney() {
                                 children: "At ApexCare, we believe that cutting-edge technology and a comfortable environment are essential to delivering the best dental care. Our clinic is equipped with the latest advancements to ensure precise diagnoses, effective treatments, and a pain-free experience for every patient."
                             }, void 0, false, {
                                 fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                lineNumber: 68,
+                                lineNumber: 71,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -354,79 +361,83 @@ function AboutJourney() {
                                         children: "Digital X-Rays"
                                     }, void 0, false, {
                                         fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                        lineNumber: 77,
+                                        lineNumber: 80,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "3D Imaging & Scanning"
                                     }, void 0, false, {
                                         fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                        lineNumber: 78,
+                                        lineNumber: 81,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "Laser Dentistry"
                                     }, void 0, false, {
                                         fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                        lineNumber: 79,
+                                        lineNumber: 82,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "Intraoral Cameras"
                                     }, void 0, false, {
                                         fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                        lineNumber: 80,
+                                        lineNumber: 83,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                         children: "Modern, Comfortable Facilities"
                                     }, void 0, false, {
                                         fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                        lineNumber: 81,
+                                        lineNumber: 84,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                lineNumber: 76,
+                                lineNumber: 79,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                onClick: ()=>router.push("/contact-us"),
                                 className: "visit-btn",
                                 children: [
                                     "Schedule Your Visit ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        children: "➜"
-                                    }, void 0, false, {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpRight$3e$__["ArrowUpRight"], {}, void 0, false, {
                                         fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                        lineNumber: 85,
+                                        lineNumber: 91,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                                lineNumber: 84,
+                                lineNumber: 87,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                        lineNumber: 62,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/OurJourney/OurJourney.jsx",
-                lineNumber: 57,
+                lineNumber: 60,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/OurJourney/OurJourney.jsx",
-        lineNumber: 9,
+        lineNumber: 12,
         columnNumber: 5
     }, this);
 }
+_s(AboutJourney, "fN7XvhJ+p5oE6+Xlo0NJmXpxjC8=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"]
+    ];
+});
 _c = AboutJourney;
 var _c;
 __turbopack_context__.k.register(_c, "AboutJourney");

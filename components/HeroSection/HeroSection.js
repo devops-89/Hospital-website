@@ -1,13 +1,17 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./HeroSection.module.css";
 import LogoBadge from "../LogoBadge/LogoBadge";
 import HeroCards from "../HeroCards/HeroCards";
-import HeroBg from"@/public/images/hero-bg.avif";
-<div className={styles.logoContainer}>
-  <LogoBadge />
-</div>;
+import HeroBg from "@/public/images/hero-bg.avif";
+import {useRouter} from "next/navigation";
+import { ArrowUpRight } from "lucide-react";
+
+
+
 export default function HeroSection() {
+  const router = useRouter();
   return (
     <section className={styles.hero}>
       {/* Background Image */}
@@ -20,7 +24,6 @@ export default function HeroSection() {
           className={styles.image}
         />
       </div>
-
       {/* Overlay Content */}
       <div className={styles.overlay}>
         <div className={styles.container}>
@@ -32,18 +35,17 @@ export default function HeroSection() {
               expert <br /> dental care{" "}
             </span>
           </h1>
-          <Link href="/schedule" className={styles.ctaButton}>
+          <button onClick={() => router.push("/contact-us")} className={styles.ctaButton}>
             Schedule Your Visit
-          </Link>
-          
+            <ArrowUpRight />
+          </button>
+
           <div className={styles.logoContainer}>
             <LogoBadge />
           </div>
-        
         </div>
       </div>
-     <HeroCards/>
-     
+      <HeroCards />
     </section>
   );
 }

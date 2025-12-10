@@ -3,7 +3,7 @@
   background-color: #f9f9f9;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 2rem;
   padding: 80px 10px;
   display: flex;
@@ -55,22 +55,94 @@
   border-color: #fff3;
 }
 
+.book-btn {
+  color: #0a0a3a;
+  cursor: pointer;
+  background: #dde0fc;
+  border: 1px solid #1d1d6a;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 14px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all .3s;
+  display: flex;
+}
+
+.book-btn svg {
+  color: #fff;
+  background: #0a0a3b;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  padding: 5px;
+}
+
+.book-btn:hover {
+  color: #fff;
+  background: #0a0a3a;
+}
+
+.dark-btn {
+  color: #0a0a3a;
+  background: #fff;
+}
+
+.dark-btn svg {
+  color: #fff;
+  background: #0a0a3b;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  padding: 5px;
+}
+
+.dark-btn:hover {
+  background: #c8cef6;
+}
+
 @media (max-width: 992px) {
   .pricing-cards-section {
     flex-direction: column;
     align-items: center;
+    padding: 60px 20px;
   }
 
   .pricing-card {
+    width: 100%;
     max-width: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricing-cards-section {
+    padding: 40px 20px;
+  }
+
+  .card-title {
+    font-size: 1.4rem;
+  }
+
+  .card-list li {
+    padding: 15px 0;
+    font-size: .9rem;
+  }
+
+  .book-btn {
+    padding: 12px 0;
+    font-size: .9rem;
   }
 }
 
 /* [project]/components/AppointmentSection/AppointmentSection.module.css [app-client] (css) */
 .AppointmentSection-module__EscrzW__section {
-  background: linear-gradient(135deg, #fff 0%, #b6baf9 100%);
+  background: linear-gradient(to right, #fff 0%, #b6baf9 100%);
   border-radius: 18px;
   width: 100%;
+  max-width: 1350px;
+  margin: auto;
   padding: 80px 40px;
 }
 
@@ -78,7 +150,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 60px;
-  max-width: 1400px;
+  max-width: 1350px;
   margin: auto;
   display: flex;
 }
@@ -105,43 +177,8 @@
   font-size: 48px;
 }
 
-.AppointmentSection-module__EscrzW__form {
+.AppointmentSection-module__EscrzW__AppointmentForm {
   width: 100%;
-}
-
-.AppointmentSection-module__EscrzW__row {
-  gap: 25px;
-  margin-bottom: 25px;
-  display: flex;
-}
-
-.AppointmentSection-module__EscrzW__field, .AppointmentSection-module__EscrzW__fieldFull {
-  flex-direction: column;
-  display: flex;
-}
-
-.AppointmentSection-module__EscrzW__field input, .AppointmentSection-module__EscrzW__fieldFull input {
-  background: none;
-  border: none;
-  border-bottom: 1px solid #d7d7d7;
-  outline: none;
-  padding: 14px;
-  font-size: 16px;
-}
-
-.AppointmentSection-module__EscrzW__fieldFull textarea {
-  resize: none;
-  background: none;
-  border: none;
-  border-bottom: 1px solid #d7d7d7;
-  outline: none;
-  height: 80px;
-  padding: 14px;
-}
-
-.AppointmentSection-module__EscrzW__field label, .AppointmentSection-module__EscrzW__fieldFull label {
-  margin-bottom: 6px;
-  font-size: 15px;
 }
 
 .AppointmentSection-module__EscrzW__imageBox {
@@ -154,6 +191,116 @@
   border-radius: 20px;
   width: 100%;
   height: auto;
+}
+
+.AppointmentSection-module__EscrzW__AppointmentForm {
+  text-align: left;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 550px;
+  margin-bottom: 50px;
+  padding: 50px 0;
+}
+
+.AppointmentSection-module__EscrzW__formRow {
+  flex-wrap: wrap;
+  gap: 20px;
+  display: flex;
+}
+
+.AppointmentSection-module__EscrzW__formGroup {
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.AppointmentSection-module__EscrzW__formGroup input, .AppointmentSection-module__EscrzW__formGroup textarea {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 10px 5px;
+}
+
+.AppointmentSection-module__EscrzW__formGroup input::placeholder, .AppointmentSection-module__EscrzW__formGroup textarea::placeholder {
+  font-size: 15px;
+}
+
+.AppointmentSection-module__EscrzW__formBtn {
+  color: #fff;
+  cursor: pointer;
+  background: #13195c;
+  border: none;
+  border-radius: 40px;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.AppointmentSection-module__EscrzW__formBtn svg {
+  color: #0d1440;
+  background: #fff;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  padding: 5px;
+}
+
+@media (max-width: 1200px) {
+  .AppointmentSection-module__EscrzW__container {
+    gap: 40px;
+  }
+
+  .AppointmentSection-module__EscrzW__heading {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 950px) {
+  .AppointmentSection-module__EscrzW__section {
+    padding: 60px 20px;
+  }
+
+  .AppointmentSection-module__EscrzW__container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .AppointmentSection-module__EscrzW__left {
+    width: 100%;
+  }
+
+  .AppointmentSection-module__EscrzW__right {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .AppointmentSection-module__EscrzW__heading {
+    margin: 20px 0 30px;
+    font-size: 36px;
+  }
+
+  .AppointmentSection-module__EscrzW__AppointmentForm {
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding: 20px 0;
+  }
+
+  .AppointmentSection-module__EscrzW__imageBox {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .AppointmentSection-module__EscrzW__formRow {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .AppointmentSection-module__EscrzW__heading {
+    font-size: 32px;
+  }
 }
 
 /* [project]/components/Banner/Banner.css [app-client] (css) */
@@ -192,6 +339,40 @@
   font-style: italic;
   font-weight: 300;
   display: inline-block;
+}
+
+@media (max-width: 992px) {
+  .hero-section {
+    min-height: 35vh;
+    padding: 50px 20px;
+  }
+
+  .hero-heading {
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    border-radius: 0 0 20px 20px;
+    min-height: 30vh;
+    margin-top: 80px;
+    padding: 40px 20px;
+  }
+
+  .hero-heading {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-heading {
+    font-size: 32px;
+  }
+
+  .hero-tag {
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=components_51e49564._.css.map*/

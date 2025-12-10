@@ -33,7 +33,8 @@
 }
 
 .cardText {
-  font-size: 20px;
+  margin-top: 15px;
+  font-size: 18px;
 }
 
 .profile {
@@ -97,71 +98,64 @@
   font-size: 14px;
   margin-top: 5px;
 }
-.link {
-  font-size: 18px;
-  color: #13185d;
-  padding: 12px 20px;
-  border-radius: 50px;
-  transition: 0.3s;
-  text-decoration: none;
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .leftCard {
+    order: 2;
+    width: 45%;
+  }
+  .centerImage {
+    order: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .rightText {
+    order: 3;
+    width: 45%;
+    padding-left: 0;
+  }
 }
 
-.link:hover {
-  background: #ededf1;
-}
-
-.active {
-  background: #ededf1;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-}
-.link {
-  font-size: 18px;
-  color: #13185d;
-  padding: 12px 20px;
-  border-radius: 50px;
-  transition: 0.3s;
-  text-decoration: none;
-}
-
-.link:hover {
-  background: #ededf1;
-}
-
-.active {
-  background: #ededf1;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-}
-.link {
-  font-size: 18px;
-  color: #13185d;
-  padding: 12px 20px;
-  border-radius: 50px;
-  transition: 0.3s;
-  text-decoration: none;
-}
-
-.link:hover {
-  background: #ededf1;
-}
-
-.active {
-  background: #ededf1;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-}
-.link {
-  font-size: 18px;
-  color: #13185d;
-  padding: 12px 20px;
-  border-radius: 50px;
-  transition: 0.3s;
-  text-decoration: none;
-}
-
-.link:hover {
-  background: #ededf1;
-}
-
-.active {
-  background: #ededf1;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 20px;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .leftCard {
+    width: 100%;
+    order: 2;
+  }
+  .centerImage {
+    order: 1;
+  }
+  .centerImage .heroImg {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+  }
+  .rightText {
+    width: 100%;
+    order: 3;
+    text-align: center;
+  }
+  .userInfo {
+    justify-content: center;
+    text-align: left;
+  }
+  .quoteIcon {
+    font-size: 60px;
+  }
+  .bigText {
+    font-size: 20px;
+  }
 }

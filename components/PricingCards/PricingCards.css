@@ -1,7 +1,7 @@
 .pricing-cards-section {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 2rem;
   flex-wrap: wrap;
   padding: 80px 10px;
@@ -54,8 +54,11 @@
   border-color: rgba(255, 255, 255, 0.2);
 }
 
-/* .book-btn {
-  display: block;
+.book-btn {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   padding: 14px 0;
   font-size: 1rem;
@@ -67,28 +70,63 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
+.book-btn svg {
+  background: #0a0a3b;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  width: 28px;
+  height: 28px;
+}
 .book-btn:hover {
   background: #0a0a3a;
   color: white;
-} */
+}
 
-/* .dark-btn {
+.dark-btn {
   background: white;
   color: #0a0a3a;
 }
 
+.dark-btn svg {
+  background: #0a0a3b;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  width: 28px;
+  height: 28px;
+}
 .dark-btn:hover {
   background: #c8cef6;
-} */
+}
 
+/* RESPONSIVE */
 @media (max-width: 992px) {
   .pricing-cards-section {
     flex-direction: column;
     align-items: center;
+    padding: 60px 20px;
   }
 
   .pricing-card {
+    width: 100%;
     max-width: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricing-cards-section {
+    padding: 40px 20px;
+  }
+  .card-title {
+    font-size: 1.4rem;
+  }
+  .card-list li {
+    font-size: 0.9rem;
+    padding: 15px 0;
+  }
+  .book-btn {
+    font-size: 0.9rem;
+    padding: 12px 0;
   }
 }

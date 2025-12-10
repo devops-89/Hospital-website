@@ -22,7 +22,7 @@ export default function LogoBadge() {
 
           <text className={styles.text}>
             <textPath href="#circlePath" startOffset="0%">
-              • YOUR DENTAL ASSISTANT &nbsp;&nbsp; • YOUR DENTAL ASSISTANT 
+              &nbsp;&nbsp; • YOUR DENTAL ASSISTANT &nbsp;&nbsp; • YOUR DENTAL ASSISTANT 
             </textPath>
           </text>
         </svg>

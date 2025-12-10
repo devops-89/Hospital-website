@@ -16,8 +16,8 @@
 
 .form-heading {
   text-transform: capitalize;
-  margin: 0 0 50px;
-  font-size: 65px;
+  margin: 20px 0 50px;
+  font-size: 46px;
 }
 
 .contact-form {
@@ -40,7 +40,7 @@
 .form-group {
   flex-direction: column;
   flex: 1;
-  margin-bottom: 25px;
+  margin-bottom: 45px;
   display: flex;
 }
 
@@ -53,11 +53,48 @@
 .form-btn {
   color: #fff;
   cursor: pointer;
+  background: #0d1440;
   border: none;
   border-radius: 25px;
   justify-content: center;
   width: 100%;
   padding: 15px;
+  font-size: 16px;
+  transition: all .3s;
+}
+
+.form-btn:hover {
+  background: #1b3a90;
+}
+
+@media (max-width: 768px) {
+  .contact-form-section {
+    padding: 60px 20px;
+  }
+
+  .form-heading {
+    margin-bottom: 30px;
+    font-size: 42px;
+  }
+
+  .contact-form {
+    padding: 40px 25px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-heading {
+    font-size: 32px;
+  }
+
+  .contact-form {
+    padding: 30px 20px;
+  }
 }
 
 /*# sourceMappingURL=components_ContactForm_ContactForm_css_bad6b30c._.single.css.map*/

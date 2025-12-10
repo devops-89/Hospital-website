@@ -1,8 +1,9 @@
 .cardsWrapper {
   display: flex;
   gap: 15px;
+
   margin-top: -120px;
-  flex-wrap: wrap;       
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -87,18 +88,19 @@
   margin-top: 6px;
 }
 
-
 /* Mobile (max-width: 600px) */
 @media (max-width: 600px) {
-
   .cardsWrapper {
     gap: 16px;
+    margin-top: 60px;
+    padding: 0 20px;
   }
 
   .card {
-    width: 100%;         
-    height: auto;        
+    width: 100%;
+    height: auto;
     padding: 22px;
+    
   }
 
   .title {
@@ -125,7 +127,11 @@
 
 /* 📱 Tablet (600px–900px) */
 @media (min-width: 600px) and (max-width: 900px) {
+  .cardsWrapper {
+    margin-top: -80px;
+    padding: 0 20px;
+  }
   .card {
-    width: 45%;          
+    width: 45%;
   }
 }

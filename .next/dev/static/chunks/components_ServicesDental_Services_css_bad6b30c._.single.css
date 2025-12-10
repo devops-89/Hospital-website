@@ -44,7 +44,45 @@
 }
 
 .service-content p {
+  color: #555;
   font-size: .95rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1024px) {
+  .services-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .services-section {
+    padding: 60px 20px;
+  }
+
+  .services-container {
+    gap: 20px;
+  }
+
+  .service-content h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .services-container {
+    grid-template-columns: 1fr;
+  }
+
+  .service-card {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .service-content {
+    padding: 15px;
+  }
 }
 
 /*# sourceMappingURL=components_ServicesDental_Services_css_bad6b30c._.single.css.map*/

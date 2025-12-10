@@ -56,4 +56,27 @@
   color: #4a8be5;
 }
 
+@media (max-width: 992px) {
+  .contact-info-container {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-info-section {
+    padding: 60px 20px;
+  }
+
+  .contact-info-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .contact-info-box {
+    text-align: center;
+    align-items: center;
+  }
+}
+
 /*# sourceMappingURL=components_ContactInfo_ContactInfo_css_bad6b30c._.single.css.map*/

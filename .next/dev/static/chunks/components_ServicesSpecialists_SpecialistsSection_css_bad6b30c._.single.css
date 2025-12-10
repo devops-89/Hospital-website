@@ -1,4 +1,12 @@
 /* [project]/components/ServicesSpecialists/SpecialistsSection.css [app-client] (css) */
+.specialists-header .tag {
+  background: #f1f3ff;
+  border-radius: 20px;
+  padding: 6px 18px;
+  font-size: 13px;
+  display: inline-block;
+}
+
 .specialists-section {
   text-align: center;
   background: #fff;
@@ -8,10 +16,13 @@
 }
 
 .specialists-header .tag {
-  background: #f1f3ff;
-  border-radius: 20px;
-  padding: 6px 18px;
+  text-transform: uppercase;
+  background: none;
+  border-radius: 15px;
+  outline: 1px solid #e5e5e5;
+  padding: 8px 12px;
   font-size: 13px;
+  font-weight: 400;
   display: inline-block;
 }
 
@@ -55,9 +66,31 @@
   font-size: 16px;
 }
 
+@media (max-width: 1200px) {
+  .specialists-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 @media (max-width: 991px) {
   .specialists-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .specialists-header h2 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .specialists-section {
+    width: 90%;
+    padding: 50px 20px;
+  }
+
+  .specialists-header h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
   }
 }
 
@@ -65,15 +98,9 @@
   .specialists-grid {
     grid-template-columns: repeat(1, 1fr);
   }
-}
 
-@media (max-width: 768px) {
-  .services-section {
-    padding: 50px 20px;
-  }
-
-  .service-img {
-    height: 150px;
+  .specialists-header h2 {
+    font-size: 32px;
   }
 }
 

@@ -340,6 +340,7 @@ function AboutSection() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: ()=>window.location.href = "/contact-us",
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$meet$2d$doctor$2f$meet$2d$doctor$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].doctorBtn,
                             children: [
                                 "Meet a Doctor ",
@@ -559,14 +560,14 @@ function WhyChooseUs() {
                             "The top reasons our ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                                lineNumber: 20,
+                                lineNumber: 19,
                                 columnNumber: 31
                             }, this),
                             " patients love us"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                        lineNumber: 19,
+                        lineNumber: 18,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -579,7 +580,7 @@ function WhyChooseUs() {
                                 alt: ""
                             }, void 0, false, {
                                 fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                                lineNumber: 23,
+                                lineNumber: 22,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -589,7 +590,7 @@ function WhyChooseUs() {
                                         children: "Certified by the American Dental Association"
                                     }, void 0, false, {
                                         fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                                        lineNumber: 30,
+                                        lineNumber: 29,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -601,31 +602,31 @@ function WhyChooseUs() {
                                                 size: 25
                                             }, void 0, false, {
                                                 fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                                                lineNumber: 34,
+                                                lineNumber: 33,
                                                 columnNumber: 35
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                                        lineNumber: 33,
+                                        lineNumber: 32,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                                lineNumber: 29,
+                                lineNumber: 28,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                        lineNumber: 22,
+                        lineNumber: 21,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                lineNumber: 18,
+                lineNumber: 17,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -633,9 +634,6 @@ function WhyChooseUs() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$WhyChooseUs$2f$WhyChooseUs$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].card,
-                        style: {
-                            borderRadius: " 22px 0 0 22px"
-                        },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$WhyChooseUs$2f$WhyChooseUs$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].iconCircle,
@@ -646,32 +644,32 @@ function WhyChooseUs() {
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                                    lineNumber: 46,
+                                    lineNumber: 44,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                                lineNumber: 45,
+                                lineNumber: 43,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                 children: "Experienced & Caring Dentists"
                             }, void 0, false, {
                                 fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                                lineNumber: 49,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "With over 25 years of experience, our team provides expert care with a gentle touch, ensuring a comfortable and effective experience every time."
                             }, void 0, false, {
                                 fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                                lineNumber: 50,
+                                lineNumber: 48,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                        lineNumber: 44,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -686,32 +684,32 @@ function WhyChooseUs() {
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                                    lineNumber: 59,
+                                    lineNumber: 57,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                                lineNumber: 58,
+                                lineNumber: 56,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                 children: "State-of-the-Art Technology"
                             }, void 0, false, {
                                 fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                                lineNumber: 62,
+                                lineNumber: 60,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "We use the latest dental technology to provide precise, efficient, and effective treatments, reducing discomfort."
                             }, void 0, false, {
                                 fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                                lineNumber: 63,
+                                lineNumber: 61,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                        lineNumber: 57,
+                        lineNumber: 55,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -726,32 +724,32 @@ function WhyChooseUs() {
                                     alt: ""
                                 }, void 0, false, {
                                     fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                                    lineNumber: 72,
+                                    lineNumber: 70,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                                lineNumber: 71,
+                                lineNumber: 69,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                 children: "Comprehensive Care for the Whole Family"
                             }, void 0, false, {
                                 fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                                lineNumber: 80,
+                                lineNumber: 73,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "From routine check-ups to advanced treatments, we offer dental services for all ages — ensuring the whole family receives the best care."
                             }, void 0, false, {
                                 fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                                lineNumber: 81,
+                                lineNumber: 74,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                        lineNumber: 70,
+                        lineNumber: 68,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -764,18 +762,18 @@ function WhyChooseUs() {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$WhyChooseUs$2f$WhyChooseUs$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].img
                         }, void 0, false, {
                             fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                            lineNumber: 90,
+                            lineNumber: 83,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                        lineNumber: 89,
+                        lineNumber: 82,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/WhyChooseUs/WhyChooseUs.js",
-                lineNumber: 42,
+                lineNumber: 40,
                 columnNumber: 7
             }, this)
         ]
@@ -1114,6 +1112,7 @@ const __TURBOPACK__default__export__ = {
 __turbopack_context__.v({
   "AppointmentForm": "AppointmentSection-module__EscrzW__AppointmentForm",
   "container": "AppointmentSection-module__EscrzW__container",
+  "formBtn": "AppointmentSection-module__EscrzW__formBtn",
   "formGroup": "AppointmentSection-module__EscrzW__formGroup",
   "formRow": "AppointmentSection-module__EscrzW__formRow",
   "heading": "AppointmentSection-module__EscrzW__heading",
@@ -1436,14 +1435,12 @@ const __TURBOPACK__default__export__ = {
 "[project]/components/SuccessStory/SuccessStory.module.css [app-ssr] (css module)", ((__turbopack_context__) => {
 
 __turbopack_context__.v({
-  "active": "SuccessStory-module__NJYpuW__active",
   "bigText": "SuccessStory-module__NJYpuW__bigText",
   "cardText": "SuccessStory-module__NJYpuW__cardText",
   "centerImage": "SuccessStory-module__NJYpuW__centerImage",
   "container": "SuccessStory-module__NJYpuW__container",
   "heroImg": "SuccessStory-module__NJYpuW__heroImg",
   "leftCard": "SuccessStory-module__NJYpuW__leftCard",
-  "link": "SuccessStory-module__NJYpuW__link",
   "profile": "SuccessStory-module__NJYpuW__profile",
   "quoteIcon": "SuccessStory-module__NJYpuW__quoteIcon",
   "rightText": "SuccessStory-module__NJYpuW__rightText",
@@ -1627,6 +1624,7 @@ function SuccessStory() {
 "[project]/components/OurTeam/OurTeam.module.css [app-ssr] (css module)", ((__turbopack_context__) => {
 
 __turbopack_context__.v({
+  "btn": "OurTeam-module__GvAq4W__btn",
   "card": "OurTeam-module__GvAq4W__card",
   "container": "OurTeam-module__GvAq4W__container",
   "heading": "OurTeam-module__GvAq4W__heading",
@@ -1797,6 +1795,7 @@ function OurTeam() {
 "[project]/components/InsightsSection/InsightsSection.module.css [app-ssr] (css module)", ((__turbopack_context__) => {
 
 __turbopack_context__.v({
+  "btn": "InsightsSection-module__03_usa__btn",
   "card": "InsightsSection-module__03_usa__card",
   "cardImage": "InsightsSection-module__03_usa__cardImage",
   "cardsWrapper": "InsightsSection-module__03_usa__cardsWrapper",
@@ -1805,6 +1804,7 @@ __turbopack_context__.v({
   "desc": "InsightsSection-module__03_usa__desc",
   "heading": "InsightsSection-module__03_usa__heading",
   "left": "InsightsSection-module__03_usa__left",
+  "roundBtn": "InsightsSection-module__03_usa__roundBtn",
   "section": "InsightsSection-module__03_usa__section",
   "tag": "InsightsSection-module__03_usa__tag",
   "title": "InsightsSection-module__03_usa__title",
@@ -1822,7 +1822,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-up-right.js [app-ssr] (ecmascript) <export default as ArrowUpRight>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$InsightsSection$2f$InsightsSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/components/InsightsSection/InsightsSection.module.css [app-ssr] (css module)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 "use client";
+;
 ;
 ;
 ;
@@ -1858,7 +1860,7 @@ function InsightsSection() {
                                 children: "# INSIGHTS"
                             }, void 0, false, {
                                 fileName: "[project]/components/InsightsSection/InsightsSection.jsx",
-                                lineNumber: 28,
+                                lineNumber: 29,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1867,20 +1869,20 @@ function InsightsSection() {
                                     "From our blog: tips & insights for ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/components/InsightsSection/InsightsSection.jsx",
-                                        lineNumber: 30,
+                                        lineNumber: 31,
                                         columnNumber: 48
                                     }, this),
                                     " healthy smiles"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/InsightsSection/InsightsSection.jsx",
-                                lineNumber: 29,
+                                lineNumber: 30,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/InsightsSection/InsightsSection.jsx",
-                        lineNumber: 27,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1891,19 +1893,19 @@ function InsightsSection() {
                                 size: 20
                             }, void 0, false, {
                                 fileName: "[project]/components/InsightsSection/InsightsSection.jsx",
-                                lineNumber: 35,
+                                lineNumber: 36,
                                 columnNumber: 30
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/InsightsSection/InsightsSection.jsx",
-                        lineNumber: 34,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/InsightsSection/InsightsSection.jsx",
-                lineNumber: 26,
+                lineNumber: 27,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1919,7 +1921,7 @@ function InsightsSection() {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$InsightsSection$2f$InsightsSection$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].cardImage
                             }, void 0, false, {
                                 fileName: "[project]/components/InsightsSection/InsightsSection.jsx",
-                                lineNumber: 43,
+                                lineNumber: 44,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1930,7 +1932,7 @@ function InsightsSection() {
                                         children: b.date
                                     }, void 0, false, {
                                         fileName: "[project]/components/InsightsSection/InsightsSection.jsx",
-                                        lineNumber: 52,
+                                        lineNumber: 53,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1938,7 +1940,7 @@ function InsightsSection() {
                                         children: b.title
                                     }, void 0, false, {
                                         fileName: "[project]/components/InsightsSection/InsightsSection.jsx",
-                                        lineNumber: 53,
+                                        lineNumber: 54,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1946,7 +1948,7 @@ function InsightsSection() {
                                         children: b.desc
                                     }, void 0, false, {
                                         fileName: "[project]/components/InsightsSection/InsightsSection.jsx",
-                                        lineNumber: 54,
+                                        lineNumber: 55,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1955,35 +1957,35 @@ function InsightsSection() {
                                             size: 20
                                         }, void 0, false, {
                                             fileName: "[project]/components/InsightsSection/InsightsSection.jsx",
-                                            lineNumber: 56,
+                                            lineNumber: 57,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/InsightsSection/InsightsSection.jsx",
-                                        lineNumber: 55,
+                                        lineNumber: 56,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/InsightsSection/InsightsSection.jsx",
-                                lineNumber: 51,
+                                lineNumber: 52,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, b.id, true, {
                         fileName: "[project]/components/InsightsSection/InsightsSection.jsx",
-                        lineNumber: 42,
+                        lineNumber: 43,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/InsightsSection/InsightsSection.jsx",
-                lineNumber: 40,
+                lineNumber: 41,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/InsightsSection/InsightsSection.jsx",
-        lineNumber: 25,
+        lineNumber: 26,
         columnNumber: 5
     }, this);
 }

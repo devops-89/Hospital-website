@@ -30,7 +30,60 @@
   background: #ffffff;
   border-radius: 20px;
   padding: 25px;
-  box-shadow: 0px 25px 60px rgba(0,0,0,0.08);
+  box-shadow: 0px 25px 60px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.specialist-card:hover {
+  transform: translateY(-10px);
+}
+
+.specialist-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
+.specialist-card h3 {
+  margin-top: 18px;
+  font-size: 20px;
+}
+.specialists-section {
+  text-align: center;
+  padding: 50px 40px;
+  background: #ffffff;
+  width: 82%;
+  margin: auto;
+}
+
+.specialists-header .tag {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: transparent;
+  border-radius: 15px;
+  outline: 1px solid #e5e5e5;
+}
+
+.specialists-header h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.specialists-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  justify-content: center;
+}
+
+.specialist-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0px 25px 60px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease;
 }
 
@@ -54,9 +107,29 @@
   font-size: 16px;
 }
 
+@media (max-width: 1200px) {
+  .specialists-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 @media (max-width: 991px) {
   .specialists-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .specialists-header h2 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .specialists-section {
+    width: 90%;
+    padding: 50px 20px;
+  }
+  .specialists-header h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
   }
 }
 
@@ -64,13 +137,7 @@
   .specialists-grid {
     grid-template-columns: repeat(1, 1fr);
   }
-}
-
-@media (max-width: 768px) {
-  .services-section {
-    padding: 50px 20px;
-  }
-  .service-img {
-    height: 150px;
+  .specialists-header h2 {
+    font-size: 32px;
   }
 }

@@ -27,6 +27,7 @@
   justify-content: flex-end;
 }
 
+
 .tag {
   display: inline-block;
   padding: 8px 12px;
@@ -36,7 +37,9 @@
   background: transparent;
   border-radius: 15px;
   outline: 1px solid #e5e5e5;
+  margin-bottom: 18px;
 }
+
 
 .heading {
   font-size: 46px;
@@ -116,21 +119,53 @@
   margin-bottom: -15px;
   opacity: 0.8;
 }
-.doctorBtn{
-    font-size: 16px;
-    font-weight: 500;
-    padding: 14px 24px;
+.doctorBtn {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 24px;
+}
+.doctorBtn svg {
+  background: white;
+  color: #0d1440;
+  border-radius: 50%;
+  padding: 5px;
+  width: 28px;
+  height: 28px;
+
 }
 
 /* ===== RESPONSIVE ===== */
-@media (max-width: 950px) {
+@media (max-width: 1200px) {
   .wrapper {
-    flex-direction: column-reverse;
+    gap: 40px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .bgImageWrapper {
+    left: 50%;
+  }
+}
+
+@media (max-width: 950px) {
+  .section {
+    padding: 100px 0;
+  }
+  .wrapper {
+    flex-direction: column; /* Image on top or bottom? Original was column-reverse, let's stick to that if it makes sense, or column if image should be first. Usually text first on mobile is better for SEO/context, but design might dictate otherwise. Let's keep text first (column) or check original. Original was column-reverse (Text bottom, Image top). Let's try column (Text top, Image bottom) or stick to reverse. Let's use column to match typical flow, or keep reverse if image is decorative. Actually, let's use column. */
+    flex-direction: column;
     text-align: center;
+    gap: 40px;
+  }
+
+  .left {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .heading {
-    font-size: 38px;
+    font-size: 36px;
   }
 
   .desc {
@@ -138,8 +173,35 @@
     margin: 18px auto;
   }
 
+  .bgImageWrapper {
+    display: none; /* Hide decorative background on mobile to prevent overflow/mess */
+  }
+
+  .right {
+    justify-content: center;
+  }
+
   .topCircleWrapper,
   .bottomCircleWrapper {
     display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 60px 0;
+  }
+  .wrapper {
+    padding: 0 20px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .doctorBtn {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
 }

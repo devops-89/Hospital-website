@@ -3,8 +3,11 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import styles from "./ServicesSection.module.css";
+import {useRouter} from "next/navigation"
+
 
 export default function ServicesSection() {
+  const router = useRouter()
   const services = [
     {
       id: 1,
@@ -57,7 +60,7 @@ export default function ServicesSection() {
         <h2 className={styles.heading}>
           Comprehensive dental care <br /> for your smile
         </h2>
-        <button className={styles.moreBtn}>
+        <button onClick={() => router.push("/care-services")} className={styles.moreBtn}>
           More Service <ArrowUpRight size={18} />
         </button>
       </div>

@@ -1,8 +1,12 @@
+"use client"
 import { Phone } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import "./TransformSection.css";
 import Image from "next/image";
 import DoctorImage from "@/public/images/doctor-image.webp";
+import {useRouter} from "next/navigation"
 const TransformSection = () => {
+  const router = useRouter()
   return (
     <section className="transform-section">
       <div className="transform-container">
@@ -27,8 +31,8 @@ const TransformSection = () => {
             </div>
           </div>
 
-          <button className="schedule-btn">
-            Schedule Your Visit <span>↗</span>
+          <button onClick={() => router.push("/contact-us")} className="schedule-btn">
+            Schedule Your Visit <span><ArrowUpRight size={20} /></span>
           </button>
         </div>
       </div>

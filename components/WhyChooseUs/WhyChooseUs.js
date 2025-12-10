@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import styles from "./WhyChooseUs.module.css";
 import whyChoose1 from "@/public/images/whychooseusteeth.svg";
 import whyChoose2 from "@/public/images/whychooseiconstate.svg";
-import whyChoose3 from "@/public/images/whychooseiconcare.svg"; 
+import whyChoose3 from "@/public/images/whychooseiconcare.svg";
 import whyChooseus2 from "@/public/images/whychooseus1.avif";
 
 export default function WhyChooseUs() {
@@ -13,12 +13,11 @@ export default function WhyChooseUs() {
       {/* ====== TOP ROW ====== */}
       <div className={styles.topRow}>
         <p className={styles.tag}># WHY CHOOSE US</p>
-
       </div>
       <div className={styles.headingWrapper}>
         <h2 className={styles.heading}>
           The top reasons our <br /> patients love us
-          </h2>
+        </h2>
         <div className={styles.certBox}>
           <Image
             src="/images/whychooseicon.svg"
@@ -30,18 +29,17 @@ export default function WhyChooseUs() {
             <p className={styles.certTitle}>
               Certified by the American Dental Association
             </p>
-            <a href="#" className={styles.visitLink}>
+            <a href="/contact-us" className={styles.visitLink}>
               Schedule Your Visit <ArrowUpRight size={25} />
             </a>
           </div>
         </div>
-        
       </div>
 
       {/* ====== CONTENT CARDS ====== */}
       <div className={styles.cards}>
         {/* CARD 1 */}
-        <div className={styles.card} style={{borderRadius:" 22px 0 0 22px"}}>
+        <div className={styles.card}>
           <div className={styles.iconCircle}>
             <Image src={whyChoose1} width={40} height={40} alt="" />
           </div>
@@ -69,12 +67,7 @@ export default function WhyChooseUs() {
         {/* CARD 3 */}
         <div className={styles.card}>
           <div className={styles.iconCircle}>
-            <Image
-              src={whyChoose3}
-              width={40}
-              height={40}
-              alt=""
-            />
+            <Image src={whyChoose3} width={40} height={40} alt="" />
           </div>
 
           <h3>Comprehensive Care for the Whole Family</h3>

@@ -81,6 +81,8 @@
 @media (max-width: 600px) {
   .HeroCards-module__eq6z4q__cardsWrapper {
     gap: 16px;
+    margin-top: 60px;
+    padding: 0 20px;
   }
 
   .HeroCards-module__eq6z4q__card {
@@ -112,6 +114,11 @@
 }
 
 @media (min-width: 600px) and (max-width: 900px) {
+  .HeroCards-module__eq6z4q__cardsWrapper {
+    margin-top: -80px;
+    padding: 0 20px;
+  }
+
   .HeroCards-module__eq6z4q__card {
     width: 45%;
   }
